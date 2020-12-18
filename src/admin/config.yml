@@ -24,4 +24,21 @@ collections:
         - { name: title, label: Name, widget: string }
         - { name: url, label: URL, widget: string }
         - { name: description, label: Description, widget: string }
+  - label: "People"
+    name: "people"
+    label_singular: "Person"
+    folder: "src/people"
+    identifier_field: name
+    create: true
+    slug: "{{name}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Introduction", name: "introduction", widget: "string" }
+      - { label: "Email", name: "email", widget: "string", required: false }
+      - { label: "Sort Order", name: "sortOrder", widget: "number", required: false, default: 1 }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
 
