@@ -2,4 +2,155 @@
 layout: layouts/home.njk
 ---
 
-Hello world
+{% from 'macros/macroBlog.njk' import blogPostPreview %}
+
+<header>
+  {% include 'partials/siteHeader.njk' %}
+
+  <div>
+    <p><span>Carnelian</span> Search will impact your organisation by finding the perfect person to take your mission forward.</p>
+
+    <nav id="menu">
+      <ol>
+        <li>
+          <a href="#approach">
+            <span>Approach.</span>
+            Your charity is unique, and your recruitment should be too.
+          </a>
+        </li>
+        <li>
+          <a href="#values">
+            <span>Values.</span>
+            The way we work is different, because it is built on different values.
+          </a>
+        </li>
+        <li>
+          <a href="#insights">
+            <span>Insights.</span>
+            We learn and grow in every search we undertake and complete.
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <span>Contact.</span>
+            Every search we carry out begins with a conversation…
+          </a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+</header>
+
+<section id="introduction">
+  {% set s = collections.homepageSection|findBySlug('introduction') %}
+  <h1>Introducing <span>Carnelian</span> Search</h1>
+
+  <div>
+    {{ s.templateContent | safe }}
+  </div>
+</section>
+
+<section id="approach">
+  {% set s = collections.homepageSection|findBySlug('approach') %}
+  <h1>
+    <span>1.</span> {{ s.data.title }}
+  </h1>
+
+  <div>
+    {{ s.templateContent | safe }}
+  </div>
+
+  <ul>
+    {% for approach in approaches.approaches %}
+    <li>
+      <h2>{{ approach.title }}</h2>
+      <p>{{ approach.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="values">
+  {% set s = collections.homepageSection|findBySlug('approach') %}
+  <h1>
+    <span>2.</span> {{ s.data.title }}
+  </h1>
+
+  <div>
+    {{ s.templateContent | safe }}
+  </div>
+
+  <ul>
+    {% for value in values.values %}
+    <li>
+      <h2>{{ value.title }}</h2>
+      <p>{{ value.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<section id="insights">
+  {# TODO: Filter out just stories from all insights #}
+  {% set s = collections.homepageSection|findBySlug('insights') %}
+  {% set insights = collections.insights | reverse %}
+
+  <h1>
+    <span>3.</span> {{ s.data.title }}
+  </h1>
+
+  <div>
+    {{ s.templateContent | safe }}
+  </div>
+
+  {{ blogPostPreview(insights[0]) }}
+  {{ blogPostPreview(insights[1]) }}
+
+  {% include 'partials/mailingList.njk' %}
+
+</section>
+
+<section id="contact">
+  {% set s = collections.homepageSection|findBySlug('contact') %}
+
+  <div>
+
+    <h1>
+      <span>4.</span> {{ s.data.title }}
+    </h1>
+
+    <div>
+      {{ s.templateContent | safe }}
+    </div>
+
+  </div>
+
+  <div>
+    {% for person in collections.people %}
+    <div class="">
+
+      {% if person.data.image %}
+        <img src="{{ person.data.image }}" alt="{{ person.data.name }}" />
+      {% endif %}
+
+      <div class="">
+        <h3>
+          {{ person.data.name }}
+        </h3>
+
+        <p>
+          {{ person.data.title}}
+        </p>
+
+        <p>
+          {{ person.data.introduction }}
+        </p>
+      </div>
+
+    </div>
+    {% endfor %}
+  </div>
+
+
+</section>
+

@@ -1,0 +1,11 @@
+---
+title: Insights
+---
+
+{% from 'macros/macroBlog.njk' import blogPostPreview %}
+
+{% set insights = collections.insights | reverse %}
+
+{% for insight in insights %}
+  {{ blogPostPreview(insight) }}
+{% endfor %}

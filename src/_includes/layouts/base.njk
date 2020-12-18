@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
   </head>
@@ -11,6 +13,42 @@
 
     {{ content | safe }}
 
-    <!-- Current page: {{ page.url | url }} -->
+    <footer>
+      <p>Carnelian Search will impact your organisation by finding the perfect person to take your mission forward.</p>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="/#approach">
+              Approach
+            </a>
+          </li>
+          <li>
+            <a href="/#values">
+              Values
+            </a>
+          </li>
+          <li>
+            <a href="/#insights">
+              Insights
+            </a>
+          </li>
+          <li>
+            <a href="/#contact">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <p>&copy; Copyright {{ build.year }} Carnelian Search</p>
+    </footer>
+
+
+    <!--
+      Current page: {{ page.url | url }}
+      Last build: {{ build.timestamp }}
+      Env: {{ build.env }}
+    -->
   </body>
 </html>

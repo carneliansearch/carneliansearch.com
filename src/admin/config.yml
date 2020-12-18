@@ -11,6 +11,62 @@ slug:
   clean_accents: true
   sanitize_replacement: "_"
 collections:
+  - label: "Homepage"
+    name: "homepage"
+    folder: "src/homepage"
+    create: false
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - {
+          label: "Lead Image",
+          name: "leadimage",
+          widget: "image",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: Next steps
+        name: nextStep
+        label_singular: Next step
+        widget: list
+        fields:
+          - { name: title, label: Title, widget: string }
+          - { name: link, label: Link, widget: string }
+  - label: "Insights"
+    name: "insights"
+    label_singular: "Insight"
+    folder: "src/insights"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Introduction", name: "teaser", widget: "text" }
+      - {
+          label: "Lead Image",
+          name: "leadImage",
+          widget: "image"
+        }
+      - { label: "Published date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - label: "People"
+    name: "people"
+    label_singular: "Person"
+    folder: "src/people"
+    identifier_field: name
+    create: true
+    slug: "{{name}}"
+    editor:
+      preview: false
+    fields:
+      - { label: "Name", name: "name", widget: "string" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Introduction", name: "introduction", widget: "string" }
+      - { label: "Email", name: "email", widget: "string", required: false }
+      - { label: "Sort Order", name: "sortOrder", widget: "number", required: false, default: 1 }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
   - label: 'Settings'
     name: "settings"
     extension: json
@@ -52,21 +108,4 @@ collections:
             fields:
               - { name: title, label: Title, widget: string }
               - { name: description, label: description, widget: string }
-  - label: "People"
-    name: "people"
-    label_singular: "Person"
-    folder: "src/people"
-    identifier_field: name
-    create: true
-    slug: "{{name}}"
-    editor:
-      preview: false
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Introduction", name: "introduction", widget: "string" }
-      - { label: "Email", name: "email", widget: "string", required: false }
-      - { label: "Sort Order", name: "sortOrder", widget: "number", required: false, default: 1 }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
 
