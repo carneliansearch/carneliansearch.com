@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf public src/assets/css/styles.css",
-    "dev": "npm run clean && postcss src/css/tailwind.css > src/assets/css/styles.css && eleventy --serve",
+    "dev": "npm run clean && postcss src/assets/css/tailwind.css > src/assets/css/styles.css && eleventy --serve",
     "production": "npm run clean && NODE_ENV=production postcss src/assets/css/tailwind.css > src/assets/css/styles.css && eleventy"
   },
   "repository": {
