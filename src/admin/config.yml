@@ -24,6 +24,34 @@ collections:
         - { name: title, label: Name, widget: string }
         - { name: url, label: URL, widget: string }
         - { name: description, label: Description, widget: string }
+      - file: "src/_data/approaches.json"
+        label: "Approaches"
+        name: "approaches"
+        label_singular: "Approach"
+        collapsed: false
+        allow_add: true
+        fields:
+          - label: Approaches
+            name: approaches
+            label_singular: approach
+            widget: list
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: description, label: description, widget: string }
+      - file: "src/_data/values.json"
+        label: "Values"
+        name: "Values"
+        label_singular: "Value"
+        collapsed: false
+        allow_add: true
+        fields:
+          - label: Values
+            name: values
+            label_singular: Value
+            widget: list
+            fields:
+              - { name: title, label: Title, widget: string }
+              - { name: description, label: description, widget: string }
   - label: "People"
     name: "people"
     label_singular: "Person"
