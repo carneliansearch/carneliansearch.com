@@ -1,11 +1,17 @@
 ---
 title: Insights
+layout: layouts/home.njk
 ---
 
 {% from 'macros/macroBlog.njk' import blogPostPreview %}
-
 {% set insights = collections.insights | reverse %}
 
-{% for insight in insights %}
-  {{ blogPostPreview(insight) }}
-{% endfor %}
+<main class="bg-white-pure text-blue mb-8">
+  <h1 class="uppercase text-2xl mb-4">Insights from <span class="text-red">Carnelian</span> Search</h1>
+  <div class="grid gap-4 mb-4 md:grid-cols-2 md:gap-8 md:mb-8">
+  {% for insight in insights %}
+    {{ blogPostPreview(insight) }}
+  {% endfor %}
+  </div>
+
+</main>

@@ -26,9 +26,16 @@ html {
   @apply my-5;
 }
 
+@screen sm {
+  .simple-text p {
+    max-width: 80%;
+  }
+}
+
 .simple-text p:first-child {
   @apply mt-0 text-lg;
   line-height: 2;
+  max-width: none;
 }
 
 .footer-nav li:after {

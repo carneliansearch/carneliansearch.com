@@ -4,7 +4,7 @@ layout: layouts/home.njk
 
 {% from 'macros/macroBlog.njk' import blogPostPreview %}
 
-<header class="p-4">
+<header class="p-4 md:p-8">
   {% include 'partials/siteHeader.njk' %}
 
   <div>
@@ -43,51 +43,65 @@ layout: layouts/home.njk
   </div>
 </header>
 
-<section id="introduction" class="p-4 bg-blue-light">
-  {% set s = collections.homepageSection|findBySlug('introduction') %}
-  <h1 class="uppercase text-2xl">Introducing <span class="text-red">Carnelian</span> Search</h1>
+{% set s = collections.homepageSection|findBySlug('introduction') %}
+<section id="introduction" class="p-4 bg-blue-light md:p-8 md:flex md:flex-row-reverse">
+  <div class="md:pl-4">
+    <h1 class="uppercase text-2xl mb-4">Introducing <span class="text-red">Carnelian</span> Search</h1>
 
-  <div class="simple-text font-serif">
-    {{ s.templateContent | safe }}
+    <div class="simple-text font-serif">
+      {{ s.templateContent | safe }}
+    </div>
+  </div>
+
+  <div class="md:w-1/2 flex-shrink-0 md:pr-4">
+    <!-- Image -->
+    <span class="block bg-red text-white mb-4 md:mb-0">TODO: IMAGE</span>
   </div>
 </section>
 
 
-<section class="p-4 bg-white-pure text-blue"></section>
+<section class="p-4 bg-white-pure text-blue md:p-8"></section>
 
-<section id="approach" class="p-4 bg-blue-light">
-  {% set s = collections.homepageSection|findBySlug('approach') %}
-  <h1 class="uppercase text-2xl">
-    <span class="text-red">1.</span> {{ s.data.title }}
-  </h1>
-
-  <div class="simple-text font-serif">
-    {{ s.templateContent | safe }}
+{% set s = collections.homepageSection|findBySlug('approach') %}
+<section id="approach" class="p-4 bg-blue-light md:p-8 md:flex md:flex-row-reverse">
+  <div class="md:w-1/2 flex-shrink-0 md:pl-4">
+    <!-- Image -->
+    <span class="block bg-red text-white mb-4 md:mb-0">TODO: IMAGE</span>
   </div>
 
-  <ul>
-    {% for approach in approaches.approaches %}
-    <li class="mb-4">
-      <h2 class="font-sans text-lg border-b border-white">{{ approach.title }}</h2>
-      <p class="font-serif leading-loose">{{ approach.description }}</p>
-    </li>
-    {% endfor %}
-  </ul>
+  <div class="md:1/2 md:pr-4">
+    <h1 class="uppercase text-2xl mb-4">
+      <span class="text-red">1.</span> {{ s.data.title }}
+    </h1>
+
+    <div class="simple-text font-serif">
+      {{ s.templateContent | safe }}
+    </div>
+
+    <ul>
+      {% for approach in approaches.approaches %}
+      <li class="mb-4">
+        <h2 class="font-sans text-lg border-b border-white">{{ approach.title }}</h2>
+        <p class="font-serif leading-loose">{{ approach.description }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </section>
 
-<section id="values" class="p-4">
+<section id="values" class="p-4 md:p-8">
   {% set s = collections.homepageSection|findBySlug('values') %}
-  <h1 class="uppercase text-2xl">
+  <h1 class="uppercase text-2xl mb-4">
     <span class="text-red">2.</span> {{ s.data.title }}
   </h1>
 
-  <div class="simple-text font-serif">
+  <div class="simple-text font-serif md:max-w-1/2">
     {{ s.templateContent | safe }}
   </div>
 
-  <ul class="mb-4">
+  <ul class="grid gap-4 md:grid-cols-2 md:gap-8">
     {% for value in values.values %}
-    <li class="mb-4">
+    <li class="">
       <h2 class="font-sans text-lg border-b border-white">{{ value.title }}</h2>
       <p class="font-serif leading-loose">{{ value.description }}</p>
     </li>
@@ -97,20 +111,24 @@ layout: layouts/home.njk
   <a href="#contact" class="inline-block text-white bg-red transition-colors p-2 font-serif hover:bg-red-dark">Start the conversation</a>
 </section>
 
-<section id="insights" class="p-4 bg-white-pure text-blue">
+<section id="insights" class="p-4 bg-white-pure text-blue md:p-8">
   {# TODO: Filter out just stories from all insights #}
   {% set s = collections.homepageSection|findBySlug('insights') %}
   {% set insights = collections.insights | reverse %}
 
-  <h1 class="uppercase text-2xl">
-    <span class="text-red">3.</span> {{ s.data.title }}
-  </h1>
+  <div class="md:max-w-1/2">
 
-  <div class="simple-text font-serif">
-    {{ s.templateContent | safe }}
+    <h1 class="uppercase text-2xl mb-4">
+      <span class="text-red">3.</span> {{ s.data.title }}
+    </h1>
+
+    <div class="simple-text font-serif">
+      {{ s.templateContent | safe }}
+    </div>
+
   </div>
 
-  <div class="grid gap-4 mb-4">
+  <div class="grid gap-4 mb-4 md:grid-cols-2 md:gap-8">
   {{ blogPostPreview(insights[0]) }}
   {{ blogPostPreview(insights[1]) }}
   </div>
@@ -119,12 +137,12 @@ layout: layouts/home.njk
 
 </section>
 
-<section id="contact" class="section--contact p-4 bg-blue-light">
+<section id="contact" class="section--contact p-4 md:p-8 bg-blue-light md:grid md:grid-cols-2 md:gap-8">
   {% set s = collections.homepageSection|findBySlug('contact') %}
 
   <div>
 
-    <h1 class="uppercase text-2xl">
+    <h1 class="uppercase text-2xl mb-4">
       <span class="text-red">4.</span> {{ s.data.title }}
     </h1>
 
@@ -134,15 +152,15 @@ layout: layouts/home.njk
 
   </div>
 
-  <div class="mt-4 pt-4">
+  <div class="mt-8 md:mt-0">
     {% for person in collections.people %}
-    <div class="my-2">
+    <div class="my-4 flex">
 
       {% if person.data.image %}
-        <img src="{{ person.data.image }}" alt="{{ person.data.name }}" />
+        {% imageAvatar "./src/" + person.data.image, person.data.name, "(min-width: 30em) 50vw, 25vw" %}
       {% endif %}
 
-      <div class="">
+      <div class="pl-4">
         <h2 class="text-lg uppercase border-b mb-1">
           {{ person.data.name }}
         </h2>

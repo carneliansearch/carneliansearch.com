@@ -1,8 +1,9 @@
 {% macro blogPostPreview(post) %}
 <div class="">
-  <a href="{{ post.url }}">
-    <h2 class="text-lg">{{ post.data.title }}</h2>
-    <p class="leading-loose font-serif">{{ post.data.teaser }}</p>
+  <a href="{{ post.url }}" class="group">
+    <span class="mb-4 bg-blue w-full h-64 block"></span>
+    <h2 class="px-4 text-lg transition-colors group-hover:text-red">{{ post.data.title }}</h2>
+    <p class="px-4 leading-loose font-serif transition-colors group-hover:text-blue-light">{{ post.data.teaser }}</p>
   </a>
 </div>
 {% endmacro %}

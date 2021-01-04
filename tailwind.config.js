@@ -29,6 +29,9 @@ module.exports = {
       sans: ['Futura', 'Arial', 'sans-serif'],
       serif: ['Playfair Display', 'serif'],
     },
+    maxWidth: {
+      '1/2': '50%',
+     },
     extend: {},
   },
   variants: {},
