@@ -5,43 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
 
+    <link href="/assets/css/styles.css" rel="stylesheet">
+
     <title>{{ title or metadata.title }}</title>
     <meta name="description" content="{{ description or metadata.description }}">
   </head>
 
-  <body>
+  <body class="bg-blue text-white-pure antialiased">
 
     {{ content | safe }}
 
-    <footer>
-      <p>Carnelian Search will impact your organisation by finding the perfect person to take your mission forward.</p>
+    <footer class="p-4">
+      <p class="font-serif leading-loose mb-4">
+        <span class="text-red">Carnelian</span> Search will impact your organisation by finding the perfect person to take your mission&nbsp;forward
+      </p>
 
-      <nav>
-        <ul>
-          <li>
-            <a href="/#approach">
-              Approach
-            </a>
+      <nav class="my-4">
+        <ul class="uppercase footer-nav">
+          <li class="inline">
+            <a href="/#approach" class="underline transition-colors hover:text-red">Approach</a>
           </li>
-          <li>
-            <a href="/#values">
-              Values
-            </a>
+          <li class="inline">
+            <a href="/#values" class="underline transition-colors hover:text-red">Values</a>
           </li>
-          <li>
-            <a href="/#insights">
-              Insights
-            </a>
+          <li class="inline">
+            <a href="/#insights" class="underline transition-colors hover:text-red">Insights</a>
           </li>
-          <li>
-            <a href="/#contact">
-              Contact
-            </a>
+          <li class="inline">
+            <a href="/#contact" class="underline transition-colors hover:text-red">Contact</a>
           </li>
         </ul>
       </nav>
 
-      <p>&copy; Copyright {{ build.year }} Carnelian Search</p>
+      <p class="font-serif text-sm leading-loose my-4">&copy; Copyright {{ build.year }} Carnelian Search</p>
     </footer>
 
 

@@ -1,8 +1,8 @@
 {% macro blogPostPreview(post) %}
-<div>
+<div class="">
   <a href="{{ post.url }}">
-    <h2>{{ post.data.title }}</h2>
-    <p>{{ post.data.teaser }}</p>
+    <h2 class="text-lg">{{ post.data.title }}</h2>
+    <p class="leading-loose font-serif">{{ post.data.teaser }}</p>
   </a>
 </div>
 {% endmacro %}

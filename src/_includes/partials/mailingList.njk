@@ -1,13 +1,15 @@
-<form method="post" action"#gndn">
-  <h3>Subscribe to the mailing list</h3>
+<form method="post" action"#gndn" class="bg-blue-lighter p-4">
+  <h3 class="uppercase mb-2">Subscribe to the mailing list</h3>
 
   <div>
-    <p>We sent out a newsletter each quarter packed with insights, interviews and advice, designed to help you and your senior colleagues lead well and keep learning. </p>
+    <p class="font-serif leading-loose border-b-2 border-white-pure pb-4 mb-4">We sent out a newsletter each quarter packed with insights, interviews and advice, designed to help you and your senior colleagues lead well and keep learning. </p>
 
     <div>
-      <label for="email">Email address</label>
-      <input type="email" name="email" id="email" />
-      <input type="submit" value="Sign up" />
+      <label class="font-serif" for="email">Email address</label>
+      <div class="flex">
+        <input class="p-2 w-full" type="email" name="email" id="email" />
+        <input class="cursor-pointer bg-blue transition-colors text-white p-2 hover:bg-red" type="submit" value="Sign up" />
+      </div>
     </div>
   </div>
 </form>

@@ -19,9 +19,11 @@ module.exports = function(eleventyConfig) {
 
   // Send the compiled styles straight through
   eleventyConfig.addPassthroughCopy('src/assets/css/styles.css');
+  eleventyConfig.addPassthroughCopy('src/assets/fonts');
   eleventyConfig.addPassthroughCopy('src/admin/config.yml');
 
   eleventyConfig.addWatchTarget('./src/admin/config.yml');
+  eleventyConfig.addWatchTarget('./src/assets/css/tailwind.css');
 
   return {
     dir: {

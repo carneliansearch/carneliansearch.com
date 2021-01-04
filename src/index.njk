@@ -4,36 +4,38 @@ layout: layouts/home.njk
 
 {% from 'macros/macroBlog.njk' import blogPostPreview %}
 
-<header>
+<header class="p-4">
   {% include 'partials/siteHeader.njk' %}
 
   <div>
-    <p><span>Carnelian</span> Search will impact your organisation by finding the perfect person to take your mission forward.</p>
+    <p class="font-serif text-2xl leading-relaxed bg-blue-translucent p-4">
+      <span class="text-red">Carnelian</span> Search will impact your organisation by finding the perfect person to take your mission&nbsp;forward.
+    </p>
 
     <nav id="menu">
-      <ol>
-        <li>
-          <a href="#approach">
-            <span>Approach.</span>
-            Your charity is unique, and your recruitment should be too.
+      <ol class="list-decimal ml-4">
+        <li class="mt-4">
+          <a href="#approach" class="group">
+            <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">Approach</span>
+            <p class="-ml-4 font-serif group-hover:text-blue-lighter">Your charity is unique, and your recruitment should be too.</p>
           </a>
         </li>
-        <li>
-          <a href="#values">
-            <span>Values.</span>
-            The way we work is different, because it is built on different values.
+        <li class="mt-4">
+          <a href="#values" class="group">
+            <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">Values</span>
+            <p class="-ml-4 font-serif group-hover:text-blue-lighter">The way we work is different, because it is built on different values.</p>
           </a>
         </li>
-        <li>
-          <a href="#insights">
-            <span>Insights.</span>
-            We learn and grow in every search we undertake and complete.
+        <li class="mt-4">
+          <a href="#insights" class="group">
+            <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">Insights</span>
+            <p class="-ml-4 font-serif group-hover:text-blue-lighter">We learn and grow in every search we undertake and complete.</p>
           </a>
         </li>
-        <li>
-          <a href="#contact">
-            <span>Contact.</span>
-            Every search we carry out begins with a conversation…
+        <li class="mt-4">
+          <a href="#contact" class="group">
+            <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">Contact</span>
+            <p class="-ml-4 font-serif group-hover:text-blue-lighter">Every search we carry out begins with a conversation…</p>
           </a>
         </li>
       </ol>
@@ -41,108 +43,115 @@ layout: layouts/home.njk
   </div>
 </header>
 
-<section id="introduction">
+<section id="introduction" class="p-4 bg-blue-light">
   {% set s = collections.homepageSection|findBySlug('introduction') %}
-  <h1>Introducing <span>Carnelian</span> Search</h1>
+  <h1 class="uppercase text-2xl">Introducing <span class="text-red">Carnelian</span> Search</h1>
 
-  <div>
+  <div class="simple-text font-serif">
     {{ s.templateContent | safe }}
   </div>
 </section>
 
-<section id="approach">
+
+<section class="p-4 bg-white-pure text-blue"></section>
+
+<section id="approach" class="p-4 bg-blue-light">
   {% set s = collections.homepageSection|findBySlug('approach') %}
-  <h1>
-    <span>1.</span> {{ s.data.title }}
+  <h1 class="uppercase text-2xl">
+    <span class="text-red">1.</span> {{ s.data.title }}
   </h1>
 
-  <div>
+  <div class="simple-text font-serif">
     {{ s.templateContent | safe }}
   </div>
 
   <ul>
     {% for approach in approaches.approaches %}
-    <li>
-      <h2>{{ approach.title }}</h2>
-      <p>{{ approach.description }}</p>
+    <li class="mb-4">
+      <h2 class="font-sans text-lg border-b border-white">{{ approach.title }}</h2>
+      <p class="font-serif leading-loose">{{ approach.description }}</p>
     </li>
     {% endfor %}
   </ul>
 </section>
 
-<section id="values">
-  {% set s = collections.homepageSection|findBySlug('approach') %}
-  <h1>
-    <span>2.</span> {{ s.data.title }}
+<section id="values" class="p-4">
+  {% set s = collections.homepageSection|findBySlug('values') %}
+  <h1 class="uppercase text-2xl">
+    <span class="text-red">2.</span> {{ s.data.title }}
   </h1>
 
-  <div>
+  <div class="simple-text font-serif">
     {{ s.templateContent | safe }}
   </div>
 
-  <ul>
+  <ul class="mb-4">
     {% for value in values.values %}
-    <li>
-      <h2>{{ value.title }}</h2>
-      <p>{{ value.description }}</p>
+    <li class="mb-4">
+      <h2 class="font-sans text-lg border-b border-white">{{ value.title }}</h2>
+      <p class="font-serif leading-loose">{{ value.description }}</p>
     </li>
     {% endfor %}
   </ul>
+
+  <a href="#contact" class="inline-block text-white bg-red transition-colors p-2 font-serif hover:bg-red-dark">Start the conversation</a>
 </section>
 
-<section id="insights">
+<section id="insights" class="p-4 bg-white-pure text-blue">
   {# TODO: Filter out just stories from all insights #}
   {% set s = collections.homepageSection|findBySlug('insights') %}
   {% set insights = collections.insights | reverse %}
 
-  <h1>
-    <span>3.</span> {{ s.data.title }}
+  <h1 class="uppercase text-2xl">
+    <span class="text-red">3.</span> {{ s.data.title }}
   </h1>
 
-  <div>
+  <div class="simple-text font-serif">
     {{ s.templateContent | safe }}
   </div>
 
+  <div class="grid gap-4 mb-4">
   {{ blogPostPreview(insights[0]) }}
   {{ blogPostPreview(insights[1]) }}
+  </div>
 
   {% include 'partials/mailingList.njk' %}
 
 </section>
 
-<section id="contact">
+<section id="contact" class="section--contact p-4 bg-blue-light">
   {% set s = collections.homepageSection|findBySlug('contact') %}
 
   <div>
 
-    <h1>
-      <span>4.</span> {{ s.data.title }}
+    <h1 class="uppercase text-2xl">
+      <span class="text-red">4.</span> {{ s.data.title }}
     </h1>
 
-    <div>
+    <div class="simple-text font-serif">
       {{ s.templateContent | safe }}
     </div>
 
   </div>
 
-  <div>
+  <div class="mt-4 pt-4">
     {% for person in collections.people %}
-    <div class="">
+    <div class="my-2">
 
       {% if person.data.image %}
         <img src="{{ person.data.image }}" alt="{{ person.data.name }}" />
       {% endif %}
 
       <div class="">
-        <h2>
+        <h2 class="text-lg uppercase border-b mb-1">
           {{ person.data.name }}
         </h2>
 
-        <p>
+        <p class="text-sm text-blue-lighter">
           {{ person.data.title}}
         </p>
 
-        <p>
+        <p class="font-serif leading-loose">
           {{ person.data.introduction }}
         </p>
       </div>
