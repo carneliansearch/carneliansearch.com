@@ -33,7 +33,7 @@ module.exports = function(eleventyConfig) {
 
     let lowsrc = metadata.jpeg[0];
 
-    return `<picture class="rounded-full h-16 w-16 block overflow-hidden flex-shrink-0">
+    return `<picture>
       ${Object.values(metadata).map(imageFormat => {
         return `  <source type="image/${imageFormat[0].format}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
       }).join("\n")}

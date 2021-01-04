@@ -156,9 +156,11 @@ layout: layouts/home.njk
     {% for person in collections.people %}
     <div class="my-4 flex">
 
+      <div class="rounded-full h-16 w-16 block overflow-hidden flex-shrink-0">
       {% if person.data.image %}
         {% imageAvatar "./src/" + person.data.image, person.data.name, "(min-width: 30em) 50vw, 25vw" %}
       {% endif %}
+      </div>
 
       <div class="pl-4">
         <h2 class="text-lg uppercase border-b mb-1">
