@@ -12,7 +12,7 @@ Deployment will happen automagically from the `main` branch. Work on `develop`.
 
 ```
 npm install
-npm run dev
+npm run develop
 ```
 
 ## Netlify CMS
