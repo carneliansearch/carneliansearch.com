@@ -78,6 +78,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/css/styles.css');
   eleventyConfig.addPassthroughCopy('src/assets/fonts');
   eleventyConfig.addPassthroughCopy('src/assets/svg');
+  eleventyConfig.addPassthroughCopy('src/assets/favicon');
   eleventyConfig.addPassthroughCopy('src/admin/config.yml');
 
   eleventyConfig.addWatchTarget('./src/admin/config.yml');
