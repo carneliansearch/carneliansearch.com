@@ -1,7 +1,10 @@
 ---
 title: Five Thoughts on Conducting Virtual Interviews
-teaser: Since the coronavirus lockdown we have had to conduct all interviews virtually. Although we still believe that the face-to-face interview is the best way to assess candidates, at Carnelian Search we have found that there are ways to mitigate the downsides.
-leadImage:
+teaser: Since the coronavirus lockdown we have had to conduct all interviews
+  virtually. Although we still believe that the face-to-face interview is the
+  best way to assess candidates, at Carnelian Search we have found that there
+  are ways to mitigate the downsides.
+lead_image: /assets/img/interview.jpg
 date: 2020-06-18
 ---
 

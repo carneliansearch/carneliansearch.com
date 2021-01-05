@@ -19,20 +19,21 @@ collections:
       preview: false
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - {
-          label: "Lead Image",
-          name: "leadimage",
-          widget: "image",
-          required: false,
-        }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - label: Next steps
-        name: nextStep
-        label_singular: Next step
-        widget: list
+      - name: featured_image
+        label: Featured image
+        widget: object
         fields:
-          - { name: title, label: Title, widget: string }
-          - { name: link, label: Link, widget: string }
+          - { name: src, label: Image, widget: image, required: false }
+          - { name: alt, label: Alt text, widget: string, hint: 'Describe what is in the image', required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: Next step
+        name: next_step
+        label_singular: Next step
+        widget: object
+        fields:
+          - { name: title, label: Title, widget: string, required: false }
+          - { name: link, label: Link, widget: string, required: false }
+
   - label: "Insights"
     name: "insights"
     label_singular: "Insight"
@@ -45,7 +46,7 @@ collections:
       - { label: "Introduction", name: "teaser", widget: "text" }
       - {
           label: "Lead Image",
-          name: "leadImage",
+          name: "lead_image",
           widget: "image"
         }
       - { label: "Published date", name: "date", widget: "datetime" }

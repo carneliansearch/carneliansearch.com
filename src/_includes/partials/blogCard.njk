@@ -1,0 +1,9 @@
+<a href="{{ blog.url }}" class="block group card">
+  <div class="mb-4 bg-blue w-full h-64 block card__lead_image">
+    {% if blog.data.lead_image %}
+      {% blockImage "./src/" + blog.data.lead_image, blog.data.title, "(min-width: 30em) 50vw, 100vw" %}
+    {% endif %}
+  </div>
+  <h2 class="px-4 text-lg transition-colors group-hover:text-red">{{ blog.data.title }}</h2>
+  <p class="px-4 leading-loose font-serif transition-colors group-hover:text-blue-light">{{ blog.data.teaser }}</p>
+</a>

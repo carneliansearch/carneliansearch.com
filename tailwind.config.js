@@ -22,7 +22,7 @@ module.exports = {
         lighter: '#d7e1eb',
         light: '#00284c',
         DEFAULT: '#001c37',
-        translucent: '#0a2849aa'
+        translucent: '#0a2849d9'
       }
     },
     fontFamily: {
@@ -31,7 +31,16 @@ module.exports = {
     },
     maxWidth: {
       '1/2': '50%',
-     },
+      '1/3': '33.333%',
+    },
+    screens: {
+      'xs': '400px',
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1536px',
+    },
     extend: {},
   },
   variants: {},

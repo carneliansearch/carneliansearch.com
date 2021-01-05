@@ -38,14 +38,37 @@ html {
   max-width: none;
 }
 
-.footer-nav li:after {
-  content: '|';
-  padding: 0 0.25rem;
+@screen xs {
+  .footer-nav li:after {
+    content: '|';
+    padding: 0 0.25rem;
+  }
+
+  .footer-nav li:last-child:after {
+    content: none;
+  }
 }
 
-.footer-nav li:last-child:after {
-  content: none;
+/** Cards **/
+.card__lead_image {
+  @apply relative overflow-hidden;
+}
+
+.card__lead_image img,
+.card__lead_image picture {
+  @apply block h-full object-cover absolute top-0 w-full transition-all duration-200;
+}
+
+.card:hover .card__lead_image img,
+.card:hover .card__lead_image picture {
+  transform: scale(1.1);
 }
 
 @tailwind components;
 @tailwind utilities;
+
+@responsive {
+  .p-unset {
+    position: unset
+  }
+}

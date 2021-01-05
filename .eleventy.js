@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter(filterName, filters[filterName]);
   });
 
-  // 11ty Images
+  // Image Shortcodes
   eleventyConfig.addNunjucksAsyncShortcode("imageAvatar", async function(src, alt, sizes = "100vw") {
     if(alt === undefined) {
       throw new Error(`Missing \`alt\` on imageAvatar from: ${src}`);
@@ -38,6 +38,35 @@ module.exports = function(eleventyConfig) {
         return `  <source type="image/${imageFormat[0].format}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
       }).join("\n")}
         <img
+          loading="lazy"
+          src="${lowsrc.url}"
+          width="${lowsrc.width}"
+          height="${lowsrc.height}"
+          alt="${alt}">
+      </picture>`;
+  });
+
+  eleventyConfig.addNunjucksAsyncShortcode("blockImage", async function(src, alt, sizes = "100vw") {
+    if(alt === undefined) {
+      throw new Error(`Missing \`alt\` on blockImage from: ${src}`);
+    }
+
+    let metadata = await Image(src, {
+      widths: [320, 640, 800, 1200],
+      formats: ['webp', 'jpeg'],
+      urlPath: "/assets/img/",
+      outputDir: "./public/assets/img"
+    });
+
+    let lowsrc = metadata.jpeg[0];
+
+    return `<picture class="w-full">
+      ${Object.values(metadata).map(imageFormat => {
+        return `  <source type="image/${imageFormat[0].format}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
+      }).join("\n")}
+        <img
+          loading="lazy"
+          class="w-full"
           src="${lowsrc.url}"
           width="${lowsrc.width}"
           height="${lowsrc.height}"
