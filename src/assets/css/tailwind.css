@@ -38,6 +38,10 @@ html {
   max-width: none;
 }
 
+.simple-text p:last-child {
+  @apply mb-0;
+}
+
 @screen xs {
   .footer-nav li:after {
     content: '|';
@@ -71,4 +75,14 @@ html {
   .p-unset {
     position: unset
   }
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }

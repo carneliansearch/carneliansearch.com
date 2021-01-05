@@ -29,10 +29,6 @@ module.exports = {
       sans: ['Futura', 'Arial', 'sans-serif'],
       serif: ['Playfair Display', 'serif'],
     },
-    maxWidth: {
-      '1/2': '50%',
-      '1/3': '33.333%',
-    },
     screens: {
       'xs': '400px',
       'sm': '640px',
@@ -41,7 +37,13 @@ module.exports = {
       'xl': '1280px',
       '2xl': '1536px',
     },
-    extend: {},
+    extend: {
+      maxWidth: {
+        '1/2': '50%',
+        '1/3': '33.3334%',
+        '2/3': '66.6667%'
+      },
+    },
   },
   variants: {},
   plugins: [],

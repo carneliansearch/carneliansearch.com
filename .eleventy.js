@@ -46,7 +46,7 @@ module.exports = function(eleventyConfig) {
       </picture>`;
   });
 
-  eleventyConfig.addNunjucksAsyncShortcode("blockImage", async function(src, alt, sizes = "100vw") {
+  eleventyConfig.addNunjucksAsyncShortcode("blockImage", async function(src, alt, sizes = "100vw", classes = "w-full") {
     if(alt === undefined) {
       throw new Error(`Missing \`alt\` on blockImage from: ${src}`);
     }
@@ -60,13 +60,13 @@ module.exports = function(eleventyConfig) {
 
     let lowsrc = metadata.jpeg[0];
 
-    return `<picture class="w-full">
+    return `<picture class="${classes}">
       ${Object.values(metadata).map(imageFormat => {
         return `  <source type="image/${imageFormat[0].format}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
       }).join("\n")}
         <img
           loading="lazy"
-          class="w-full"
+          class="${classes}"
           src="${lowsrc.url}"
           width="${lowsrc.width}"
           height="${lowsrc.height}"
@@ -77,6 +77,7 @@ module.exports = function(eleventyConfig) {
   // Send the compiled styles straight through
   eleventyConfig.addPassthroughCopy('src/assets/css/styles.css');
   eleventyConfig.addPassthroughCopy('src/assets/fonts');
+  eleventyConfig.addPassthroughCopy('src/assets/svg');
   eleventyConfig.addPassthroughCopy('src/admin/config.yml');
 
   eleventyConfig.addWatchTarget('./src/admin/config.yml');
