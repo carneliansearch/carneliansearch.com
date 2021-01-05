@@ -24,7 +24,7 @@ All content is managed via markdown and json files in this repo, however to make
 To test the CMS in development run:
 
 ```
-npx netlify-cms-proxy-server
+npm run cms
 ```
 
 Users are authenticated by [Netlify Identity](https://docs.netlify.com/visitor-access/identity/). You can invite new users in Netlify > Identity.

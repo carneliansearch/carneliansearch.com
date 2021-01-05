@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf public src/assets/css/styles.css",
+    "cms": "npx netlify-cms-proxy-server",
     "dev": "npm run clean && NODE_ENV=dev postcss src/assets/css/tailwind.css > src/assets/css/styles.css && eleventy --serve",
     "production": "npm run clean && NODE_ENV=production postcss src/assets/css/tailwind.css > src/assets/css/styles.css && eleventy"
   },
