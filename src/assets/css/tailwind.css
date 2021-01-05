@@ -10,8 +10,14 @@
 
 @tailwind base;
 
-html {
+html:focus-within {
   scroll-behavior: smooth;
+}
+
+@screen md {
+  .home-header {
+    background-image: url('/assets/svg/c-crop.svg');
+  }
 }
 
 .section--contact strong {

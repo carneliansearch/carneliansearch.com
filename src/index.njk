@@ -2,48 +2,50 @@
 layout: layouts/home.njk
 ---
 
-<header class="p-4 md:p-8 xl:px-0 max-w-screen-xl mx-auto">
-  {% include 'partials/siteHeader.njk' %}
+<header class="home-header p-4 md:p-8 xl:px-0 bg-contain bg-no-repeat">
+  <div class="max-w-screen-xl mx-auto">
+    {% include 'partials/siteHeader.njk' %}
 
-  <div class="relative md:grid md:gap-8 md:grid-cols-4">
-    <div class="absolute right-0 text-right w-2/3 md:w-full md:text-left md:p-unset">
-      <p class="bg-blue-translucent font-serif leading-relaxed p-2 text-xl xs:p-4 xs:mt-4 xs:text-2xl sm:mt-8 md:absolute md:mt-12 md:w-1/3 xl:text-3xl xl:leading-relaxed">
-        <span class="text-red">Carnelian</span> Search will impact your organisation by finding the perfect person to take your mission&nbsp;forward.
-      </p>
+    <div class="relative md:grid md:gap-8 md:grid-cols-4">
+      <div class="absolute right-0 text-right w-2/3 md:w-full md:text-left md:p-unset">
+        <p class="bg-blue-translucent font-serif leading-relaxed p-2 text-xl xs:p-4 xs:mt-4 xs:text-2xl sm:mt-8 md:absolute md:mt-12 md:w-1/3 xl:text-3xl xl:leading-relaxed md:z-10">
+          <span class="text-red">Carnelian</span> Search will impact your organisation by finding the perfect person to take your mission&nbsp;forward.
+        </p>
+      </div>
+
+      <div class="w-2/3 md:w-full md:col-span-2">
+        {% blockImage "./src/assets/img/splash.jpg" , "Coffee cups on the table after a successful meeting", "(min-width: 30em) 50vw, 75vw", "w-full  md:opacity-70  md:z-0" %}
+      </div>
+
+      <nav class="flex items-end">
+        <ol id="menu" class="mt-4 gap-4 grid grid-cols-2 md:grid-cols-1 md:mt-0 lg:pt-8">
+          <li class="">
+            <a href="#approach" class="group">
+              <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">1. Approach</span>
+              <p class="font-serif group-hover:text-blue-lighter">Your charity is unique, and your recruitment should be too.</p>
+            </a>
+          </li>
+          <li class="">
+            <a href="#values" class="group">
+              <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">2. Values</span>
+              <p class="font-serif group-hover:text-blue-lighter">The way we work is different, because it is built on different values.</p>
+            </a>
+          </li>
+          <li class="">
+            <a href="#insights" class="group">
+              <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">3. Insights</span>
+              <p class="font-serif group-hover:text-blue-lighter">We learn and grow in every search we undertake and complete.</p>
+            </a>
+          </li>
+          <li class="">
+            <a href="#contact" class="group">
+              <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">4. Contact</span>
+              <p class="font-serif group-hover:text-blue-lighter">Every search we carry out begins with a conversation…</p>
+            </a>
+          </li>
+        </ol>
+      </nav>
     </div>
-
-    <div class="w-2/3 md:w-full md:col-span-2">
-      {% blockImage "./src/assets/img/splash.jpg" , "Coffee cups on the table after a successful meeting", "(min-width: 30em) 50vw, 75vw" %}
-    </div>
-
-    <nav class="flex items-end">
-      <ol id="menu" class="mt-4 gap-4 grid grid-cols-2 md:grid-cols-1 md:mt-0 lg:pt-8">
-        <li class="">
-          <a href="#approach" class="group">
-            <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">1. Approach</span>
-            <p class="font-serif group-hover:text-blue-lighter">Your charity is unique, and your recruitment should be too.</p>
-          </a>
-        </li>
-        <li class="">
-          <a href="#values" class="group">
-            <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">2. Values</span>
-            <p class="font-serif group-hover:text-blue-lighter">The way we work is different, because it is built on different values.</p>
-          </a>
-        </li>
-        <li class="">
-          <a href="#insights" class="group">
-            <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">3. Insights</span>
-            <p class="font-serif group-hover:text-blue-lighter">We learn and grow in every search we undertake and complete.</p>
-          </a>
-        </li>
-        <li class="">
-          <a href="#contact" class="group">
-            <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">4. Contact</span>
-            <p class="font-serif group-hover:text-blue-lighter">Every search we carry out begins with a conversation…</p>
-          </a>
-        </li>
-      </ol>
-    </nav>
   </div>
 </header>
 
