@@ -14,6 +14,9 @@ module.exports = {
         pure: '#ffffff',
         DEFAULT: '#d7d7d7'
       },
+      gray: {
+        DEFAULT: '#696969'
+      },
       red: {
         DEFAULT: '#af1b3f',
         dark: '#831530'
@@ -43,8 +46,18 @@ module.exports = {
         '1/3': '33.3334%',
         '2/3': '66.6667%'
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            fontFamily: theme('fontFamily.serif'),
+            a: {
+              color: theme('colors.red.DEFAULT'),
+            }
+          },
+        },
+      }),
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [require('@tailwindcss/typography'),],
 }

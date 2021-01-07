@@ -68,19 +68,35 @@ layout: layouts/home.njk
   </div>
 </section>
 
+{% set case_studies = collections.insights | reverse %}
+<section class="p-4 bg-white-pure text-blue md:p-8">
+  <div class="max-w-screen-xl mx-auto grid gap-4 md:grid-cols-2 md:gap-8">
+    <div class="flex flex-col justify-center items-start">
+      <p class="text-gray">{{ case_studies[0].data.case_study.introduction }}</p>
+      <blockquote class="big-quote border-l font-serif leading-relaxed md:mt-8 md:pl-8 mt-4 pl-4">{{ case_studies[0].data.case_study.quote }}</blockquote>
 
-<section class="p-4 bg-white-pure text-blue md:p-8"></section>
+      <a href="{{ case_studies[0].url}}" class="inline-block text-white bg-red transition-colors p-2 font-serif mt-4 md:mt-8 hover:bg-red-dark">
+        Find out more
+      </a>
+    </div>
+
+    <div>
+      {% blockImage "./src/" + case_studies[0].data.case_study.img, case_studies[0].data.case_study.attribution, "(min-width: 30em) 50vw, 25vw", "w-full sticky top-0" %}
+      <small class="text-sm">{{ case_studies[0].data.case_study.attribution }}</small>
+    </div>
+  </div>
+</section>
 
 {% set s = collections.homepageSection|findBySlug('approach') %}
 <section id="approach" class="p-4 bg-blue-light md:p-8">
   <div class="max-w-screen-xl mx-auto md:flex md:flex-row-reverse">
-    <div class="md:w-1/2 flex-shrink-0 md:pl-4">
+    <div class="md:w-1/2 flex-shrink-0 md:ml-4">
       {% if s.data.featured_image.src %}
         {% blockImage "./src/" + s.data.featured_image.src, s.data.featured_image.alt, "(min-width: 30em) 50vw, 25vw", "w-full sticky top-0" %}
       {% endif %}
     </div>
 
-    <div class="md:1/2 md:pr-4">
+    <div class="md:1/2 md:mr-4">
       <h1 class="uppercase text-2xl mb-4 mt-4 md:mt-0">
         <span class="text-red">1.</span> {{ s.data.title }}
       </h1>
@@ -130,9 +146,8 @@ layout: layouts/home.njk
   </div>
 </section>
 
-{# TODO: Filter out just stories from all insights #}
 {% set s = collections.homepageSection|findBySlug('insights') %}
-{% set insights = collections.insights | reverse %}
+{% set case_studies = collections.case_studies | reverse %}
 <section id="insights" class="p-4 bg-white-pure text-blue md:p-8">
   <div class="max-w-screen-xl mx-auto">
 
@@ -147,10 +162,23 @@ layout: layouts/home.njk
     </div>
 
     <div class="grid gap-4 mb-4 md:grid-cols-2 md:gap-8">
-      {% set blog = insights[0] %}
-      {% include 'partials/blogCard.njk' %}
-      {% set blog = insights[1] %}
-      {% include 'partials/blogCard.njk' %}
+      {% set display_number = 2 %}
+      {% for i in range(0, display_number) %}
+        {% set blog = case_studies[i] %}
+        <a href="{{ blog.url }}" class="block group card">
+          <div class="mb-4 bg-blue w-full h-64 block card__lead_image">
+            {% if blog.data.lead_image %}
+              {% blockImage "./src/" + blog.data.lead_image, blog.data.title, "(min-width: 30em) 50vw, 100vw" %}
+            {% endif %}
+          </div>
+
+          <h2 class="px-4 text-lg transition-colors group-hover:text-red">{{ blog.data.title }}</h2>
+          <p class="px-4 leading-loose font-serif transition-colors group-hover:text-blue-light">
+            {{ blog.data.teaser }}
+          </p>
+        </a>
+
+      {% endfor %}
     </div>
 
     <div class="border-t border-b py-4 my-4 text-center sm:text-lg md:py-8 md:my-8 lg:max-w-2/3 mx-auto">
@@ -167,10 +195,7 @@ layout: layouts/home.njk
 <section id="contact" class="section--contact p-4 md:p-8 bg-blue-light">
   <div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:gap-8">
     <div>
-
       {% blockImage "./src/" + s.data.featured_image.src, s.data.featured_image.alt, "(min-width: 30em) 50vw, 25vw", "w-full mb-4 md:mb-8" %}
-
-
       <h1 class="uppercase text-2xl mb-4">
         <span class="text-red">4.</span> {{ s.data.title }}
       </h1>
@@ -178,7 +203,6 @@ layout: layouts/home.njk
       <div class="simple-text font-serif">
         {{ s.templateContent | safe }}
       </div>
-
     </div>
 
     <div class="mt-8 md:mt-0">

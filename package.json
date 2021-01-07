@@ -30,6 +30,7 @@
     "tailwindcss": "^2.0.2"
   },
   "dependencies": {
-    "@11ty/eleventy-img": "^0.7.1"
+    "@11ty/eleventy-img": "^0.7.1",
+    "@tailwindcss/typography": "^0.3.1"
   }
 }

@@ -51,6 +51,15 @@ collections:
         }
       - { label: "Published date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - label: Case study
+        name: case_study
+        widget: object
+        fields:
+          - { label: "Is case study?", name: "is_case_study", widget: "boolean", default: false }
+          - { label: "Introduction", name: "introduction", widget: "text", required: false }
+          - { label: "Quote", name: "quote", widget: "text", required: false }
+          - { label: "Attribution", name: "attribution", widget: "string", required: false }
+          - { label: "Image", name: "img", widget: "image", required: false }
   - label: "People"
     name: "people"
     label_singular: "Person"

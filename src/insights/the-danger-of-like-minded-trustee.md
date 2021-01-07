@@ -6,6 +6,8 @@ teaser: When it comes to the complex issues faced by Boards today, breadth and
   is required.
 lead_image: /assets/img/chess-set.jpg
 date: 2020-07-09
+case_study:
+  is_case_study: true
 ---
 
 The Black Lives Matter campaign is prompting much excellent reflection on the lack of racial diversity of Boards in the charity sector. Boards also need to think about cognitive diversity (which often comes with racial diversity).

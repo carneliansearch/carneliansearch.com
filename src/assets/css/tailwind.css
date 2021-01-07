@@ -73,6 +73,37 @@ html:focus-within {
 .card:hover .card__lead_image picture {
   transform: scale(1.1);
 }
+.big-quote {
+  position: relative;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+.big-quote:before {
+  color: #af2b3f;
+  content: open-quote;
+  font-size: 70px;
+  left: -1rem;
+  line-height: 1;
+  position: absolute;
+  top: -.75rem;
+  background: white;
+  height: 2.25rem;
+}
+.big-quote:after {
+  content: close-quote;
+}
+
+@screen md {
+  .big-quote:before {
+    font-size: 140px;
+    left: -2rem;
+    top: -1.5rem;
+    height: 4.5rem;
+  }
+}
+
+.prose>:first-child {
+  @apply font-bold;
+}
 
 @tailwind components;
 @tailwind utilities;

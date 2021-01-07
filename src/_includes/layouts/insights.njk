@@ -2,9 +2,31 @@
 layout: layouts/base.njk
 ---
 
-<header>
-  {% include 'partials/siteHeader.njk' %}
+{# TODO: Finish the text here #}
+
+<header class="home-header p-4 md:p-8 bg-contain bg-no-repeat">
+  <div class="max-w-screen-xl mx-auto">
+    {% include 'partials/siteHeader.njk' %}
+
+    <div class="mx-auto md:text-center lg:w-2/3 lg:px-8">
+      <h1 class="uppercase text-2xl mb-4">{{ title }}</h1>
+      <p class="text-xl font-serif">{{ teaser }}</p>
+    </div>
+  </div>
 </header>
 
-<h1>{{ title }}</h1>
-{{ content | safe }}
+<main class="bg-white-pure text-blue p-4 md:p-8">
+
+  {% if lead_image %}
+    {% blockImage "./src/" + lead_image, title, "(min-width: 30em) 50vw, 100vw", "w-full mb-4 mx-auto md:mb-8 lg:w-2/3" %}
+  {% endif %}
+
+  <article class="mx-auto prose md:prose-lg mb-4 md:mb-8">
+  {{ content | safe }}
+  </article>
+
+  <div class="max-w-screen-xl mx-auto">
+    {% include 'partials/mailingList.njk' %}
+  </div>
+
+</main>

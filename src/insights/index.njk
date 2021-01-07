@@ -1,16 +1,41 @@
 ---
 title: Insights
-layout: layouts/home.njk
+layout: layouts/base.njk
 ---
 
 
 {% set insights = collections.insights | reverse %}
 
-<main class="bg-white-pure text-blue mb-8">
-  <h1 class="uppercase text-2xl mb-4">Insights from <span class="text-red">Carnelian</span> Search</h1>
-  <div class="grid gap-4 mb-4 md:grid-cols-2 md:gap-8 md:mb-8">
-  {% for insight in insights %}
-    {% include 'partials/blogCard.njk' %}
-  {% endfor %}
+<header class="max-w-screen-xl mx-auto">
+
+  {% include 'partials/siteHeader.njk' %}
+
+  <div class="md:w-1/2">
+    <h1 class="uppercase text-2xl mb-4">Insights from <span class="text-red">Carnelian</span> Search</h1>
+    <p class="text-xl font-serif mb-4 md:mb-8">We are proud of our track record in finding outstanding directors and senior staff for dozens of charities and social enterprises since we were founded.</p>
+    <p class="text-lg font-serif mb-4 md:mb-8">Read more¬¬¬¬¬</p>
+  </div>
+</header>
+
+<main class="bg-white-pure text-blue py-4 md:py-8">
+  <div class="max-w-screen-xl mx-auto">
+    <div class="grid gap-4 mb-4 md:grid-cols-2 md:gap-8 md:mb-8">
+    {% for insight in insights %}
+      <a href="{{ insight.url }}" class="block group card">
+        <div class="mb-4 bg-blue w-full h-64 block card__lead_image">
+          {% if insight.data.lead_image %}
+            {% blockImage "./src/" + insight.data.lead_image, insight.data.title, "(min-width: 30em) 50vw, 100vw" %}
+          {% endif %}
+        </div>
+
+        <h2 class="px-4 text-lg transition-colors group-hover:text-red">{{ insight.data.title }}</h2>
+        <p class="px-4 leading-loose font-serif transition-colors group-hover:text-blue-light">
+          {{ insight.data.teaser }}
+        </p>
+      </a>
+    {% endfor %}
+    </div>
+
+    {% include 'partials/mailingList.njk' %}
   </div>
 </main>
