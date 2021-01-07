@@ -215,26 +215,26 @@ layout: layouts/home.njk
     </div>
 
     <div class="mt-8 md:mt-0">
-      {% for person in collections.people %}
+      {% for person in people.person %}
       <div class="my-4 flex mb:my-8 cursor-pointer group" {% if loop.first %}x-data="{ open: true }"{% else %}x-data="{ open: false }"{% endif %} @click="open = ! open">
 
         <div class="rounded-full h-16 w-16 block overflow-hidden flex-shrink-0 transition-all" :class="{'desaturate-80': open === false }">
-        {% if person.data.image %}
-          {% imageAvatar "./src/" + person.data.image, person.data.name, "(min-width: 30em) 50vw, 25vw" %}
+        {% if person.image %}
+          {% imageAvatar "./src/" + person.image, person.name, "(min-width: 30em) 50vw, 25vw" %}
         {% endif %}
         </div>
 
         <div class="mt-2 pl-4 w-full">
           <h2 class="transition-colors text-lg uppercase border-b mb-1 group-hover:text-red" :class="{ 'is-open' : !open , 'is-closed' : open}">
-            {{ person.data.name }}
+            {{ person.name }}
           </h2>
 
           <p class="text-sm text-blue-lighter">
-            {{ person.data.title}}
+            {{ person.title}}
           </p>
 
           <p class="font-serif leading-loose" x-show.transition.top="open">
-            {{ person.data.introduction }}
+            {{ person.introduction }}
           </p>
         </div>
 

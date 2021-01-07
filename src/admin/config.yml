@@ -60,24 +60,7 @@ collections:
           - { label: "Quote", name: "quote", widget: "text", required: false }
           - { label: "Attribution", name: "attribution", widget: "string", required: false }
           - { label: "Image", name: "img", widget: "image", required: false }
-  - label: "People"
-    name: "people"
-    label_singular: "Person"
-    folder: "src/people"
-    identifier_field: name
-    create: true
-    slug: "{{name}}"
-    editor:
-      preview: false
-    fields:
-      - { label: "Name", name: "name", widget: "string" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Introduction", name: "introduction", widget: "string" }
-      - { label: "Email", name: "email", widget: "string", required: false }
-      - { label: "Sort Order", name: "sortOrder", widget: "number", required: false, default: 1 }
-      - { label: "Body", name: "body", widget: "markdown", required: false }
-  - label: 'Settings'
+  - label: 'Additional Data'
     name: "settings"
     extension: json
     editor:
@@ -118,4 +101,23 @@ collections:
             fields:
               - { name: title, label: Title, widget: string }
               - { name: description, label: description, widget: string }
+      - file: "src/_data/people.json"
+        label: "People"
+        name: "people"
+        label_singular: "Person"
+        identifier_field: name
+        collapsed: false
+        allow_add: true
+        fields:
+          - label: Person
+            name: person
+            label_singular: Person
+            widget: list
+            fields: [
+              { label: "Name", name: "name", widget: "string" },
+              { label: "Title", name: "title", widget: "string" },
+              { label: "Image", name: "image", widget: "image", required: false },
+              { label: "Introduction", name: "introduction", widget: "string" },
+              { label: "Email", name: "email", widget: "string", required: false }
+            ]
 

@@ -1,0 +1,16 @@
+{
+  "person": [
+    {
+      "name": "Allan Beckett",
+      "title": "Founder and Director",
+      "image": "/assets/img/allan-beckett.jpg",
+      "introduction": "Allan founded Carnelian Search with the desire to serve charitable and faith-based organisations with the same level of care and professionalism that is used to find the Chief Executive of a FTSE100 business."
+    },
+    {
+      "name": "Jonathan Payne",
+      "title": "Associate",
+      "image": "/assets/img/jonathan-payne.jpg",
+      "introduction": "Jonathan joined Carnelian as an Associate at the beginning of 2019. After a short spell working with commercial clients, he moved to the search firm Perrett Laver, where he was part of a growing practice serving schools and other educational organisations."
+    }
+  ]
+}
