@@ -10,7 +10,7 @@
 
 @tailwind base;
 
-html:focus-within {
+html {
   scroll-behavior: smooth;
 }
 
