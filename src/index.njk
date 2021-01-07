@@ -107,9 +107,11 @@ layout: layouts/home.njk
 
       <ul>
         {% for approach in approaches.approaches %}
-        <li class="mb-4">
-          <h2 class="font-sans text-lg border-b border-white uppercase">{{ approach.title }}</h2>
-          <p class="font-serif leading-loose">{{ approach.description }}</p>
+        <li class="mb-4 group" {% if loop.first %}x-data="{ open: true }"{% else %}x-data="{ open: false }"{% endif %} @click="open = ! open">
+          <h2 class="cursor-pointer transition-colors font-sans text-lg border-b border-white uppercase group-hover:text-red"  :class="{ 'is-open' : !open , 'is-closed' : open}">
+            {{ approach.title }}
+          </h2>
+          <p class="font-serif leading-loose" x-show.transition.top="open">{{ approach.description }}</p>
         </li>
         {% endfor %}
       </ul>
@@ -131,9 +133,11 @@ layout: layouts/home.njk
 
     <ul class="grid gap-4 md:grid-cols-2 md:gap-8">
       {% for value in values.values %}
-      <li class="">
-        <h2 class="font-sans text-lg border-b border-white uppercase">{{ value.title }}</h2>
-        <p class="font-serif leading-loose">{{ value.description }}</p>
+      <li class="group" x-data="{ open: true }" @click="open = ! open">
+        <h2 class="cursor-pointer transition-colors font-sans text-lg border-b border-white uppercase group-hover:text-red" :class="{ 'is-open' : !open , 'is-closed' : open}">
+          {{ value.title }}
+        </h2>
+        <p class="font-serif leading-loose" x-show.transition.top="open">{{ value.description }}</p>
       </li>
       {% endfor %}
     </ul>
@@ -212,16 +216,16 @@ layout: layouts/home.njk
 
     <div class="mt-8 md:mt-0">
       {% for person in collections.people %}
-      <div class="my-4 flex mb:my-8">
+      <div class="my-4 flex mb:my-8 cursor-pointer group" {% if loop.first %}x-data="{ open: true }"{% else %}x-data="{ open: false }"{% endif %} @click="open = ! open">
 
-        <div class="rounded-full h-16 w-16 block overflow-hidden flex-shrink-0">
+        <div class="rounded-full h-16 w-16 block overflow-hidden flex-shrink-0 transition-all" :class="{'desaturate-80': open === false }">
         {% if person.data.image %}
           {% imageAvatar "./src/" + person.data.image, person.data.name, "(min-width: 30em) 50vw, 25vw" %}
         {% endif %}
         </div>
 
-        <div class="pl-4">
-          <h2 class="text-lg uppercase border-b mb-1">
+        <div class="mt-2 pl-4 w-full">
+          <h2 class="transition-colors text-lg uppercase border-b mb-1 group-hover:text-red" :class="{ 'is-open' : !open , 'is-closed' : open}">
             {{ person.data.name }}
           </h2>
 
@@ -229,7 +233,7 @@ layout: layouts/home.njk
             {{ person.data.title}}
           </p>
 
-          <p class="font-serif leading-loose">
+          <p class="font-serif leading-loose" x-show.transition.top="open">
             {{ person.data.introduction }}
           </p>
         </div>

@@ -105,6 +105,16 @@ html {
   @apply font-bold;
 }
 
+.is-open:after {
+  @apply pr-2 float-right;
+  content: '+';
+}
+
+.is-closed:after {
+  @apply pr-2 float-right;
+  content: '-';
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -122,4 +132,12 @@ html {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+.desaturate-100 {
+  filter: grayscale(100%);
+}
+
+.desaturate-80 {
+  filter: grayscale(80%);
 }

@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
     <meta name="format-detection" content="telephone=no" />
 
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
     <link href="/assets/css/styles.css" rel="stylesheet">
 
     {% set pageTitle = metadata.title %}
@@ -47,6 +49,8 @@
     <meta name="theme-color" content="#af1b3f">
 
     <link rel="alternate" type="application/rss+xml" title="Blog RSS" href="/insights/feed.xml" />
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
   </head>
 
   <body class="bg-blue text-white-pure antialiased">
@@ -68,7 +72,7 @@
               <a href="/#values" class="underline transition-colors hover:text-red">Values</a>
             </li>
             <li class="inline">
-              <a href="/#insights" class="underline transition-colors hover:text-red">Insights</a>
+              <a href="/insights" class="underline transition-colors hover:text-red">Insights</a>
             </li>
             <li class="inline">
               <a href="/#contact" class="underline transition-colors hover:text-red">Contact</a>
