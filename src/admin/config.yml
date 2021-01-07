@@ -1,123 +1,162 @@
-backend:
-  name: git-gateway
-  branch: main
+backend: {
+  name: "git-gateway",
+  branch: "main"
+}
 media_folder: "src/assets/img"
 public_folder: "/assets/img"
 site_url: "https://carneliansearch.com"
 local_backend: true
 locale: "en"
-slug:
-  encoding: "ascii"
-  clean_accents: true
-  sanitize_replacement: "_"
-collections:
-  - label: "Homepage"
-    name: "homepage"
-    folder: "src/homepage"
-    create: false
-    editor:
+logo_url: "/assets/svg/cms-logo.svg"
+slug: {
+  encoding: "ascii",
+  clean_accents: true,
+  sanitize_replacement: "-"
+}
+collections: [
+  {
+    label: "Homepage",
+    name: "homepage",
+    folder: "src/homepage",
+    create: false,
+    editor: { preview: false },
+    fields: [
+      {
+        name: "title",
+        label: "Title",
+        widget: "string"
+      },
+      {
+        name: "featured_image",
+        label: "Featured image",
+        widget: "object",
+        fields: [
+          { name: src, label: Image, widget: image, required: false },
+          { name: alt, label: Alt text, widget: string, hint: 'Describe what is in the image', required: false }
+        ]
+      },
+      {
+        name: "body",
+        label: "Body",
+        widget: "markdown"
+      },
+      {
+        name: "next_step",
+        label: "Next step",
+        label_singular: "Next step",
+        widget: "object",
+        fields: [
+          { name: title, label: Title, widget: string, required: false },
+          { name: link, label: Link, widget: string, required: false }
+        ]
+      }
+    ]
+  },
+  {
+    label: "Insights",
+    name: "insights",
+    label_singular: "Insight",
+    folder: "src/insights",
+    create: true,
+    editor: {
       preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - name: featured_image
-        label: Featured image
-        widget: object
-        fields:
-          - { name: src, label: Image, widget: image, required: false }
-          - { name: alt, label: Alt text, widget: string, hint: 'Describe what is in the image', required: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - label: Next step
-        name: next_step
-        label_singular: Next step
-        widget: object
-        fields:
-          - { name: title, label: Title, widget: string, required: false }
-          - { name: link, label: Link, widget: string, required: false }
-
-  - label: "Insights"
-    name: "insights"
-    label_singular: "Insight"
-    folder: "src/insights"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Introduction", name: "teaser", widget: "text" }
-      - {
-          label: "Lead Image",
-          name: "lead_image",
-          widget: "image"
-        }
-      - { label: "Published date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - label: Case study
-        name: case_study
-        widget: object
-        fields:
-          - { label: "Is case study?", name: "is_case_study", widget: "boolean", default: false }
-          - { label: "Introduction", name: "introduction", widget: "text", required: false }
-          - { label: "Quote", name: "quote", widget: "text", required: false }
-          - { label: "Attribution", name: "attribution", widget: "string", required: false }
-          - { label: "Image", name: "img", widget: "image", required: false }
-  - label: 'Additional Data'
-    name: "settings"
-    extension: json
-    editor:
-      preview: false
-    files:
-      - file: "src/_data/metadata.json"
-        label: "Site Metadata"
-        name: "metadata"
-        fields:
-        - { name: title, label: Name, widget: string }
-        - { name: url, label: URL, widget: string }
-        - { name: description, label: Description, widget: string }
-      - file: "src/_data/approaches.json"
-        label: "Approaches"
-        name: "approaches"
-        label_singular: "Approach"
-        collapsed: false
-        allow_add: true
-        fields:
-          - label: Approaches
-            name: approaches
-            label_singular: approach
-            widget: list
-            fields:
-              - { name: title, label: Title, widget: string }
-              - { name: description, label: description, widget: string }
-      - file: "src/_data/values.json"
-        label: "Values"
-        name: "Values"
-        label_singular: "Value"
-        collapsed: false
-        allow_add: true
-        fields:
-          - label: Values
-            name: values
-            label_singular: Value
-            widget: list
-            fields:
-              - { name: title, label: Title, widget: string }
-              - { name: description, label: description, widget: string }
-      - file: "src/_data/people.json"
-        label: "People"
-        name: "people"
-        label_singular: "Person"
-        identifier_field: name
-        collapsed: false
-        allow_add: true
-        fields:
-          - label: Person
-            name: person
-            label_singular: Person
-            widget: list
+    },
+    fields: [
+      { label: "Title", name: "title", widget: "string" },
+      { label: "Introduction", name: "teaser", widget: "text" },
+      { label: "Lead Image", name: "lead_image", widget: "image" },
+      { label: "Published date", name: "date", widget: "datetime" },
+      { label: "Body", name: "body", widget: "markdown" },
+      { label: "Case study",
+        name: "case_study",
+        widget: "object",
+        fields: [
+          { label: "Is case study?", name: "is_case_study", widget: "boolean", default: false },
+          { label: "Introduction", name: "introduction", widget: "text", required: false },
+          { label: "Quote", name: "quote", widget: "text", required: false },
+          { label: "Attribution", name: "attribution", widget: "string", required: false },
+          { label: "Image", name: "img", widget: "image", required: false }
+        ]
+      }
+    ]
+  },
+  {
+    label: 'Additional Data',
+    name: "settings",
+    extension: "json",
+    editor: { preview: false },
+    files: [
+      {
+        file: "src/_data/metadata.json",
+        label: "Site Metadata",
+        name: "metadata",
+        fields: [
+          { name: title, label: Name, widget: string },
+          { name: url, label: URL, widget: string },
+          { name: description, label: Description, widget: string }
+        ],
+      },
+      {
+        file: "src/_data/approaches.json",
+        label: "Approaches",
+        name: "approaches",
+        label_singular: "Approach",
+        collapsed: false,
+        allow_add: true,
+        fields: [
+          {
+            label: "Approaches",
+            name: "approaches",
+            label_singular: "approach",
+            widget: "list",
             fields: [
-              { label: "Name", name: "name", widget: "string" },
-              { label: "Title", name: "title", widget: "string" },
-              { label: "Image", name: "image", widget: "image", required: false },
-              { label: "Introduction", name: "introduction", widget: "string" },
-              { label: "Email", name: "email", widget: "string", required: false }
+              { name: title, label: Title, widget: string },
+              { name: description, label: description, widget: text }
             ]
+          }
+        ]
+      },
+      {
+        file: "src/_data/values.json",
+        label: "Values",
+        name: "Values",
+        label_singular: "Value",
+        collapsed: false,
+        allow_add: true,
+        fields: [{
+          label: "Values",
+          name: "values",
+          label_singular: "Value",
+          widget: "list",
+          fields: [
+            { name: title, label: Title, widget: string },
+            { name: description, label: description, widget: text }
+          ]
+        }]
+      },
+      {
+        file: "src/_data/people.json",
+        label: "People",
+        name: "people",
+        label_singular: "Person",
+        identifier_field: "name",
+        collapsed: false,
+        allow_add: true,
+        fields: [{
+          label: "People",
+          name: "person",
+          label_singular: "Person",
+          widget: "list",
+          fields: [
+            { label: "Name", name: "name", widget: "string" },
+            { label: "Title", name: "title", widget: "string" },
+            { label: "Image", name: "image", widget: "image", required: false },
+            { label: "Introduction", name: "introduction", widget: "string" },
+            { label: "Email", name: "email", widget: "string", required: false }
+          ]
+        }]
+      }
+    ]
+  }
+]
 
