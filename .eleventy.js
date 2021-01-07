@@ -19,6 +19,18 @@ module.exports = function(eleventyConfig) {
   });
 
   // Image Shortcodes
+  eleventyConfig.addNunjucksAsyncShortcode("imageSocial", async function(src) {
+    let metadata = await Image(src, {
+      widths: [1200],
+      formats: ['jpeg'],
+      urlPath: "/assets/img/",
+      outputDir: "./public/assets/img"
+    });
+
+    let data = metadata.jpeg[0];
+    return data.url;
+  });
+
   eleventyConfig.addNunjucksAsyncShortcode("imageAvatar", async function(src, alt, sizes = "100vw") {
     if(alt === undefined) {
       throw new Error(`Missing \`alt\` on imageAvatar from: ${src}`);
@@ -79,6 +91,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/fonts');
   eleventyConfig.addPassthroughCopy('src/assets/svg');
   eleventyConfig.addPassthroughCopy('src/assets/favicon');
+  eleventyConfig.addPassthroughCopy('src/assets/core_img');
   eleventyConfig.addPassthroughCopy('src/admin/config.yml');
 
   eleventyConfig.addWatchTarget('./src/admin/config.yml');

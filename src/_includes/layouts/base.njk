@@ -2,13 +2,40 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
+    <meta name="format-detection" content="telephone=no" />
 
     <link href="/assets/css/styles.css" rel="stylesheet">
 
-    <title>{{ title or metadata.title }}</title>
-    <meta name="description" content="{{ description or metadata.description }}">
+    {% set pageTitle = metadata.title %}
+    {% set leadImg = "./src" + metadata.social_img %}
+    {% if title %}{% set pageTitle = metadata.title + " | " + title %}{% endif %}
+    {% if lead_image %}{% set leadImg = "./src" + lead_image %}{% endif %}
+
+    <title>{{ pageTitle }}</title>
+
+      {# Basic search engine stuff #}
+    <meta name="description" content="{{ teaser or metadata.description }}" />
+    <meta name="image" content="{% imageSocial leadImg %}">
+    <meta name="application-name" content="{{ metadata.title }}">
+
+  {# Social media madness #}
+    <meta property="og:site_name" content="{{ metadata.title }}" />
+    <meta property="og:title" content="{{ pageTitle }}" />
+
+    <meta property="og:url" content="{{ metadata.url }}{{ page.url }}" />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="{{ metadata.url }}{{ page.url }}" />
+    <meta name="twitter:title" content="{{ pageTitle }}" />
+    <meta name="twitter:description" content="{{ teaser or metadata.description }}" />
+    <meta property="og:description" content="{{ teaser or metadata.description }}" />
+
+    <meta name="twitter:image" content="{% imageSocial leadImg %}" />
+    <meta property="og:image" content="{% imageSocial leadImg %}" />
+    <meta property="og:image:alt" content="{{ teaser or metadata.description }}" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
