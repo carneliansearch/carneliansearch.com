@@ -1,6 +1,7 @@
 ---
 title: Insights
 layout: layouts/base.njk
+eleventyExcludeFromCollections: true
 pagination:
   data: collections.insights
   size: 6
@@ -30,7 +31,7 @@ pagination:
       <a href="{{ insight.url }}" class="block group card">
         <div class="mb-4 bg-blue w-full h-64 block card__lead_image">
           {% if insight.data.lead_image %}
-            {% blockImage "./src/" + insight.data.lead_image, insight.data.title, "(min-width: 30em) 50vw, 100vw" %}
+            {% blockImage "./src" + insight.data.lead_image, insight.data.title, "(min-width: 30em) 50vw, 100vw" %}
           {% endif %}
         </div>
 
@@ -38,6 +39,10 @@ pagination:
         <p class="px-4 leading-loose font-serif transition-colors group-hover:text-blue-light">
           {{ insight.data.teaser }}
         </p>
+
+        <div href="{{ blog.url }}" class="ml-4 mt-4 inline-block font-serif p-2 border border-blue transition-colors group-hover:border-red group-hover:text-red">
+          Keep reading
+        </div>
       </a>
     {% endfor %}
     </div>

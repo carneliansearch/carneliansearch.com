@@ -19,7 +19,6 @@ case_study:
     considerate, they learnt about us, and showed us that we were working
     together to find Robin who accepted the role…
 ---
-
 Charity A have a single goal: stop bad thing B from happening. They do this by intervention C and have seen some remarkable results. From the first time we came across them we were excited at the prospect of pushing this vital work forward in any way we could.
 
 In 2019, Charity A needed a new chief executive to lead them forwards after the retirement of their long-serving founder. This is a critical role at what is a relatively small organisation and the appointment had to be right. Not only did the candidate need experience leading social impact work in field D, but they also had to grasp the unique way Charity A tackles this problem. And they had to share the Christian faith which is what drives the small and dedicated team. The precise cocktail of requirements made Carnelian Search tailor-made to come alongside Charity A to identify the perfect fit for the role.

@@ -1,7 +1,7 @@
-backend: {
-  name: "git-gateway",
-  branch: "main"
-}
+backend:
+  name: git-gateway
+  branch: main
+  local_backend: true
 media_folder: "src/assets/img"
 public_folder: "/assets/img"
 site_url: "https://carneliansearch.com"
@@ -151,7 +151,7 @@ collections: [
             { label: "Name", name: "name", widget: "string" },
             { label: "Title", name: "title", widget: "string" },
             { label: "Image", name: "image", widget: "image", required: false },
-            { label: "Introduction", name: "introduction", widget: "string" },
+            { label: "Introduction", name: "introduction", widget: "text" },
             { label: "Email", name: "email", widget: "string", required: false }
           ]
         }]

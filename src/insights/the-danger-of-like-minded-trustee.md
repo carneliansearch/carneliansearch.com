@@ -1,5 +1,5 @@
 ---
-title: The Dangers of Hiring Like Minded Trustees
+title: The dangers of hiring like minded trustees
 teaser: When it comes to the complex issues faced by Boards today, breadth and
   depth of insight, innovation and wisdom are paramount. This level of cognitive
   ability cannot come from any individual alone, rather the wisdom of the team
