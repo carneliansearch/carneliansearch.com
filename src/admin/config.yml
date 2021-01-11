@@ -81,6 +81,22 @@ collections: [
     ]
   },
   {
+    label: "Pages",
+    name: "pages",
+    label_singular: "page",
+    folder: "src/pages",
+    create: true,
+    editor: {
+      preview: false
+    },
+    fields: [
+      { label: "Title", name: "title", widget: "string" },
+      { label: "Introduction", name: "teaser", widget: "text" },
+      { label: "Lead Image", name: "lead_image", widget: "image", required: false },
+      { label: "Body", name: "body", widget: "markdown" },
+    ]
+  },
+  {
     label: 'Additional Data',
     name: "settings",
     extension: "json",
