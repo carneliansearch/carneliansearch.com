@@ -38,8 +38,14 @@ layout: layouts/home.njk
             </a>
           </li>
           <li class="">
+            <a href="#team" class="group">
+              <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">4. Team</span>
+              <p class="font-serif group-hover:text-blue-lighter">We are nothing without the people behind us.</p>
+            </a>
+          </li>
+          <li class="">
             <a href="#contact" class="group">
-              <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">4. Contact</span>
+              <span class="text-lg uppercase underline block transition-colors group-hover:no-underline group-hover:text-red">5. Contact</span>
               <p class="font-serif group-hover:text-blue-lighter">Every search we carry out begins with a conversation…</p>
             </a>
           </li>
@@ -205,9 +211,9 @@ layout: layouts/home.njk
 
 </section>
 
-<section id="contact" class="section--contact p-4 md:p-8 bg-white-pure text-blue">
-
-  {% set s = collections.homepageSection|findBySlug('team') %}
+{% set s = collections.homepageSection|findBySlug('team') %}
+<section id="team" class="section--contact p-4 md:p-8 bg-white-pure text-blue">
+  <div class="max-w-screen-xl mx-auto">
     <div class="mt-8 md:mt-0">
       <h1 class="uppercase text-2xl mb-4">
         <span class="text-red">4.</span> {{ s.data.title }}
@@ -244,14 +250,14 @@ layout: layouts/home.njk
         {% endfor %}
       </div>
     </div>
+  </div>
 </section>
 
 
+{% set s = collections.homepageSection|findBySlug('contact') %}
 <section id="contact" class="section--contact p-4 md:p-8 bg-blue-light">
   <div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:gap-8">
 
-
-    {% set s = collections.homepageSection|findBySlug('contact') %}
     <div class="flex flex-col justify-center">
       <h1 class="uppercase text-2xl mb-4">
         <span class="text-red">5.</span> {{ s.data.title }}
