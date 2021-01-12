@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
     <meta name="format-detection" content="telephone=no" />
 
-    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
 
     <link href="/assets/css/styles.css" rel="stylesheet">
     <link type="text/plain" rel="author" href="{{ metadata.url }}/humans.txt" />
@@ -50,6 +51,17 @@
     <meta name="theme-color" content="#af1b3f">
 
     <link rel="alternate" type="application/rss+xml" title="Blog RSS" href="/insights/feed.xml" />
+
+    {# GTM #}
+    {% if build.env == "production" %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162572200-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-162572200-1');
+    </script>
+    {% endif %}
 
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
   </head>
