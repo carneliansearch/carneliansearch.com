@@ -1,7 +1,7 @@
 ---
 title: Our Approach
 featured_image:
-  src: /assets/img/whiteboard.jpg
+  src: /assets/img/climb.jpg
   alt: Two women working at a whiteboard.
 ---
 

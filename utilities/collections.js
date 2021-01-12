@@ -9,7 +9,6 @@ module.exports = {
     const insights = collection.getFilteredByGlob(["./src/insights/**/*.md"]);
     return insights.filter((insight) => {
       if (insight.data.case_study && insight.data.case_study.is_case_study) {
-        console.log(insight.data.title);
         return true;
       }
 

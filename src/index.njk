@@ -14,7 +14,7 @@ layout: layouts/home.njk
       </div>
 
       <div class="w-2/3 md:w-full md:col-span-2">
-        {% blockImage "./src/assets/img/splash.jpg" , "Coffee cups on the table after a successful meeting", "(min-width: 30em) 50vw, 75vw", "w-full  md:opacity-70  md:z-0" %}
+        {% blockImage "./src/assets/img/rowing-3.jpg" , "Coffee cups on the table after a successful meeting", "(min-width: 30em) 50vw, 75vw", "w-full  md:opacity-70  md:z-0" %}
       </div>
 
       <nav class="flex items-end">
@@ -95,7 +95,7 @@ layout: layouts/home.njk
 {% set s = collections.homepageSection|findBySlug('approach') %}
 <section id="approach" class="p-4 bg-blue-light md:p-8">
   <div class="max-w-screen-xl mx-auto md:flex md:flex-row-reverse">
-    <div class="md:w-1/2 flex-shrink-0 md:ml-4">
+    <div class="md:w-1/2 flex-shrink-0 md:ml-4 md:pl-4">
       {% if s.data.featured_image.src %}
         {% blockImage "./src" + s.data.featured_image.src, s.data.featured_image.alt, "(min-width: 30em) 50vw, 25vw", "w-full sticky top-0" %}
       {% endif %}
