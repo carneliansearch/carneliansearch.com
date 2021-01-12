@@ -20,6 +20,7 @@ collections: [
     folder: "src/homepage",
     create: false,
     editor: { preview: false },
+    sortable_fields: ['title', 'sort'],
     fields: [
       {
         name: "title",
@@ -49,6 +50,12 @@ collections: [
           { name: title, label: Title, widget: string, required: false },
           { name: link, label: Link, widget: string, required: false }
         ]
+      },
+      {
+        name: "sort",
+        label: "Sort Order",
+        widget: "number",
+        hidden: true
       }
     ]
   },

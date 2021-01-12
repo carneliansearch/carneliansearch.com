@@ -4,6 +4,7 @@ featured_image:
   alt: Team gather around a racing driver in a pit stop
   src: /assets/img/pit-stop.jpg
 leadimage: /assets/img/pit-stop.jpg
+sort: 0
 ---
 
 Finding the right person to take on a leadership position at a charity or social impact organisation is hard. Carnelian Search is a small and focused team dedicated to getting this important job right.

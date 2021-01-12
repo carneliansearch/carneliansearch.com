@@ -205,11 +205,10 @@ layout: layouts/home.njk
 
 </section>
 
-{% set s = collections.homepageSection|findBySlug('contact') %}
-<section id="contact" class="section--contact p-4 md:p-8 bg-blue-light">
-  <div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:gap-8">
-    <div>
-      {% blockImage "./src/" + s.data.featured_image.src, s.data.featured_image.alt, "(min-width: 30em) 50vw, 25vw", "w-full mb-4 md:mb-8" %}
+<section id="contact" class="section--contact p-4 md:p-8 bg-white-pure text-blue">
+
+  {% set s = collections.homepageSection|findBySlug('team') %}
+    <div class="mt-8 md:mt-0">
       <h1 class="uppercase text-2xl mb-4">
         <span class="text-red">4.</span> {{ s.data.title }}
       </h1>
@@ -217,34 +216,54 @@ layout: layouts/home.njk
       <div class="simple-text font-serif">
         {{ s.templateContent | safe }}
       </div>
+      <div class="my-4 md:my-8 grid gap-4 sm:grid-cols-2 md:gap-8">
+        {% for person in people.person %}
+        <div class="flex cursor-pointer group" {% if loop.first %}x-data="{ open: true }"{% else %}x-data="{ open: false }"{% endif %} @click="open = ! open">
+
+          <div class="rounded-full h-16 w-16 block overflow-hidden flex-shrink-0 transition-all" :class="{'desaturate-80': open === false }">
+          {% if person.image %}
+            {% imageAvatar "./src/" + person.image, person.name, "(min-width: 30em) 50vw, 25vw" %}
+          {% endif %}
+          </div>
+
+          <div class="mt-2 pl-4 w-full">
+            <h2 class="transition-colors text-lg uppercase border-b mb-1 group-hover:text-red" :class="{ 'is-open' : !open , 'is-closed' : open}">
+              {{ person.name }}
+            </h2>
+
+            <p class="text-sm text-blue-light">
+              {{ person.title}}
+            </p>
+
+            <p class="font-serif leading-loose" x-show.transition.top="open">
+              {{ person.introduction }}
+            </p>
+          </div>
+
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+</section>
+
+
+<section id="contact" class="section--contact p-4 md:p-8 bg-blue-light">
+  <div class="max-w-screen-xl mx-auto md:grid md:grid-cols-2 md:gap-8">
+
+
+    {% set s = collections.homepageSection|findBySlug('contact') %}
+    <div class="flex flex-col justify-center">
+      <h1 class="uppercase text-2xl mb-4">
+        <span class="text-red">5.</span> {{ s.data.title }}
+      </h1>
+
+      <div class="simple-text font-serif">
+        {{ s.templateContent | safe }}
+      </div>
     </div>
 
-    <div class="mt-8 md:mt-0">
-      {% for person in people.person %}
-      <div class="my-4 flex mb:my-8 cursor-pointer group" {% if loop.first %}x-data="{ open: true }"{% else %}x-data="{ open: false }"{% endif %} @click="open = ! open">
-
-        <div class="rounded-full h-16 w-16 block overflow-hidden flex-shrink-0 transition-all" :class="{'desaturate-80': open === false }">
-        {% if person.image %}
-          {% imageAvatar "./src/" + person.image, person.name, "(min-width: 30em) 50vw, 25vw" %}
-        {% endif %}
-        </div>
-
-        <div class="mt-2 pl-4 w-full">
-          <h2 class="transition-colors text-lg uppercase border-b mb-1 group-hover:text-red" :class="{ 'is-open' : !open , 'is-closed' : open}">
-            {{ person.name }}
-          </h2>
-
-          <p class="text-sm text-blue-lighter">
-            {{ person.title}}
-          </p>
-
-          <p class="font-serif leading-loose" x-show.transition.top="open">
-            {{ person.introduction }}
-          </p>
-        </div>
-
-      </div>
-      {% endfor %}
+    <div>
+      {% blockImage "./src/" + s.data.featured_image.src, s.data.featured_image.alt, "(min-width: 30em) 50vw, 25vw", "w-full" %}
     </div>
   </div>
 
