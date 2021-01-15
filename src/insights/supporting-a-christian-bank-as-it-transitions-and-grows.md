@@ -18,7 +18,7 @@ case_study:
     that we were working with like-minded partners who were also the experts we
     needed to get the job done – a reassuring and successful combination.” "
   attribution: "Paul Houghton, CEO Kingdom Bank "
-  img: /assets/img/houghton-paul-birkdale.jpg
+  img: /assets/img/houghton-paul-cropped.png
   introduction: "The Carnelian Team conducted two critical searches in support of
     Kingdom Bank, assisting them in appointing a new CEO and CFO. "
 ---
