@@ -11,7 +11,7 @@ case_study:
   is_case_study: true
   introduction: "Carnelian Search worked with the board of Langham Partnership in
     their search for a new International Director.  It was a privilege to serve
-    with this inspiring group of people and mission-minded group of people. "
+    with this inspiring and mission-minded group of people. "
   quote: Allan and his team at Carnelian Search are outstanding and absolutely
     amazing! They've got very good acumen to match an organisation with the
     right candidates. I have recently benefited from their expertise, moving
