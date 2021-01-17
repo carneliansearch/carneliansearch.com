@@ -6,7 +6,7 @@ teaser: Kingdom Bank is a Christian bank, aiming to use money for good and to
   owners had ambitious growth plans and the existing Chief Executive was due to
   retire in the coming months. We were excited to be invited by the Board to
   work with them to identify the new Chief Executive.
-lead_image: /assets/img/kingdom-bank-full-logo-cmyk-with-wscbc-deleted.jpg
+lead_image: /assets/img/houghton-paul-cropped.png
 date: 2021-01-15T13:43:45.334Z
 case_study:
   is_case_study: true
