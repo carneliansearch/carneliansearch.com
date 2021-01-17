@@ -1,5 +1,5 @@
 ---
-title: Supporting a Christian bank as it transitions and grows
+title: Supporting a bank as it transitions and grows
 teaser: Kingdom Bank is a Christian bank, aiming to use money for good and to
   build God’s Kingdom. When we first started talking to Kingdom Bank, the
   organisation was facing a significant and exciting time of transition. The new
@@ -20,7 +20,7 @@ case_study:
   attribution: "Paul Houghton, CEO Kingdom Bank "
   img: /assets/img/houghton-paul-cropped.png
   introduction: "The Carnelian Team conducted two critical searches in support of
-    Kingdom Bank, assisting them in appointing a new CEO and CFO. "
+    Kingdom Bank, assisting them in appointing a new CEO and CRO. "
 ---
 Kingdom Bank is a Christian bank, aiming to use money for good and to build God’s Kingdom. When we first started talking to Kingdom Bank, the organisation was facing a significant and exciting time of transition. The new owners had ambitious growth plans and the existing Chief Executive was due to retire in the coming months. We were excited to be invited by the Board to work with them to identify the new Chief Executive.
 
