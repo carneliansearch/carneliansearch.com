@@ -5,7 +5,7 @@ teaser: The International Director is the most senior executive in the
   globally. It was essential for us to find a leader who was highly skilled in
   building cross-cultural relationships, coordinating and leading change in a
   global and matrixed organisation.
-lead_image: /assets/img/pexels-ekrulila-3837494.jpg
+lead_image: /assets/img/tayo_arikawe.jpg
 date: 2021-01-15T13:10:01.301Z
 case_study:
   is_case_study: true
@@ -27,7 +27,7 @@ case_study:
     wholeheartedly recommend Carnelian Search to other organisations in a
     similar situation. "
   attribution: Jill McGilvray - Chair, International Council, Langham Partnership
-  img: /assets/img/tayo_arikawe.jpg
+  img: /assets/img/jill-mcgilvray-headshots-026-edit_websize.jpg
 ---
 Langham Partnership was conceived by John Stott with the vision to see churches in the Majority World equipped for mission and growing to maturity in Christ, through the ministry of pastors and leaders who believe, teach and live by the Word of God. The privilege of serving this organisation and our strong commitment to what it stands for, made this search a particularly exciting one for us.
 
