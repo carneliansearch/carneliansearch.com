@@ -42,7 +42,5 @@ One of the great privileges of our work is to see the excitement of the Board wh
 The spiritual dimension to any search must never be ignored.  An important part of our role was to pray hard for the appointment and to encourage others to do so along the way.
 
 > Allan and his team at Carnelian Search are outstanding and absolutely amazing! They've got very good acumen to match an organisation with the right candidates. I have recently benefited from their expertise, moving from my present role to lead an organisation with global ministries. During the period of screening and interviews for my new role, they supported and communicated with me regularly, and were praying for me all through. I can't thank Carnelian Search enough for their immense support, dedication and wealth of experience. They have found me a job that reflects my lifetime passion and experience. Thank you.
->
-> ![]()
 
 (Tayo Arikawe - newly appointed International Director, Langham Partnership)
