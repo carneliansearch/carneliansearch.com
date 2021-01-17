@@ -6,7 +6,7 @@ teaser: The International Director is the most senior executive in the
   building cross-cultural relationships, coordinating and leading change in a
   global and matrixed organisation.
 lead_image: /assets/img/tayo_arikawe.jpg
-date: 2021-01-15T13:10:01.301Z
+date: 2021-01-17T20:54:27.275Z
 case_study:
   is_case_study: true
   introduction: "Carnelian Search worked with the board of Langham Partnership in
