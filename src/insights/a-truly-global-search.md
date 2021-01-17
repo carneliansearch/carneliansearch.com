@@ -37,6 +37,10 @@ Although the ideal location for the role was the UK, a global search was needed.
 
 It was a joy to work with the Chair and International Council of Langham Partnership, who we found to be an inspiring, warm, and mission-minded group of individuals who we felt a quick sense of rapport with. We provided the Chair with regular updates during the research process and guided the International Council through the interview process.
 
+> Without the expert help of Carnelian Search and Allan Beckett in particular, we at Langham Partnership would not have found our new International Director, Tayo Arikawe.  We are so grateful to Allan and his team for their skill, careful listening, wise advice and prayerful concern for our needs.  From the very beginning of the process our Search Committee was supported and guided through the process at every step.  Even when we made the difficult decision to put our search on hold for a few months due to COVID 19, Allan was always responsive, understanding, helpful and supportive. Having a large interview panel from six different countries and seven time zones made the arrangement of interview times a big challenge, and it was met each time with patience and good humour.  There is nothing I would change about the way that the search unfolded through each stage and I wholeheartedly recommend Carnelian Search to other organisations in a similar situation. 
+
+\- Jill McGilvray, Chair, Langham Partnership International Council 
+
 One of the great privileges of our work is to see the excitement of the Board when they find the right candidate. In this case it was particularly appropriate that the successful candidate for the International Director role was a representative of the Majority World, for the first time in Langham’s history.
 
 The spiritual dimension to any search must never be ignored.  An important part of our role was to pray hard for the appointment and to encourage others to do so along the way.
