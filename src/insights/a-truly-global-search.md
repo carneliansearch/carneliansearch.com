@@ -1,5 +1,5 @@
 ---
-title: "A truly global search "
+title: "A global search "
 teaser: The International Director is the most senior executive in the
   organisation. The role involves overseeing and coordinating Langham’s work
   globally. It was essential for us to find a leader who was highly skilled in
@@ -12,16 +12,21 @@ case_study:
   introduction: "Carnelian Search worked with the board of Langham Partnership in
     their search for a new International Director.  It was a privilege to serve
     with this inspiring and mission-minded group of people. "
-  quote: Allan and his team at Carnelian Search are outstanding and absolutely
-    amazing! They've got very good acumen to match an organisation with the
-    right candidates. I have recently benefited from their expertise, moving
-    from my present role to lead an organisation with global ministries. During
-    the period of screening and interviews for my new role, they supported and
-    communicated with me regularly, and were praying for me all through. I can't
-    thank Carnelian Search enough for their immense support, dedication and
-    wealth of experience. They have found me a job that reflects my lifetime
-    passion and experience. Thank you.
-  attribution: Tayo Arikawe - newly appointed International Director, Langham Partnership
+  quote: "Without the expert help of Carnelian Search and Allan Beckett in
+    particular, we at Langham Partnership would not have found our new
+    International Director, Tayo Arikawe.  We are so grateful to Allan and his
+    team for their skill, careful listening, wise advice and prayerful concern
+    for our needs.  From the very beginning of the process our Search Committee
+    was supported and guided through the process at every step.  Even when we
+    made the difficult decision to put our search on hold for a few months due
+    to COVID 19, Allan was always responsive, understanding, helpful and
+    supportive. Having a large interview panel from six different countries and
+    seven time zones made the arrangement of interview times a big challenge,
+    and it was met each time with patience and good humour.  There is nothing I
+    would change about the way that the search unfolded through each stage and I
+    wholeheartedly recommend Carnelian Search to other organisations in a
+    similar situation. "
+  attribution: Jill McGilvray - Chair, International Council, Langham Partnership
   img: /assets/img/tayo_arikawe.jpg
 ---
 Langham Partnership was conceived by John Stott with the vision to see churches in the Majority World equipped for mission and growing to maturity in Christ, through the ministry of pastors and leaders who believe, teach and live by the Word of God. The privilege of serving this organisation and our strong commitment to what it stands for, made this search a particularly exciting one for us.
@@ -37,5 +42,3 @@ One of the great privileges of our work is to see the excitement of the Board wh
 The spiritual dimension to any search must never be ignored.  An important part of our role was to pray hard for the appointment and to encourage others to do so along the way.
 
 > Allan and his team at Carnelian Search are outstanding and absolutely amazing! They've got very good acumen to match an organisation with the right candidates. I have recently benefited from their expertise, moving from my present role to lead an organisation with global ministries. During the period of screening and interviews for my new role, they supported and communicated with me regularly, and were praying for me all through. I can't thank Carnelian Search enough for their immense support, dedication and wealth of experience. They have found me a job that reflects my lifetime passion and experience. Thank you.
-
-If your charity or social enterprise needs a specialist executive search team who can offer a bespoke service to find your next chief executive, chair of the trustees, or managing director, [get in touch with Allan from Carnelian Search now](/#contact).
