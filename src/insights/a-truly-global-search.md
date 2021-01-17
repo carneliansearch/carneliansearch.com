@@ -27,7 +27,7 @@ case_study:
     wholeheartedly recommend Carnelian Search to other organisations in a
     similar situation. "
   attribution: Jill McGilvray - Chair, International Council, Langham Partnership
-  img: /assets/img/jill-mcgilvray-photo.jpg
+  img: /assets/img/jill-mcgilvray-headshots-026-edit_websize.jpg
 ---
 Langham Partnership was conceived by John Stott with the vision to see churches in the Majority World equipped for mission and growing to maturity in Christ, through the ministry of pastors and leaders who believe, teach and live by the Word of God. The privilege of serving this organisation and our strong commitment to what it stands for, made this search a particularly exciting one for us.
 
