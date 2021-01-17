@@ -1,11 +1,11 @@
 ---
 title: Supporting a bank as it transitions and grows
-teaser: Kingdom Bank is a Christian bank, aiming to use money for good and to
-  build God’s Kingdom. When we first started talking to Kingdom Bank, the
-  organisation was facing a significant and exciting time of transition. The new
-  owners had ambitious growth plans and the existing Chief Executive was due to
-  retire in the coming months. We were excited to be invited by the Board to
-  work with them to identify the new Chief Executive.
+teaser: Kingdom Bank is a Christian bank, aiming to use money for good. When we
+  first started talking to Kingdom Bank, the organisation was facing a
+  significant and exciting time of transition. The new owners had ambitious
+  growth plans and the existing Chief Executive was due to retire in the coming
+  months. We were excited to be invited by the Board to work with them to
+  identify the new Chief Executive.
 lead_image: /assets/img/houghton-paul-cropped.png
 date: 2021-01-15T13:43:45.334Z
 case_study:
