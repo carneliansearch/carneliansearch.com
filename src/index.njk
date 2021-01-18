@@ -88,11 +88,15 @@ layout: layouts/home.njk
       </a>
     </div>
 
-    <div>
+    <div class="flex flex-col items-center justify-center">
       {% if case_studies[0].data.case_study.img %}
-      {% blockImage "./src" + case_studies[0].data.case_study.img, case_studies[0].data.case_study.attribution, "(min-width: 30em) 50vw, 25vw", "w-full sticky top-0" %}
+      {% blockImage "./src" + case_studies[0].data.case_study.img,
+        case_studies[0].data.case_study.attribution,
+        "(min-width: 30em) 50vw, 25vw",
+        ""
+      %}
       {% endif %}
-      <small class="text-sm">{{ case_studies[0].data.case_study.attribution }}</small>
+      <small class="mt-4 text-sm">{{ case_studies[0].data.case_study.attribution }}</small>
     </div>
   </div>
 </section>
