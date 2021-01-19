@@ -6,7 +6,7 @@ teaser: Recruiting the next Chief Executive, Chairman or other senior executive
   especially when the requirements are very niche. Sometimes there are only two
   or three people ‘out there’ who are both capable and willing to do the job.
   How will you access those people?
-lead_image: /assets/img/triangles.jpg
+lead_image: /assets/img/untitled.png
 date: 2019-08-16T14:07:19.036Z
 case_study:
   is_case_study: false
