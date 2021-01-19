@@ -3,7 +3,7 @@ title: Have you got the right leaders for this crisis?
 teaser: It’s two months since the UK lockdown began and we’re bracing ourselves
   for an economic recession. For many charities, reserves are running low and
   the future is uncertain. This is a make or break time for many organisations…
-lead_image: /assets/img/pexels-gladson-xavier-59197.png
+lead_image: /assets/img/right-leader.png
 date: 2020-06-01T15:15:30.975Z
 case_study:
   is_case_study: false
