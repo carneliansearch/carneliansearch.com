@@ -4,7 +4,7 @@ teaser: When it comes to the complex issues faced by Boards today, breadth and
   depth of insight, innovation and wisdom are paramount. This level of cognitive
   ability cannot come from any individual alone, rather the wisdom of the team
   is required.
-lead_image: /assets/img/chess-set.jpg
+lead_image: /assets/img/mosaic-diversity.png
 date: 2020-07-09
 case_study:
   is_case_study: false
