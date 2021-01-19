@@ -9,24 +9,16 @@ lead_image: /assets/img/tayo-arikawe.jpg
 date: 2021-01-17T20:54:27.275Z
 case_study:
   is_case_study: true
-  introduction:
-    "Carnelian Search worked with the board of Langham Partnership in
+  introduction: "Carnelian Search worked with the board of Langham Partnership in
     their search for a new International Director.  It was a privilege to work
     with this inspiring and mission-minded group of people. "
   quote: "Without the expert help of Carnelian Search and Allan Beckett in
     particular, we at Langham Partnership would not have found our new
-    International Director, Tayo Arikawe.  We are so grateful to Allan and his
-    team for their skill, careful listening, wise advice and prayerful concern
-    for our needs.  From the very beginning of the process our Search Committee
-    was supported and guided through the process at every step.  Even when we
-    made the difficult decision to put our search on hold for a few months due
-    to COVID 19, Allan was always responsive, understanding, helpful and
-    supportive. Having a large interview panel from six different countries and
-    seven time zones made the arrangement of interview times a big challenge,
-    and it was met each time with patience and good humour.  There is nothing I
-    would change about the way that the search unfolded through each stage and I
-    wholeheartedly recommend Carnelian Search to other organisations in a
-    similar situation. "
+    International Director, Tayo Arikawe... From the very beginning of the
+    process our Search Committee was supported and guided through the process at
+    every step... There is nothing I would change about the way that the search
+    unfolded through each stage and I wholeheartedly recommend Carnelian Search
+    to other organisations in a similar situation. "
   attribution: Jill McGilvray - Chair, International Council, Langham Partnership
   img: /assets/img/jill-headshots-026-edit_websize.png
 ---
