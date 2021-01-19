@@ -3,7 +3,7 @@ title: Why most recruitment is all wrong…
 teaser: This is a deliberately provocative piece on the typical recruitment
   errors; For many organisations, recruitment has become a dull business. Often
   it’s a passive, impersonal and uncreative process…
-lead_image: /assets/img/triangles.jpg
+lead_image: /assets/img/pexels-tom-fisk-1732280.png
 date: 2019-11-06T15:21:39.683Z
 case_study:
   is_case_study: false
