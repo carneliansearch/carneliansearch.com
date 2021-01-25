@@ -27,7 +27,7 @@ npm install
 npm run dev
 ```
 
-## Netlify CMS
+### Netlify CMS
 
 All content is managed via markdown and json files in this repo, however to make the editing simpler and less technical Netlify CMS is configured. From their site:
 
@@ -42,6 +42,12 @@ npm run cms
 Users are authenticated by [Netlify Identity](https://docs.netlify.com/visitor-access/identity/). You can invite new users in Netlify > Identity. (There is a shared team user in the password vault).
 
 If this is running on the free plan, Netlify has a limit of 5 invited users.
+
+### Redirects
+
+If you need to set up redirects, add them to the `_redirects` file. Netlify will parse it and set them up on deploy.
+
+[More information](https://docs.netlify.com/routing/redirects/)
 
 ## Deploy
 

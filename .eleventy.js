@@ -93,6 +93,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/assets/favicon');
   eleventyConfig.addPassthroughCopy('src/assets/core_img');
   eleventyConfig.addPassthroughCopy('src/admin/config.yml');
+  eleventyConfig.addPassthroughCopy('_redirects');
 
   eleventyConfig.addWatchTarget('./src/admin/config.yml');
   eleventyConfig.addWatchTarget('./src/assets/css/tailwind.css');
