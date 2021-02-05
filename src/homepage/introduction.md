@@ -6,7 +6,7 @@ featured_image:
 leadimage: /assets/img/pit-stop.jpg
 sort: 0
 ---
-Finding the right person to take on a leadership position at a charity or social impact organisation is hard. Carnelian Search is a small and focused team dedicated to getting this important job right.
+Finding the right person to take on a leadership position at a charity or social impact organisation is hard. Carnelian Search is a small, focused and mission-driven team dedicated to getting this important job right.
 
 We focus on the appointment of board members, CEOs and their direct reports.
 
