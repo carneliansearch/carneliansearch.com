@@ -10,6 +10,6 @@ Finding the right person to take on a leadership position at a charity or social
 
 We focus on the appointment of board members, CEOs and their direct reports.
 
-We are a small, focused team who take on only a handful of projects at a time, so we can give you the deeply personalised search process that is right for you. Our work is about people, not processes. So we treat each client and every project individually. We take the time to properly understand your team, to ensure we find someone with just the right skills and experience to meet your needs.
+We take on only a handful of projects at a time, so we can give you the deeply personalised search process that is right for you. Our work is about people, not just processes. So we treat each client and every project individually. We take the time to properly understand your team, to ensure we find someone with just the right skills and experience to meet your needs.
 
 If you have never used an executive search company before, we know just how to support you through our tried and tested method. And even if you’ve done this dozens of times, you’ll find Carnelian Search’s bespoke and thorough approach helps us fill even the most challenging position.
