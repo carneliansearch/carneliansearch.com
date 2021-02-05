@@ -1,10 +1,10 @@
 ---
 title: "A global search "
-teaser: The International Director is the most senior executive in the
-  organisation. The role involves overseeing and coordinating Langham’s work
-  globally. It was essential for us to find a leader who was highly skilled in
-  building cross-cultural relationships, coordinating and leading change in a
-  global and matrixed organisation.
+teaser: The International Director of Langham Partnership is the most senior
+  executive in the organisation. The role involves overseeing and coordinating
+  Langham’s work globally. It was essential for us to find a leader who was
+  highly skilled in building cross-cultural relationships, coordinating and
+  leading change in a global and matrixed organisation.
 lead_image: /assets/img/tayo-arikawe.jpg
 date: 2021-01-17T20:54:27.275Z
 case_study:
