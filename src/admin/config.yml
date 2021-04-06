@@ -173,8 +173,12 @@ collections: [
           fields: [
             { label: "Name", name: "name", widget: "string" },
             { label: "Title", name: "title", widget: "string" },
+            { label: "Role", name: "role", widget: "select", options: [
+              { label: "Staff", value: "staff" },
+              { label: "Advisor", value: "advisor" },
+            ], default: "staff" },
             { label: "Image", name: "image", widget: "image", required: false },
-            { label: "Introduction", name: "introduction", widget: "text" },
+            { label: "Introduction", name: "introduction", widget: "text", required: false },
             { label: "Email", name: "email", widget: "string", required: false }
           ]
         }]
