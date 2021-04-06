@@ -1,11 +1,11 @@
 const collections = require("./utilities/collections.js");
 const filters = require("./utilities/filters.js");
+const shortcodes = require("./utilities/shortcodes.js");
+
 const pluginRss = require("@11ty/eleventy-plugin-rss");
-const Image = require("@11ty/eleventy-img");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
-
   eleventyConfig.addPlugin(pluginRss);
 
   // Collections
@@ -18,72 +18,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addFilter(filterName, filters[filterName]);
   });
 
-  // Image Shortcodes
-  eleventyConfig.addNunjucksAsyncShortcode("imageSocial", async function(src) {
-    let metadata = await Image(src, {
-      widths: [1200],
-      formats: ['jpeg'],
-      urlPath: "/assets/img/",
-      outputDir: "./public/assets/img"
-    });
-
-    let data = metadata.jpeg[0];
-    return data.url;
-  });
-
-  eleventyConfig.addNunjucksAsyncShortcode("imageAvatar", async function(src, alt, sizes = "100vw") {
-    if(alt === undefined) {
-      throw new Error(`Missing \`alt\` on imageAvatar from: ${src}`);
-    }
-
-    let metadata = await Image(src, {
-      widths: [64, 128],
-      formats: ['webp', 'jpeg'],
-      urlPath: "/assets/img/",
-      outputDir: "./public/assets/img"
-    });
-
-    let lowsrc = metadata.jpeg[0];
-
-    return `<picture>
-      ${Object.values(metadata).map(imageFormat => {
-        return `  <source type="image/${imageFormat[0].format}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
-      }).join("\n")}
-        <img
-          loading="lazy"
-          src="${lowsrc.url}"
-          width="${lowsrc.width}"
-          height="${lowsrc.height}"
-          alt="${alt}">
-      </picture>`;
-  });
-
-  eleventyConfig.addNunjucksAsyncShortcode("blockImage", async function(src, alt, sizes = "100vw", classes = "w-full") {
-    if(alt === undefined) {
-      throw new Error(`Missing \`alt\` on blockImage from: ${src}`);
-    }
-
-    let metadata = await Image(src, {
-      widths: [320, 640, 800, 1200],
-      formats: ['webp', 'jpeg'],
-      urlPath: "/assets/img/",
-      outputDir: "./public/assets/img"
-    });
-
-    let lowsrc = metadata.jpeg[0];
-
-    return `<picture class="${classes}">
-      ${Object.values(metadata).map(imageFormat => {
-        return `  <source type="image/${imageFormat[0].format}" srcset="${imageFormat.map(entry => entry.srcset).join(", ")}" sizes="${sizes}">`;
-      }).join("\n")}
-        <img
-          loading="lazy"
-          class="${classes}"
-          src="${lowsrc.url}"
-          width="${lowsrc.width}"
-          height="${lowsrc.height}"
-          alt="${alt}">
-      </picture>`;
+  // Shortcodes
+  Object.keys(shortcodes).forEach((shortcodeName) => {
+    eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName]);
   });
 
   // Send the compiled styles straight through
