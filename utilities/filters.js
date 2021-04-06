@@ -4,6 +4,10 @@ module.exports = {
     return collection.find((item) => item.fileSlug === slug);
   },
 
+  peopleByRole: (people, role = 'staff') => {
+      return people.filter((person) => person.role === role);
+  },
+
   protectRunts: (string) => {
     const index = string.lastIndexOf(' ');
     return string.substr(0, index) + '&nbsp;' + string.substr(index + 1);
