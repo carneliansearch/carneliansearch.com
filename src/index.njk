@@ -2,7 +2,6 @@
 layout: layouts/home.njk
 ---
 {%- from "system/component.njk" import component -%}
-
 <header class="home-header p-4 md:p-8 xl:px-0 bg-contain bg-no-repeat">
   <div class="max-w-screen-xl mx-auto">
     {% include 'partials/siteHeader.njk' %}
@@ -185,23 +184,9 @@ layout: layouts/home.njk
       {% set display_number = 2 %}
       {% for i in range(0, display_number) %}
         {% set blog = case_studies[i] %}
-        <a href="{{ blog.url }}" class="block group card">
-          <div class="mb-4 bg-blue w-full h-64 block card__lead_image">
-            {% if blog.data.lead_image %}
-              {% blockImage "./src" + blog.data.lead_image, blog.data.title, "(min-width: 30em) 50vw, 100vw" %}
-            {% endif %}
-          </div>
-
-          <h2 class="px-4 text-lg transition-colors group-hover:text-red">{{ blog.data.title }}</h2>
-          <p class="px-4 leading-loose font-serif transition-colors group-hover:text-blue-light">
-            {{ blog.data.teaser }}
-          </p>
-
-          <div href="{{ blog.url }}" class="ml-4 mt-4 inline-block font-serif p-2 border border-blue transition-colors group-hover:border-red group-hover:text-red">
-            Keep reading
-          </div>
-
-        </a>
+        {{ component('blogCard', {
+          blog: case_studies[i]
+        }) }}
 
       {% endfor %}
     </div>
@@ -235,34 +220,12 @@ layout: layouts/home.njk
 
         <div class="my-4 md:my-8 grid gap-4 sm:grid-cols-2 md:gap-8" x-show.transition.top="parentOpen">
           {% for person in people.person | peopleByRole %}
-            <div class="flex {% if person.introduction %}cursor-pointer group{% endif %}" {% if loop.first %}x-data="{ open: true }"{% else %}x-data="{ open: false }"{% endif %} {% if person.introduction %}@click="open = ! open"{% endif %}>
-
-              <div class="rounded-full h-16 w-16 block overflow-hidden flex-shrink-0 transition-all" :class="{'desaturate-80': open === false }">
-              {% if person.image %}
-                {% imageAvatar "./src/" + person.image, person.name, "(min-width: 30em) 50vw, 25vw" %}
-              {% endif %}
-              </div>
-
-              <div class="mt-2 pl-4 w-full">
-                <h2 class="transition-colors text-lg uppercase border-b mb-1 {% if person.introduction %}group-hover:text-red{% endif %}" {% if person.introduction %}:class="{ 'is-open' : !open , 'is-closed' : open}"{% endif %}>
-                  {{ person.name }}
-                </h2>
-
-                <p class="text-sm text-blue-light">
-                  {{ person.title }}
-                </p>
-
-                {% if person.introduction %}
-                <p class="font-serif leading-loose" x-show.transition.top="open">
-                  {{ person.introduction }}
-                </p>
-                {% endif %}
-              </div>
-
-            </div>
-
+            {{ component('microProfile', {
+              person: person,
+              open: loop.first,
+              showImage: true
+            }) }}
           {% endfor %}
-
         </div>
 
       </div>
