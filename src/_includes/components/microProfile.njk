@@ -1,0 +1,27 @@
+<div class="flex {% if params.person.introduction %}cursor-pointer group{% endif %}" {% if params.open %}x-data="{ open: true }"{% else %}x-data="{ open: false }"{% endif %} {% if params.person.introduction %}@click="open = ! open"{% endif %}>
+
+  {% if params.showImage %}
+  <div class="rounded-full h-16 w-16 block overflow-hidden flex-shrink-0 transition-all" :class="{'desaturate-80': open === false }">
+  {% if params.person.image %}
+    {% imageAvatar "./src/" + params.person.image, params.person.name, "(min-width: 30em) 50vw, 25vw" %}
+  {% endif %}
+  </div>
+  {% endif %}
+
+  <div class="mt-2 w-full{% if params.showImage %} pl-4{% endif %}">
+    <h2 class="transition-colors text-lg uppercase border-b mb-1 {% if params.person.introduction %}group-hover:text-red{% endif %}" {% if params.person.introduction %}:class="{ 'is-open' : !open , 'is-closed' : open}"{% endif %}>
+      {{ params.person.name }}
+    </h2>
+
+    <p class="text-sm text-blue-light">
+      {{ params.person.title }}
+    </p>
+
+    {% if params.person.introduction %}
+    <p class="font-serif leading-loose" x-show.transition.top="open">
+      {{ params.person.introduction }}
+    </p>
+    {% endif %}
+  </div>
+
+</div>

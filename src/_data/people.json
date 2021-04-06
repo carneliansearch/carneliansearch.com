@@ -4,31 +4,81 @@
       "name": "Allan Beckett",
       "title": "Founder & Director",
       "image": "/assets/img/allan-beckett.jpg",
-      "introduction": "Allan is the founder of Carnelian Search. He started his career in executive search at Lygon Group, helping some of the UK’s largest businesses to appoint C-suite executives and Non-Executive Directors. After working in the charity sector, he set up Carnelian with the goal of serving organisations that have a strong charitable or social purpose. He has led on CEO, trustee, and Director-level appointments for a wide range of clients. He has a master’s degree in Physics and Philosophy from the University of Oxford. "
+      "introduction": "Allan is the founder of Carnelian Search. He started his career in executive search at Lygon Group, helping some of the UK’s largest businesses to appoint C-suite executives and Non-Executive Directors. After working in the charity sector, he set up Carnelian with the goal of serving organisations that have a strong charitable or social purpose. He has led on CEO, trustee, and Director-level appointments for a wide range of clients. He has a master’s degree in Physics and Philosophy from the University of Oxford. ",
+      "role": "staff"
     },
     {
       "name": "Jonathan Payne",
       "title": "Consultant",
       "image": "/assets/img/jonathan-payne.jpg",
-      "introduction": "Jonathan was previously at the executive search firm Perrett Laver, where he was part of a growing practice serving schools and other educational organisations. Whilst there, Jonathan led the research for the appointments of Headteachers, Chief Operating Officers and other senior leaders for HMC schools in and outside the UK. He joined the Carnelian team in 2019. He holds a BA in English Language and Literature from the University of Oxford."
+      "introduction": "Jonathan was previously at the executive search firm Perrett Laver, where he was part of a growing practice serving schools and other educational organisations. Whilst there, Jonathan led the research for the appointments of Headteachers, Chief Operating Officers and other senior leaders for HMC schools in and outside the UK. He joined the Carnelian team in 2019. He holds a BA in English Language and Literature from the University of Oxford.",
+      "role": "staff"
     },
     {
       "name": "Alice Maclean",
       "title": "Consultant",
       "image": "/assets/img/alice-maclean.jpg",
-      "introduction": "Alice is passionate about supporting individuals and organisations to realise their full potential. It is this passion that drew her into recruitment straight out of University. Initially Alice worked on graduate level appointments with Mayfair based firm, RMS Recruitment, before later moving into Executive Search with Forrester Partners. Alice joined Macaulay Search in 2011 as a Research Consultant where she worked on Director and Board Level appointments for a variety of charities. She joined the Carnelian team in 2019. Alice read Theology at Durham University and is a qualified Executive Coach."
+      "introduction": "Alice is passionate about supporting individuals and organisations to realise their full potential. It is this passion that drew her into recruitment straight out of University. Initially Alice worked on graduate level appointments with Mayfair based firm, RMS Recruitment, before later moving into Executive Search with Forrester Partners. Alice joined Macaulay Search in 2011 as a Research Consultant where she worked on Director and Board Level appointments for a variety of charities. She joined the Carnelian team in 2019. Alice read Theology at Durham University and is a qualified Executive Coach.",
+      "role": "staff"
     },
     {
       "name": "Siobhan Breslin",
       "title": "Executive Assistant",
       "introduction": "Siobhan joined Carnelian part-time in 2018 to assist with administration. In 2019 she completed her second degree, in Psychology, having obtained her first degree in Business Studies from Nottingham Trent University. She enjoyed a career in corporate benefits before becoming a mother to her three children. Today, she also practices as a mental health counsellor.",
-      "image": "/assets/img/siobhan-breslin.jpg"
+      "image": "/assets/img/siobhan-breslin.jpg",
+      "role": "staff"
     },
     {
       "name": "Andrew Stockbridge",
       "title": "Consultant",
       "image": "/assets/img/andrew-stockbridge.jpg",
-      "introduction": "Andrew was previously CEO of the Christian charity Toybox and Interim CEO of Spurgeons theological college. He has also held senior roles in Scripture Union, YMCA and the Baptist Missionary Society, and has been Board Chairman and Trustee of various charities. Over the last 8 years he has helped with many executive appointments. He joined the Carnelian team in 2018. "
+      "introduction": "Andrew was previously CEO of the Christian charity Toybox and Interim CEO of Spurgeons theological college. He has also held senior roles in Scripture Union, YMCA and the Baptist Missionary Society, and has been Board Chairman and Trustee of various charities. Over the last 8 years he has helped with many executive appointments. He joined the Carnelian team in 2018. ",
+      "role": "staff"
+    },
+    {
+      "role": "advisor",
+      "name": "Charles McLachlan",
+      "title": "Advisor"
+    },
+    {
+      "role": "advisor",
+      "name": "Andrew Barton",
+      "title": "World Vision"
+    },
+    {
+      "role": "advisor",
+      "name": "Ann Saunders",
+      "title": "Wycliffe UK"
+    },
+    {
+      "role": "advisor",
+      "name": "Andy Dipper",
+      "title": "All Nations College"
+    },
+    {
+      "role": "advisor",
+      "name": "Jeremy Marshall",
+      "title": "Chair of the Board, Stewardship"
+    },
+    {
+      "role": "advisor",
+      "name": "Alastair Reid",
+      "title": "General Secretary. TISCA"
+    },
+    {
+      "role": "advisor",
+      "name": "Jill Garret",
+      "title": "Advisor"
+    },
+    {
+      "role": "advisor",
+      "name": "Sir Charles Hoare",
+      "title": "Advisor"
+    },
+    {
+      "role": "advisor",
+      "name": "Nola Leach",
+      "title": "Chief Executive, CARE"
     }
   ]
 }

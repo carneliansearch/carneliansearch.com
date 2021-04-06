@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
 ---
+{%- from "system/component.njk" import component -%}
 
 <header class="home-header p-4 md:p-8 xl:px-0 bg-contain bg-no-repeat">
   <div class="max-w-screen-xl mx-auto">
@@ -223,36 +224,67 @@ layout: layouts/home.njk
         <span class="text-red">4.</span> {{ s.data.title }}
       </h1>
 
-      <div class="simple-text font-serif">
+      <div class="simple-text font-serif mb-4">
         {{ s.templateContent | safe }}
       </div>
-      <div class="my-4 md:my-8 grid gap-4 sm:grid-cols-2 md:gap-8">
-        {% for person in people.person %}
-        <div class="flex cursor-pointer group" {% if loop.first %}x-data="{ open: true }"{% else %}x-data="{ open: false }"{% endif %} @click="open = ! open">
 
-          <div class="rounded-full h-16 w-16 block overflow-hidden flex-shrink-0 transition-all" :class="{'desaturate-80': open === false }">
-          {% if person.image %}
-            {% imageAvatar "./src/" + person.image, person.name, "(min-width: 30em) 50vw, 25vw" %}
-          {% endif %}
-          </div>
+      <div x-data="{ parentOpen: true }">
+        <h2 class="text-red uppercase text-xl border-b mb-1 cursor-pointer hover:text-blue transition-colors" @click="parentOpen = !parentOpen" :class="{ 'is-open' : !parentOpen , 'is-closed' : parentOpen}">
+          Staff
+        </h2>
 
-          <div class="mt-2 pl-4 w-full">
-            <h2 class="transition-colors text-lg uppercase border-b mb-1 group-hover:text-red" :class="{ 'is-open' : !open , 'is-closed' : open}">
-              {{ person.name }}
-            </h2>
+        <div class="my-4 md:my-8 grid gap-4 sm:grid-cols-2 md:gap-8" x-show.transition.top="parentOpen">
+          {% for person in people.person | peopleByRole %}
+            <div class="flex {% if person.introduction %}cursor-pointer group{% endif %}" {% if loop.first %}x-data="{ open: true }"{% else %}x-data="{ open: false }"{% endif %} {% if person.introduction %}@click="open = ! open"{% endif %}>
 
-            <p class="text-sm text-blue-light">
-              {{ person.title}}
-            </p>
+              <div class="rounded-full h-16 w-16 block overflow-hidden flex-shrink-0 transition-all" :class="{'desaturate-80': open === false }">
+              {% if person.image %}
+                {% imageAvatar "./src/" + person.image, person.name, "(min-width: 30em) 50vw, 25vw" %}
+              {% endif %}
+              </div>
 
-            <p class="font-serif leading-loose" x-show.transition.top="open">
-              {{ person.introduction }}
-            </p>
-          </div>
+              <div class="mt-2 pl-4 w-full">
+                <h2 class="transition-colors text-lg uppercase border-b mb-1 {% if person.introduction %}group-hover:text-red{% endif %}" {% if person.introduction %}:class="{ 'is-open' : !open , 'is-closed' : open}"{% endif %}>
+                  {{ person.name }}
+                </h2>
+
+                <p class="text-sm text-blue-light">
+                  {{ person.title }}
+                </p>
+
+                {% if person.introduction %}
+                <p class="font-serif leading-loose" x-show.transition.top="open">
+                  {{ person.introduction }}
+                </p>
+                {% endif %}
+              </div>
+
+            </div>
+
+          {% endfor %}
 
         </div>
-        {% endfor %}
+
       </div>
+
+
+      <div x-data="{ parentOpen: false }">
+        <h2 class="text-red uppercase text-xl border-b mb-1 cursor-pointer hover:text-blue transition-colors" @click="parentOpen = !parentOpen" :class="{ 'is-open' : !parentOpen , 'is-closed' : parentOpen}">
+          Advisors
+        </h2>
+
+        <div class="my-4 md:my-8 grid gap-4 sm:grid-cols-2 md:gap-8" x-show.transition.top="parentOpen">
+          {% for person in people.person | peopleByRole('advisor') %}
+            {{ component('microProfile', {
+              person: person,
+              open: loop.first,
+              showImage: false
+            }) }}
+          {% endfor %}
+        </div>
+
+      </div>
+
     </div>
   </div>
 </section>
