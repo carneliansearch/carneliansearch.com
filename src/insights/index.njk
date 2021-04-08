@@ -9,8 +9,7 @@ pagination:
   reverse: true
 ---
 
-
-{# {% set insights = collections.insights | reverse %} #}
+{%- from "system/component.njk" import component -%}
 
 <header class="home-header p-4 md:p-8 bg-contain bg-no-repeat">
   <div class="max-w-screen-xl mx-auto">
@@ -28,22 +27,9 @@ pagination:
   <div class="max-w-screen-xl mx-auto">
     <div class="grid gap-4 mb-4 md:grid-cols-2 md:gap-8 md:mb-8">
     {% for insight in posts %}
-      <a href="{{ insight.url }}" class="block group card">
-        <div class="mb-4 bg-blue w-full h-64 block card__lead_image">
-          {% if insight.data.lead_image %}
-            {% blockImage "./src" + insight.data.lead_image, insight.data.title, "(min-width: 30em) 50vw, 100vw" %}
-          {% endif %}
-        </div>
-
-        <h2 class="px-4 text-lg transition-colors group-hover:text-red">{{ insight.data.title }}</h2>
-        <p class="px-4 leading-loose font-serif transition-colors group-hover:text-blue-light">
-          {{ insight.data.teaser }}
-        </p>
-
-        <div href="{{ blog.url }}" class="ml-4 mt-4 inline-block font-serif p-2 border border-blue transition-colors group-hover:border-red group-hover:text-red">
-          Keep reading
-        </div>
-      </a>
+      {{ component('blogCard', {
+        blog: insight
+      }) }}
     {% endfor %}
     </div>
 
