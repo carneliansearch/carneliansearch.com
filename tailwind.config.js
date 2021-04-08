@@ -31,6 +31,7 @@ module.exports = {
     fontFamily: {
       sans: ['Futura', 'Arial', 'sans-serif'],
       serif: ['Playfair Display', 'serif'],
+      mono: ['Space Mono'],
     },
     screens: {
       'xs': '400px',
@@ -49,7 +50,6 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            fontFamily: theme('fontFamily.serif'),
             a: {
               color: theme('colors.red.DEFAULT'),
             }
