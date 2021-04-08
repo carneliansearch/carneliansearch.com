@@ -37,33 +37,13 @@
     },
     {
       "role": "advisor",
-      "name": "Charles McLachlan",
-      "title": "Executive coach and founder of the CEO Growth Academy"
-    },
-    {
-      "role": "advisor",
       "name": "Andrew Barton",
       "title": "Fundraising and strategy consultant"
     },
     {
       "role": "advisor",
-      "name": "Ann Saunders",
-      "title": "Director for People at Wycliffe UK"
-    },
-    {
-      "role": "advisor",
       "name": "Andy Dipper",
       "title": "Principal and CEO at All Nations College"
-    },
-    {
-      "role": "advisor",
-      "name": "Jeremy Marshall",
-      "title": "Previous CEO at C. Hoare & Co private bank; board chair and trustee"
-    },
-    {
-      "role": "advisor",
-      "name": "Alastair Reid",
-      "title": "General Secretary TISCA and previous Headteacher"
     },
     {
       "role": "advisor",
@@ -79,6 +59,26 @@
       "role": "advisor",
       "name": "Nola Leach",
       "title": "Chief Executive, CARE"
+    },
+    {
+      "role": "advisor",
+      "name": "Jeremy Marshall",
+      "title": "Previous CEO at C. Hoare & Co private bank; board chair and trustee"
+    },
+    {
+      "role": "advisor",
+      "name": "Charles McLachlan",
+      "title": "Executive coach and founder of the CEO Growth Academy"
+    },
+    {
+      "role": "advisor",
+      "name": "Alastair Reid",
+      "title": "General Secretary TISCA and previous Headteacher"
+    },
+    {
+      "role": "advisor",
+      "name": "Ann Saunders",
+      "title": "Director for People at Wycliffe UK"
     }
   ]
 }
