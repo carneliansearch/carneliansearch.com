@@ -1,5 +1,5 @@
 ---
-title: "A global search "
+title: "A Global Search "
 teaser: The International Director of Langham Partnership is the most senior
   executive in the organisation. The role involves overseeing and coordinating
   Langham’s work globally. It was essential for us to find a leader who was
