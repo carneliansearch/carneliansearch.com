@@ -5,7 +5,7 @@ teaser: "Spurgeons cares for some of the most vulnerable children in the UK and
   were honoured to be asked by the Chair to support the Board in recruiting
   three new Trustees. "
 lead_image: /assets/img/mountain-2.jpg
-date: 2021-04-19T07:05:25.722Z
+date: 2021-01-10T17:07:54.963Z
 case_study:
   is_case_study: true
   quote: I am very grateful to Carnelian for their very helpful and professional
