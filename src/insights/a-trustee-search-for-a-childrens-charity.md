@@ -17,7 +17,7 @@ case_study:
     recruiting three new Trustees. We already had a good knowledge of the
     organisation, and we were pleased that the search also resulted in a
     significant improvement in the diversity of the Board.
-  img: /assets/img/pexels-pixabay-39369-copy.jpg
+  img: /assets/img/spurgeons.png
 ---
 Spurgeons is a national children’s charity, founded in 1867 by the prominent Christian preacher, Charles Spurgeon. It cares for some of the most vulnerable children in the UK and remains motivated by a Christian faith. The work is vitally important, and we were honoured to be asked by the Chair to support the Board in recruiting three new Trustees. We already had a good knowledge of the organisation, having run a search which led to the appointment of two trustees a couple of years previously.
 
