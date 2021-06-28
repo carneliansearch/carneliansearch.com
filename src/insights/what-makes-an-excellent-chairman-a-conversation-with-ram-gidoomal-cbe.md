@@ -7,7 +7,7 @@ teaser: To help us think about this question, we recently had a conversation
   England and Wales. We wanted to listen to the wisdom that Ram has developed
   over many years of chairing boards both in the profit and not-for-profit
   sectors. What follows is a summary of parts of our conversation.
-lead_image: /assets/img/ram-gidoomal.jpg
+lead_image: /assets/img/untitled.png
 date: 2021-06-04T17:01:33.938Z
 case_study:
   is_case_study: false
