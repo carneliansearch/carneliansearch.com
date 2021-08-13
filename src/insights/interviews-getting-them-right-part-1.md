@@ -20,9 +20,9 @@ But everyone “knows talent when they see it”, don’t they? Is it really wor
 
 **Time for talent**
 
-Securing and retaining the best talent is a common theme to all stories of success. One well-known headhunter specialising in tech suggests a rebrand of the CEO as CTO or “Chief Talent Officer”. On attracting the cream of the crop, he writes: “that is your number one goal as a leader: to get as much talent to your side as possible.”[](#_ftn1)
+Securing and retaining the best talent is a common theme to all stories of success. One well-known headhunter specialising in tech suggests a rebrand of the CEO as CTO or “Chief Talent Officer”. On attracting the cream of the crop, he writes: “that is your number one goal as a leader: to get as much talent to your side as possible.”(1)[](#_ftn1)
 
-It would appear that many business leaders agree, both in theory and in practice. A 2018 Harvard Business Review study found that successful CEOs in US-based public companies commit 25% of their time to developing leadership pipelines – their joint largest single investment of time along with functional and business unit reviews.[](#_ftn2)  Anecdotally, Bill Gates was said to spend half his working hours travelling to and conducting interviews with future Microsoft leaders. Jack Welch, the controversial former CEO and Chairman of GE remarked that at heart the success of his organisation lay in:
+It would appear that many business leaders agree, both in theory and in practice. A 2018 Harvard Business Review study found that successful CEOs in US-based public companies commit 25% of their time to developing leadership pipelines – their joint largest single investment of time along with functional and business unit reviews. (2)[](#_ftn2)  Anecdotally, Bill Gates was said to spend half his working hours travelling to and conducting interviews with future Microsoft leaders. Jack Welch, the controversial former CEO and Chairman of GE remarked that at heart the success of his organisation lay in:
 
 *“…the global recruiting and nurturing of the world’s best people... By finding, challenging and rewarding these people… we have seen them make us better and better every year.”*
 
@@ -42,6 +42,6 @@ Celebrated leaders value talent, working carefully and extensively on interviews
 
 *\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__*
 
-1. P69, Jeffrey E. Christian “The Headhunter’s Edge”. 
+(1) P69, Jeffrey E. Christian “The Headhunter’s Edge”. 
 
-2. How CEOs Manage Time (hbr.org)
+(2) How CEOs Manage Time (hbr.org)
