@@ -5,7 +5,7 @@ teaser: As search professionals, our work is a little bit like a scene from the
   digging through the soil of people’s work, lives and character to determine
   the strength of what lies beneath the surface. Our meetings are planned,
   methodical, nuanced and detailed.
-lead_image: /assets/img/picture-1.jpg
+lead_image: /assets/img/pexels-lukas-296230-copy.jpg
 date: 2021-08-09T16:15:21.555Z
 case_study:
   is_case_study: false
