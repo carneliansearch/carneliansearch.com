@@ -38,6 +38,10 @@ Celebrated leaders value talent, working carefully and extensively on interviews
 
 *Take trusted advice*: a good search firm or professional will function as trusted advisor on leadership recruitment and will be able to demonstrate their interview expertise. It’s worth finding the right one.
 
-
-
 *Pt 2 to follow.*
+
+*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__*
+
+1. P69, Jeffrey E. Christian “The Headhunter’s Edge”. 
+
+2. How CEOs Manage Time (hbr.org)
