@@ -1,0 +1,41 @@
+---
+title: 60 seconds with Revd Dr Justyn Terry
+teaser: Revd Dr Justyn Terry is the Vice-Principal of Wycliffe Hall at the
+  University of Oxford. Prior to this, he was Principal of Trinity School for
+  Ministry in Pittsburgh, USA. He began his career working for Philips, before
+  training as a vicar and pastoring St Helen’s North Kensington. He has recently
+  published a second edition of his book The Five Phases of Leadership.
+lead_image: /assets/img/untitled.png
+date: 2021-09-23T12:25:37.562Z
+case_study:
+  is_case_study: false
+---
+**What attracted you to writing about leadership?**
+
+I’ve always been interested in leadership, but it was my experience as a vicar and then as Principal of Trinity that prompted me to write about it. Whilst on the  staff at Trinity, I was asked to teach a pastoral theology class on my leadership of St Helen’s Church. Initially, I was thrilled to be asked to do this, but it was hard to summarise six years in one morning!  I wanted to think through what I had learnt and put it into a format that would best serve someone about to do something similar. At the same time, I was giving short talks after chapel services on the micro-skills of leadership and management – vision setting, conflict resolution etc. This combination of the leadership lecture and the micro-skills talks led to the first edition of the book. I wrote it under some time constraints, because we were moving back to the UK and I wanted to get it to the students before I left. In the last year, I have had the chance to revise it with the feedback I got on the first edition, and to include more material to make it suitable for an international audience.
+
+**For those who have not yet read your book, would you give us a brief outline of *The Five Phases of Leadership*?**
+
+The book sets out the five phases leaders typically experience when they are leading. The first thing a leader has to do is to establish trust. People want to know you. Just issuing edicts is not going to get the job done. Once you’ve begun to build trust, and you’ll never finish doing that, you need to be looking out for potential leaders – this is the second phase. People will already be in leadership, and some may be doing well, and others might not be doing so well. You may also meet people who aren’t currently leading, but you think should be in leadership roles. Getting the right leaders in the right positions is obviously delicate work, but it’s an important part of the job. You could also be thinking through how you cultivate leaders. Any organisation should be a garden for growing leaders. And as you do this, you’ll notice the people who are the most proficient leaders and through this you will be able to build a senior leadership team.
+
+Then comes the third phase: discerning vision. Sometimes you’re asked at interview what your vision is for your new role, but it’s better to ask about vision from the previous role, because you don’t want to cast a vision without knowing the organisation. Every leader will have some sense of a vision for the church or organisation they lead, but they often don’t spell it out. It can feel rather mundane to do so, but it’s actually gold dust because it brings others on board with what you are doing. People don’t know where the church or organisation is going unless you share it with them. Once you’ve got a vision, you can then ask: How are we going to get there? Or you could get to the same answer another way by asking: Why are we here? These questions help you discern your purpose. And then finally, you can work out your core values – the values that are most crucial to the organisation and which help others to understand you better. Once vision, purpose and core values are agreed it gives you a framework for decision making.
+
+The fourth phase is implementing plans to achieve that vision. Everyone needs to know what they have to do on Monday morning to make the vision a reality. This is where you’ve got to know how to manage people, money and time. In lots of Christian leadership circles, not much attention is paid to these three things, because it is assumed that we know enough about them. But that isn’t a safe assumption in my view. So in the book, I try to lay out the basics of these management skills.
+
+And then, phase five, is transitioning out. It is important to do this well. If you leave too early, say in the first three years when it can be pretty tough, you may miss out on things getting better after that. So ideally you should only leave then if you’re convinced you must. Nor do you want to stay too long and fail to maintain momentum. We hear too many stories about people having to be forced out, because they just didn’t want to move on when it would be better if they did. So how do you discern the time to leave? That’s what the last chapter is all about.
+
+**Which chapter was the hardest to write?**
+
+I think it was the one about transitioning out of leadership, because it’s the one about which least is said, and fewest books are written. You’ve got to be thinking from the beginning about what you’re going to leave behind when you go. Leaders don’t want to see a church or organisation they have led go downhill when they move on. Some might think ‘That shows they really needed me’, but what it might show instead is that you didn’t leave well.
+
+**What do you think are the most common mistakes Christian leaders make?**
+
+I think we are more influenced by society than we like to think – we’re not as Christian as we ought to be. It’s easy to have a sneaking suspicion that you’re going to have to do what the world is doing to get some things done. For example, to think ‘I’m going to have to be more aggressive to get this to happen’. There can be a sense that the servant leadership approach sounds a bit weak. Is it really going to work in the real world?
+
+One of the joys of these years of leadership has been seeing the realisation of how effective servant-leadership is in different settings, and discovering that the best leaders are generally not the ones who are most aggressive. In fact, we probably don’t know the names of the best leaders in the world today, because they are humble and mission-focussed, as Jim Collins shows in *Good to Great*. This is no surprise to Christians! I think it’s important to see that Christian principles do work in leadership. God does guide, and God does provide. And there is never a time when to do lead well you need to act in an un-Christlike manner.
+
+***The Five Phases of Leadership* stresses both the importance of character and process, which is something that we’re passionate about at Carnelian. Why do you think Christians sometimes find it hard to hold faith and professionalism in good balance?**
+
+To me it’s about wanting to do two things well – to trust God, and to do what is necessary, and they are hard to balance. As a leader you have to do keep in mind both the process and the pastoring, the working and the trusting. For example, some people find writing a job description very dreary – I find it very dreary, but if I don’t do it, how are candidates going to know what they’re supposed to do? We can frustrate people by asking them to do something without really telling them what it is, and without instruction or a review process, so they get little idea of their success or failure. We’ve got to get away from an attitude which suggests that recruiting employees or getting volunteers is about plugging holes. We should be thinking about what gifts individuals offer and how best to engage them. And I don’t think we are developing enough leaders at the moment, and we’re missing out on some exciting possibilities as a result. So, in the end, professionalism is part of exercising our faith in Christ. Godly character should be expressed in the diligent work done by Christian leaders.
+
+You can purchase a copy of *The Five Phases of Leadership* [here](https://www.eden.co.uk/christian-books/the-church/pastoral/the-five-phases-of-leadership-an-overview-for-christian-leaders-revised-and-expanded-edition/#descriptionSection).
