@@ -45,3 +45,13 @@ Celebrated leaders value talent, working carefully and extensively on interviews
 (1) P69, Jeffrey E. Christian “The Headhunter’s Edge”. 
 
 (2) How CEOs Manage Time (hbr.org)
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
+
+*This piece was written by Jonathan, one of the consultants on our team at Carnelian.* 
+
+Other posts by Jonathan include:
+
+[Interviews: Getting Them Right (Pt2)](https://carneliansearch.com/insights/interviews-getting-them-right-part-2/)
