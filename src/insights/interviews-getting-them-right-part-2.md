@@ -43,3 +43,13 @@ Ensure that the candidate gets ample time to ask you questions or make comments 
 We strongly advise against interviewing solo, and as a rule look to conduct all of our meetings with candidates with two members of our team. There’s always a risk that without doing this, a simple and avoidable personality clash might put either candidate or interviewer off.
 
 If you are running a multi-stage process (and you should) then consider bringing in different personnel at different points, ensuring you hear as many different views on the candidate as possible.
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
+
+*This piece was written by Jonathan, one of the consultants on our team at Carnelian.*  
+
+Other posts by Jonathan include:  
+
+[Interviews: Getting Them Right (Part 1)](https://carneliansearch.com/insights/interviews-getting-them-right-part-1/)
