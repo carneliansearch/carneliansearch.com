@@ -43,3 +43,7 @@ But will period leave actually help the women in your employ? At Carnelian, weâ€
 6.<https://www.independent.co.uk/life-style/health-and-families/period-leave-menstruation-work-employment-uk-women-a6905426.html>, <https://www.bbc.com/future/article/20180806-how-the-menstrual-cycle-changes-womens-brains-every-month> Â 
 
 7.<https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/employmentandemployeetypes/articles/womeninthelabourmarket/2013-09-25>
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+*This piece was written by Abi, our Research Associate.*
