@@ -1,0 +1,48 @@
+---
+title: Case Studies
+layout: layouts/base.njk
+eleventyExcludeFromCollections: true
+pagination:
+  data: collections.case_studies
+  size: 6
+  alias: posts
+  reverse: true
+---
+
+{%- from "system/component.njk" import component -%}
+
+<header class="home-header p-4 md:p-8 bg-contain bg-no-repeat">
+  <div class="max-w-screen-xl mx-auto">
+
+    {% include 'partials/siteHeader.njk' %}
+
+    <div class="mx-auto md:text-center lg:w-2/3 lg:px-8">
+      <h1 class="uppercase text-2xl mb-4">Case Studies from <span class="text-red">Carnelian</span> Search</h1>
+      <p class="text-xl font-serif mb-4 md:mb-8">We are proud of our track record in finding outstanding directors and senior staff for dozens of charities and social enterprises since we were founded.</p>
+    </div>
+  </div>
+</header>
+
+<main class="bg-white-pure text-blue p-4 md:p-8">
+  <div class="max-w-screen-xl mx-auto">
+    <div class="grid gap-4 mb-4 md:grid-cols-2 md:gap-8 md:mb-8">
+    {% for case_study in posts %}
+      {{ component('blogCard', {
+        blog: case_study
+      }) }}
+    {% endfor %}
+    </div>
+
+    {% if pagination.href.previous or pagination.href.next %}
+    <nav aria-labelledby="case_study-pagination" class="border-t border-b my-4 py-4 text-center md:my-8 md:py-8">
+      <p id="case_study-pagination" class="uppercase text-lg mb-4">There are more case studies from <span class="text-red">Carnelian</span>&nbsp;Search to&nbsp;read…</p>
+      <ol>
+        {% if pagination.href.previous %}<li class="inline"><a href="{{ pagination.href.previous }}" class="inline-block font-serif p-2 border border-blue transition-colors hover:border-red hover:text-red">Previous page</a></li>{% endif %}
+        {% if pagination.href.next %}<li class="inline"><a href="{{ pagination.href.next }}" class="inline-block font-serif p-2 border border-blue transition-colors hover:border-red hover:text-red">Next page</a></li>{% endif %}
+      </ol>
+    </nav>
+    {% endif %}
+
+    {% include 'partials/mailingList.njk' %}
+  </div>
+</main>
