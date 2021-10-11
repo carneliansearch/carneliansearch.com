@@ -23,6 +23,14 @@ layout: layouts/base.njk
   {{ content | safe }}
   </article>
 
+  {% if case_study.is_case_study %}
+    <div class="flex items-center justify-center mb-4 md:mb-8">
+      <a href="/casestudies" class="ml-4 mt-4 inline-block font-serif p-2 border border-white transition-colors hover:border-red hover:text-red">
+      View More Case Studies
+      </a>
+    </div>
+  {% endif %}
+
   <div class="max-w-screen-xl mx-auto">
     {% include 'partials/mailingList.njk' %}
   </div>
