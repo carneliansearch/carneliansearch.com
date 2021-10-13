@@ -1,5 +1,5 @@
 ---
-title: A Trustee Search for a Children's Charity
+title: Board members appointed at Spurgeons children's charity
 teaser: "Spurgeons cares for some of the most vulnerable children in the UK and
   remains motivated by a Christian faith. The work is vitally important, and we
   were honoured to be asked by the Chair to support the Board in recruiting
