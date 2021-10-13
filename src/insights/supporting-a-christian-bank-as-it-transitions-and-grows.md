@@ -1,5 +1,5 @@
 ---
-title: Supporting a bank as it transitions and grows
+title: Paul Houghton appointed as Chief Executive of Kingdom Bank
 teaser: Kingdom Bank is a Christian bank, aiming to use money for good. When we
   first started talking to Kingdom Bank, the organisation was facing a
   significant and exciting time of transition. The new owners had ambitious
@@ -10,8 +10,7 @@ lead_image: /assets/img/paul-houghton.jpg
 date: 2021-01-15T13:43:45.334Z
 case_study:
   is_case_study: true
-  quote:
-    "“Allan and the Carnelian team have been hugely valuable to Kingdom Bank
+  quote: "“Allan and the Carnelian team have been hugely valuable to Kingdom Bank
     in filling two key leadership positions.  They took the time to understand
     our peculiar regulatory needs, they left no stone unturned in identifying
     all potential candidates, they provided all the support we had hoped for,
@@ -20,8 +19,7 @@ case_study:
     needed to get the job done – a reassuring and successful combination.” "
   attribution: "Paul Houghton, CEO Kingdom Bank "
   img: /assets/img/houghton-paul-cropped.png
-  introduction:
-    "The Carnelian Team conducted two critical searches in support of
+  introduction: "The Carnelian Team conducted two critical searches in support of
     Kingdom Bank, assisting them in appointing a new CEO and CRO. "
 ---
 
