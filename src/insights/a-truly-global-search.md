@@ -1,5 +1,5 @@
 ---
-title: "A Global Search "
+title: Tayo Arikawe appointed as International Director of Langham Partnership
 teaser: The International Director of Langham Partnership is the most senior
   executive in the organisation. The role involves overseeing and coordinating
   Langham’s work globally. It was essential for us to find a leader who was
