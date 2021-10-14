@@ -18,7 +18,7 @@ case_study:
     the CEO’s increasing focus on the international expansion of the ministry. A
     versatile leader was required to oversee a product-focussed team and take
     responsibility for all aspects of the ministry in the UK.
-  img: /assets/img/ian-roberts-picture-copy-2.png
+  img: /assets/img/ian-roberts-picture.png
 ---
 Kay Carter has been appointed as UK National Director of Christianity Explored Ministries. Kay leaves her role as Vice Principle for Strategy and Communications at Tyndale House to take up this position in summer 2021.
 
