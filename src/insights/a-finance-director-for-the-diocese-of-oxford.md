@@ -2,7 +2,7 @@
 title: A Finance Director for the Diocese of Oxford
 teaser: In 2020 Carnelian was privileged to run a search for a new Finance
   Director for the Diocese of Oxford.
-lead_image: /assets/img/lead-background-red.png
+lead_image: /assets/img/lead-background-red.jpg
 date: 2021-01-12T10:32:59.309Z
 case_study:
   is_case_study: true
