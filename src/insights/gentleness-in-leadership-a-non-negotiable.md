@@ -19,11 +19,11 @@ But how to spot these patterns of behaviour? And conversely, what are the traits
 
 **False shepherds** 
 
-I’ve recently been listening to a sobering podcast produced by Mike Cosper at Christianity Today – “The Rise and Fall of Mars Hill”.(1) It’s a detailed and nuanced investigation into the story of Mark Driscoll, whose dramatic fall from grace as the Pastor of Mars Hill Church in Seattle was a big story in 2014, as were his various abuses of power which in the years since have come to light. Here’s a quote the podcast returns to, which Driscoll made in 2012 when discussing the growth of the church, in the presence of his congregation: 
+I’ve recently been listening to a sobering podcast produced by Mike Cosper at Christianity Today – “The Rise and Fall of Mars Hill”.([1](https://www.christianitytoday.com/ct/podcasts/rise-and-fall-of-mars-hill/)) It’s a detailed and nuanced investigation into the story of Mark Driscoll, whose dramatic fall from grace as the Pastor of Mars Hill Church in Seattle was a big story in 2014, as were his various abuses of power which in the years since have come to light. Here’s a quote the podcast returns to, which Driscoll made in 2012 when discussing the growth of the church, in the presence of his congregation: 
 
 “There is a pile of dead bodies behind the Mars Hill bus, and by God’s grace, it’ll be a mountain by the time we’re done.”  
 
-The audacity of that statement is stunning, particularly when you consider that Driscoll positioned himself as a Pastor on a crusade against abusive men within the church(2). But what’s scarier is how the congregation laugh at and applaud Driscoll as he delivers it. He is describing various groups of people who provide challenge to his decision making (which he conflates with the mission of the church) and the metaphorical death they’ve endured in that community. 
+The audacity of that statement is stunning, particularly when you consider that Driscoll positioned himself as a Pastor on a crusade against abusive men within the church. ([2](<https://www.youtube.com/watch?app=desktop&v=WKHnJyxGtQk)>)) But what’s scarier is how the congregation laugh at and applaud Driscoll as he delivers it. He is describing various groups of people who provide challenge to his decision making (which he conflates with the mission of the church) and the metaphorical death they’ve endured in that community. 
 
 Another example comes in a report into abuse in the UK by thirtyone:eight. The independent review body summarised an article covering an earlier investigation into the person who had been accused of abusive behaviour as follows: 
 
