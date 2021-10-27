@@ -4,7 +4,7 @@ teaser: Christianity Explored Ministries (CEM) exists to help people meet Jesus
   in the pages of Scripture so that they love, live and tell the Good News. The
   ministry produces a range of resources which introduce Jesus Christ to those
   unfamiliar with his message.
-lead_image: /assets/img/kay-carter.jpg
+lead_image: /assets/img/kay-carter-updated.jpg
 date: 2021-10-14T18:27:00.903Z
 case_study:
   is_case_study: true
