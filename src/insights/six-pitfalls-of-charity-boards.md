@@ -22,3 +22,7 @@ It takes courage and effort to steward the growth and development of any charity
 **A poorly supported chair:** We would highly recommend that all charities consider creating a nominations committee to keep track of trustee terms, skills gaps, candidate suggestions etc. This can significantly reduce the burden of trustee recruitment which may otherwise fall heavily upon the chair. Charities operating in this way experience less stress around trustee recruitment, are better at succession planning, and more effectively make use of the personal networks of all trustees, rather than just the chairs.
 
 **Recruiting exclusively from personal networks:** Research by the Charity Commission has shown that whilst the traditional methods of trustee recruitment are still widely used (personal recommendation and word of mouth), they are not necessarily the most effective ways of finding the best people. Today a number of Executive Search firms are developing creative and economically efficient ways of supporting charities to strengthen their boards. It is worth getting in touch to explore what the options might be.
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+*This piece was written by Alice, one of the consultants on our team at Carnelian.*
