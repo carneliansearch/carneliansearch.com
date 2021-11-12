@@ -44,6 +44,11 @@
     },
     {
       "role": "advisor",
+      "name": "Simon Barrington",
+      "title": "Founder of Forge Leadership and previous CEO of Samaritan’s Purse"
+    },
+    {
+      "role": "advisor",
       "name": "Andrew Barton",
       "title": "Fundraising and strategy consultant"
     },
@@ -89,8 +94,8 @@
     },
     {
       "role": "advisor",
-      "name": "Simon Barrington",
-      "title": "Founder of Forge Leadership and previous CEO of Samaritan’s Purse"
+      "name": "Tayo Arikawe",
+      "title": "International Director, Langham Partnership"
     }
   ]
 }
