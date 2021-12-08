@@ -10,8 +10,6 @@ date: 2021-12-08T12:04:12.089Z
 case_study:
   is_case_study: false
 ---
-
-
 I joined Carnelian Search at Easter and I'm relatively new to the industry. I was approached by Allan to join the team at Carnelian because they wanted a researcher to come on board and help to bear the weight of searches. The last eight months have involved coming to understand search, the charity sector, charity governance and getting to know a new team. All of these things have been rewarding, and encouraged by my colleagues to reflect on what I’ve learned since joining, here are three observations, offered from a recent outsider on recruitment, leadership and the charity world. None of them are new, but I hope they offer insight into the inner workings of our search practice and the excellence in people we pursue for our clients.
 
 ## In leadership, emotional intelligence is imperative
@@ -31,3 +29,13 @@ This point was made to me by my colleagues very early on in my induction process
 This goes not only for building strong teams for our clients, but it’s true in house as well. Sometimes we disagree over a candidate. One of us thinks they’re not of sufficient quality to be included in our longlist, another person thinks that there’s a glimmer of potential. One of us thinks that candidate X should be shortlisted by the client, another thinks candidate Y is better. These disagreements on our team are fruitful for us – they force each of us to justify our opinions, and they can be valuable when clients ask for our opinion. They also show that we engage with people *as* people – not everyone clicks with everyone, and this is why we will go to great lengths to ensure that at least two of us are present for every interview. The same is true of decisions taken by executives and boards generally – unity and agreement are not the same thing. We recently spent some time thinking about governance models, in particular the Carver model. John Carver describes that boards should have ‘impassioned discussions about the changes they can produce’ whilst also being clear that the board should speak with one voice. In other words, they should sometimes disagree, bump heads, and yet be unified. This requires cognitively diverse boards and executive teams – if everyone thinks the same, you’ll miss out on perspectives and insights that are invaluable and lead to stronger, wiser decisions, all for the sake of the mission.
 
 Being on the team at Carnelian has opened my eyes to the complexity of charities, but also the joy of making good appointments and decisions. It’s helped me in my own thinking in various areas, including how I serve UCCF as a trustee. I look forward to seeing more charities blessed by excellent leaders who prize empathy, have a firm grasp of detail, and foster diverse ways of thinking.
+
+
+
+*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__*
+
+*This piece was written by Abi, our Research Associate.* 
+
+Other posts by Abi include:  
+
+[Productivity and Flexibility: Would period leave benefit your female employees?](http://productivity-and-flexibility-would-period-leave-benefit-your-female-employees/)
