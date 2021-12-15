@@ -1,5 +1,5 @@
 ---
-title: 60 seconds with Laura Treneer
+title: A conversation with Laura Treneer
 teaser: Allan talks to Laura Treneer who was Chief Executive at CPO (Christian
   Publishing & Outreach), is on the board of Global Connections, and is now a
   consultant with Frank Analysis Ltd, about lessons from leadership, remote
