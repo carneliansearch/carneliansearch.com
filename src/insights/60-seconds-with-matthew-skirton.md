@@ -1,5 +1,5 @@
 ---
-title: 60 seconds with Matthew Skirton
+title: A conversation with Matthew Skirton
 teaser: We talk with Matthew Skirton, who took on the role of UK Chief Executive
   of OM in 2016, about sabbaticals and successful leadership
 lead_image: /assets/img/60-second-matthew.jpg
