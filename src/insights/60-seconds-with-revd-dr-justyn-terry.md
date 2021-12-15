@@ -1,5 +1,5 @@
 ---
-title: 60 seconds with Revd Dr Justyn Terry
+title: A conversation with Revd Dr Justyn Terry
 teaser: Revd Dr Justyn Terry is the Vice-Principal of Wycliffe Hall at the
   University of Oxford. Prior to this, he was Principal of Trinity School for
   Ministry in Pittsburgh, USA. He began his career working for Philips, before
