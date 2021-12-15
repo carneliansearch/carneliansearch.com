@@ -30,12 +30,10 @@ This goes not only for building strong teams for our clients, but it’s true in
 
 Being on the team at Carnelian has opened my eyes to the complexity of charities, but also the joy of making good appointments and decisions. It’s helped me in my own thinking in various areas, including how I serve UCCF as a trustee. I look forward to seeing more charities blessed by excellent leaders who prize empathy, have a firm grasp of detail, and foster diverse ways of thinking.
 
-
-
 *\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__*
 
 *This piece was written by Abi, our Research Associate.* 
 
 Other posts by Abi include:  
 
-[Productivity and Flexibility: Would period leave benefit your female employees?](http://productivity-and-flexibility-would-period-leave-benefit-your-female-employees/)
+[Productivity and Flexibility: Would period leave benefit your female employees?](https://carneliansearch.com/insights/productivity-and-flexibility-would-period-leave-benefit-your-female-employees/)
