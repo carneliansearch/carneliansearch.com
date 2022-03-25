@@ -1,5 +1,5 @@
 ---
-title: "A Conversation with Frankie Knight: attracting and supporting young trustees"
+title: "A conversation with Frankie Knight: attracting and supporting young trustees"
 teaser: Frankie has been a trustee of TISCA (The Independent Schools Christian
   Alliance) for 10 years. She is also on the Council of Dean Close School in
   Cheltenham. As a millennial on boards, we were interested in her experience as
