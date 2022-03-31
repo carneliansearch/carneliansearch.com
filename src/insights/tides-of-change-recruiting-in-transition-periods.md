@@ -40,25 +40,3 @@ It has always been true that flexibility regarding salary and location enable be
 We are often struck how many organisations adopt a ‘convince us you’re right for the job’ attitude when recruiting leaders. The best candidates must be woo-ed into joining your organisation. The posture of the hiring organisation should be the same as when recruiting a major donor, i.e. not ‘convince us’ but ‘let us convince you to invest in us’. Interviews are not exams; they are two-way conversations.
 
 This may change how the assessment process is structured. For example, one client we have worked with recently asked candidates to deliver a presentation on the interview day, but only after the CEO had delivered a presentation to the candidates.
-
- 
-
-\-------
-
- 
-
-***The Appeal of Ambiguity***
-
-*The past two years have caused a lot of upheaval across different sectors and prompted lots of charities to evaluate many of the assumptions that they have taken for granted. This extends beyond the need for an office or flexible working arrangements – we’ve worked with a number of charities who have asked themselves much bigger questions about their mission, vision and overall strategy.*
-
-*While such questions can be a little unnerving for those within an organisation, an appetite for change can give real impetus to a search for new leadership. The most thoughtful and creative leaders are drawn to opportunities for increased reach or impact and find open-minded boards the most appealing to work with.*
-
-*If you’re reassessing your charity or ministry and find yourselves asking existential questions about it, know that this could be the most opportune moment to bring on new talent, particularly at the top of your organisation.*
-
-
-
-***The Primacy of Preparation***
-
-*As the need for a new leader emerges, it’s tempting to jump straight into a recruitment process. A keen awareness of the problems you’re facing, and the gulf left by the outgoing leader encourages urgency. Sometimes, a speedy, permanent appointment is the right move, but on other occasions restraint should be exercised to allow bigger questions about the role and organisation to be asked.* 
-
-*For the right appointment to be made, the role for which you’re hunting for needs to be carefully defined. It’s less a question of the details, but more of consolidating the key deliverables and the kind of skillset and character best suited. Doing work in-house before commencing a formal search process of any kind, the faster we can get going on finding the best person to take your mission forwards. Being honest about the ambiguity and being willing to hear difficult questions about the role in briefings will all aid the process of finding exactly the right kind of leader.*
