@@ -11,7 +11,7 @@ case_study:
 ---
 **How well prepared did you feel when you started as a trustee?**
 
-I felt very well supported – but this is different to feeling well-prepared. Both TISCA and Dean Close went out of their way to have face to face conversations with me, to explain why I’d been considered. I think in the back of their minds they knew that I was young and low in confidence, so the personal, relational reassurance and backing was completely there and I really appreciated it. They outlined the responsibilities, but it took me a while to get to grips with what good governance actually looks like.
+I felt very well supported – but this is different to feeling well-prepared. Both [TISCA](www.tisca.org.uk) and Dean Close went out of their way to have face to face conversations with me, to explain why I’d been considered. I think in the back of their minds they knew that I was young and low in confidence, so the personal, relational reassurance and backing was completely there and I really appreciated it. They outlined the responsibilities, but it took me a while to get to grips with what good governance actually looks like.
 
 **What do you know now that you wish you had known from day one?**
 
