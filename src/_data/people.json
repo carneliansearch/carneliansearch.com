@@ -29,6 +29,13 @@
       "image": "/assets/img/screenshot-2021-04-09-at-17.28.04.png"
     },
     {
+      "role": "staff",
+      "name": "Emilia Pickering",
+      "title": "Researcher",
+      "image": "/assets/img/ep-headshot.webp",
+      "introduction": "Emilia is a music graduate from King’s College London and completed her degree in 2020. She has since worked for a Christian music charity whilst also studying for a Diploma in Biblical Theology at Moore College, Sydney. "
+    },
+    {
       "name": "Siobhan Breslin",
       "title": "Executive Assistant",
       "introduction": "Siobhan joined Carnelian part-time in 2018 to assist with administration. In 2019 she completed her second degree, in Psychology, having obtained her first degree in Business Studies from Nottingham Trent University. She enjoyed a career in corporate benefits before becoming a mother to her three children. Today, she also practices as a mental health counsellor.",
@@ -96,13 +103,6 @@
       "role": "advisor",
       "name": "Ann Saunders",
       "title": "Director for People at Wycliffe UK"
-    },
-    {
-      "role": "staff",
-      "name": "Emilia Pickering",
-      "title": "Researcher",
-      "image": "/assets/img/ep-headshot.webp",
-      "introduction": "Emilia is a music graduate from King’s College London and completed her degree in 2020. She has since worked for a Christian music charity whilst also studying for a Diploma in Biblical Theology at Moore College, Sydney. "
     }
   ]
 }
