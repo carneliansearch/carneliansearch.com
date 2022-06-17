@@ -96,6 +96,13 @@
       "role": "advisor",
       "name": "Ann Saunders",
       "title": "Director for People at Wycliffe UK"
+    },
+    {
+      "role": "staff",
+      "name": "Emilia Pickering",
+      "title": "Researcher",
+      "image": "/assets/img/ep-headshot.webp",
+      "introduction": "Emilia is a music graduate from King’s College London and completed her degree in 2020. She has since worked for a Christian music charity whilst also studying for a Diploma in Biblical Theology at Moore College, Sydney. "
     }
   ]
 }
