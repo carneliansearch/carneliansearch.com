@@ -4,7 +4,7 @@ teaser: Wycliffe Bible Translators wanted a leader who would significantly
   develop and grow its international partnerships work. We worked with the
   Executive Director to understand the requirements and develop the brief.
 lead_image: /assets/img/thumbnail_bluecirclebackground.png
-date: 2022-07-29T13:16:42.112Z
+date: 2021-10-30T13:16:42.112Z
 case_study:
   is_case_study: true
 ---
