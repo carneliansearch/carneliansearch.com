@@ -9,7 +9,7 @@ teaser: This historic mission agency was going through a period of considerable
 lead_image: /assets/img/thumbnail_redcirclebackground.png
 date: 2021-11-03T13:33:41.689Z
 case_study:
-  is_case_study: false
+  is_case_study: true
 ---
 This historic mission agency was going through a period of considerable transition, including changes to the senior leadership team. The People & Culture role was new, and the Finance & Operations was reshaped with a broader remit. We spent some weeks working with the senior team to define the shape of these roles.
 
