@@ -5,7 +5,7 @@ teaser: Carnelian Search has worked with CPAS on two occasions recently. In
   the board to appoint a new CEO.  This widely respected and influential
   Anglican evangelical mission agency required an excellent leader who would
   develop a vision for the next phase of CPAS’s journey.
-lead_image: /assets/img/thumbnail_bluecirclebackground.png
+lead_image: /assets/img/cpas-blue.png
 date: 2021-11-08T13:36:29.729Z
 case_study:
   is_case_study: true
