@@ -3,7 +3,7 @@ title: Worcester Cathedral appoints a Chief Operating Officer
 teaser: Worcester Cathedral is rightly viewed as a centre of excellence amongst
   cathedrals – with high standards across all areas, a reputation testimony to
   the capability of, among others, the current Dean and the then-outgoing COO.
-lead_image: /assets/img/thumbnail_redcirclebackground.png
+lead_image: /assets/img/worc-final.jpg
 date: 2021-10-25T13:22:18.607Z
 case_study:
   is_case_study: true
