@@ -6,7 +6,7 @@ teaser: This historic mission agency was going through a period of considerable
   Culture role was new, and the Finance & Operations was reshaped with a broader
   remit. We spent some weeks working with the senior team to define the shape of
   these roles.
-lead_image: /assets/img/thumbnail_redcirclebackground.png
+lead_image: /assets/img/bms-case-study-final.jpg
 date: 2021-11-03T13:33:41.689Z
 case_study:
   is_case_study: true
