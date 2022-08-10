@@ -6,7 +6,7 @@ teaser: "The Church Revitalisation Trust (CRT) was born out of Holy Trinity
   Love Your Neighbour (LYN). The CRT/LYN partnership sought a Chief Development
   Officer to help them grow with the aim of becoming one of the household names
   in the charity sector."
-lead_image: /assets/img/thumbnail_redcirclebackground.png
+lead_image: /assets/img/crt-final.jpg
 date: 2021-10-15T13:09:43.153Z
 case_study:
   is_case_study: true
