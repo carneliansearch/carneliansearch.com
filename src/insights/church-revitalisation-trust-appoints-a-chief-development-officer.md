@@ -4,7 +4,7 @@ teaser: During 2021, Carnelian Search were approached by the CEO of Mission
   Without Borders International, Stephen Young. This international development
   organisation, working primarily in Eastern Europe, needed a Chief Information
   Officer to oversee all things IT and digital.
-lead_image: /assets/img/thumbnail_bluecirclebackground.png
+lead_image: /assets/img/mwb-final.jpg
 date: 2021-10-20T10:24:37.334Z
 case_study:
   is_case_study: true
