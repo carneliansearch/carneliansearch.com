@@ -5,7 +5,7 @@ teaser: During a period of significant change at the charity, the trustees at
   OCCA approached Carnelian to lead several searches with the purpose of
   recruiting a new senior team. This was a longer-term partnership with the
   ministry over the course of nearly two years.
-lead_image: /assets/img/occa-case-study.png
+lead_image: /assets/img/occa-final.jpg
 date: 2021-11-16T09:13:15.097Z
 case_study:
   is_case_study: true
