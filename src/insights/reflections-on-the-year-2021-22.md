@@ -33,8 +33,14 @@ Of the CEO (or equivalent) roles we appointed in the last year, four out of five
 
 Whilst it is still disappointing to see a lack of female appointments in the most senior roles, it is clear that there are plenty of women in Director and other senior roles, and that overall leadership teams in our sector are only growing more diverse from a gender perspective. This naturally prompts the question, what is restricting these women from moving into CEO positions? Much research has been done in this area, but perhaps a first step is for those of our readers in CEO positions to ask the women in their senior leadership teams what their ambitions and goals are, and support them in developing skillsets and experience required by the CEO role.
 
-
+If you would like to receive our Quarterly newsletter, please [click here](https://carneliansearch.us7.list-manage.com/subscribe/post?u=432b3d9b63e64e94be0ce7966&id=b184a39d16) to sign up.
 
 - - -
 
-If you would like to receive our Quarterly newsletter, please [click here](https://carneliansearch.us7.list-manage.com/subscribe/post?u=432b3d9b63e64e94be0ce7966&id=b184a39d16) to sign up.
+*This piece was written by Abi, our Research Associate.*
+
+Other posts by Abi include:
+
+[What I learned in my first 8 months of search](https://carneliansearch.com/insights/what-i-learned-in-my-first-8-months-of-search/)
+
+[Productivity and Flexibility: Would period leave benefit your female employees?](https://carneliansearch.com/insights/productivity-and-flexibility-would-period-leave-benefit-your-female-employees/)
