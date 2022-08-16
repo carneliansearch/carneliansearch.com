@@ -40,3 +40,15 @@ It has always been true that flexibility regarding salary and location enable be
 We are often struck how many organisations adopt a ‘convince us you’re right for the job’ attitude when recruiting leaders. The best candidates must be woo-ed into joining your organisation. The posture of the hiring organisation should be the same as when recruiting a major donor, i.e. not ‘convince us’ but ‘let us convince you to invest in us’. Interviews are not exams; they are two-way conversations.
 
 This may change how the assessment process is structured. For example, one client we have worked with recently asked candidates to deliver a presentation on the interview day, but only after the CEO had delivered a presentation to the candidates.
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+This piece was written by Jonathan, one of the consultants on our team at Carnelian.  
+
+Other posts by Jonathan include:  
+
+[Gentleness in Leadership: A Non-Negotiable](https://carneliansearch.com/insights/gentleness-in-leadership-a-non-negotiable/) 
+
+[Interviews: Getting Them Right (Part2)](https://carneliansearch.com/insights/interviews-getting-them-right-part-2/) 
+
+[Interviews: Getting Them Right (Part 1)](https://carneliansearch.com/insights/interviews-getting-them-right-part-1/)
