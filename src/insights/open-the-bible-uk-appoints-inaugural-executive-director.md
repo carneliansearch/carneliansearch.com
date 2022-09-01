@@ -15,7 +15,7 @@ case_study:
     was required to launch the ministry in the UK with initial support from a
     team in the US.
   quote: >-
-    When we as a new charity began to think about appointing a Executive
+    When we as a new charity began to think about appointing an Executive
     Director, we were not sure where to begin! With sound advice from a
     Christian brother we contacted Carnelian Search. What a joy it was to see
     them, after much discussion, grasp our vision for the charity, and help us
