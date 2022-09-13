@@ -12,7 +12,9 @@ case_study:
 ---
 Search is a two-way process. Most of our candidates are not responding to an advert with a CV and covering letter but have been engaged personally by one of our team on your behalf. These candidates will be scrutinising what your organisation offers them in much the same way that you will evaluate what their candidacy offers you. This is because the best candidates often need persuading to move because they are invested and valuable in their current role. So, how do you attract these candidates?
 
-**Competitive Salary**Given that many of our clients are charities, we know your hearts may fall as you read this. Charities simply cannot compete with a private sector salary; we know this, and so do the best candidates. If it’s not financially viable for a candidate to change sector, they won’t. But this is not the kind of competitive salary we’re talking about.
+**Competitive Salary**
+
+Given that many of our clients are charities, we know your hearts may fall as you read this. Charities simply cannot compete with a private sector salary; we know this, and so do the best candidates. If it’s not financially viable for a candidate to change sector, they won’t. But this is not the kind of competitive salary we’re talking about.
 
 Salaries need to reflect the roles to which they’re tied. If you run a highly complex charity, or if you’re looking for someone who has an excellent track record of leading strategic growth, the salary of the CEO needs to reflect this. Salaries are interpreted as measures of how seriously a role is taken, and the calibre of an organisation. We’re not urging you to pay beyond what you can afford, but encouraging a realistic engagement over what you’re asking a candidate to take on: a worker is worth his or her wages (1 Timothy 5:18).
 
