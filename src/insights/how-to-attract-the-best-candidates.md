@@ -34,9 +34,9 @@ All candidates will expect to have to jump through certain hoops in an interview
 
 _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-This piece was written by Abi, our Senior Research Associate.  
+*This piece was written by Abi, our Senior Research Associate.*  
 
-Other posts by Abi include:  
+*Other posts by Abi include:*  
 
 [Reflection on the year 2021/22](https://carneliansearch.com/insights/reflections-on-the-year-2021-22/) 
 
