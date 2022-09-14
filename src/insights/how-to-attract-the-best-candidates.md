@@ -31,3 +31,15 @@ It is tempting when engaging a consultant or presenting your organisation to a c
 **Honouring Interview Processes**
 
 All candidates will expect to have to jump through certain hoops in an interview process, to demonstrate particular abilities which are required to do the job. But it is tempting as an employer to make these tick box exercises the focal point of the interview process. This can leave candidates feeling as though they are numbers, that their time and effort is not appreciated, that they are not being interviewed wholistically. Taking the time to design an interview process which honours the candidates’ time and characters goes a long way to woo them.
+
+_﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
+
+This piece was written by Abi, our Senior Research Associate.  
+
+Other posts by Abi include:  
+
+[Reflection on the year 2021/22](https://carneliansearch.com/insights/reflections-on-the-year-2021-22/) 
+
+[What I learned in my first 8 months of search](https://carneliansearch.com/insights/what-i-learned-in-my-first-8-months-of-search/) 
+
+[Productivity and Flexibility: Would period leave benefit your female employees?](https://carneliansearch.com/insights/productivity-and-flexibility-would-period-leave-benefit-your-female-employees/)
