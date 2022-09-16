@@ -36,6 +36,13 @@
       "introduction": "Emilia is a music graduate from King’s College London and completed her degree in 2020. She has since worked for a Christian music charity whilst also studying for a Diploma in Biblical Theology at Moore College, Sydney. "
     },
     {
+      "role": "staff",
+      "name": "Deborah Cartmill",
+      "title": "Researcher",
+      "image": "/assets/img/dc.png",
+      "introduction": "Deborah read English Literature at the University of Cambridge and graduated in 2021. She worked as a ministry intern for a year after graduation, before joining Carnelian Search."
+    },
+    {
       "name": "Siobhan Breslin",
       "title": "Executive Assistant",
       "introduction": "Siobhan joined Carnelian part-time in 2018 to assist with administration. In 2019 she completed her second degree, in Psychology, having obtained her first degree in Business Studies from Nottingham Trent University. She enjoyed a career in corporate benefits before becoming a mother to her three children. Today, she also practices as a mental health counsellor.",
@@ -103,13 +110,6 @@
       "role": "advisor",
       "name": "Ann Saunders",
       "title": "Director for People at Wycliffe UK"
-    },
-    {
-      "role": "staff",
-      "name": "Deborah Cartmill",
-      "title": "Researcher",
-      "image": "/assets/img/dc.png",
-      "introduction": "Deborah read English Literature at the University of Cambridge and graduated in 2021. She worked as a ministry intern for a year after graduation, before joining Carnelian Search."
     }
   ]
 }
