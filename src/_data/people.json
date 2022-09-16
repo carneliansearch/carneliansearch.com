@@ -103,6 +103,13 @@
       "role": "advisor",
       "name": "Ann Saunders",
       "title": "Director for People at Wycliffe UK"
+    },
+    {
+      "role": "staff",
+      "name": "Deborah Cartmill",
+      "title": "Researcher",
+      "image": "/assets/img/dc.png",
+      "introduction": "Deborah read English Literature at the University of Cambridge and graduated in 2021. She worked as a ministry intern for a year after graduation, before joining Carnelian Search."
     }
   ]
 }
