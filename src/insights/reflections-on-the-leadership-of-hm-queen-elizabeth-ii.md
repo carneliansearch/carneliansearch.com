@@ -5,7 +5,7 @@ teaser: On Monday 19th September, the nation paid its last respects to Queen
   ‘People of loving service are rare in any walk of life. Leaders of loving
   service are still rarer.’ Here, we offer a few thoughts on what we at
   Carnelian feel we have lost.
-lead_image: /assets/img/download-2.jpg
+lead_image: /assets/img/download.jpg
 date: 2022-09-20T16:10:44.852Z
 case_study:
   is_case_study: false
