@@ -3,8 +3,8 @@ title: Reflections on the Leadership of HM Queen Elizabeth II
 teaser: On Monday 19th September, the nation paid its last respects to Queen
   Elizabeth II. In his sermon, the Archbishop of Canterbury observed that
   ‘People of loving service are rare in any walk of life. Leaders of loving
-  service are still rarer.’ Here, we offer a few thoughts on what we at
-  Carnelian feel we have lost.
+  service are still rarer.’ Here, we offer a few thoughts on what we, at
+  Carnelian, feel we have lost.
 lead_image: /assets/img/queen-article-2-1662649869.jpg
 date: 2022-09-20T16:10:44.852Z
 case_study:
