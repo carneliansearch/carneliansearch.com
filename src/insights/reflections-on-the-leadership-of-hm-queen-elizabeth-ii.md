@@ -22,3 +22,29 @@ It is hard to imagine a greater cultural change than that which has taken place 
 ## Nurturing Relationships
 
 Perhaps her greatest strength during such a period of change at home and across the globe was the Queen’s ability to maintain strong diplomatic ties through judiciously apolitical relationships with leaders around the world. This was particularly visible in the international outpouring of affection for the Queen in the days following her death. While tension has increased between the UK and France in recent years, Emmanuel Macron’s tribute to the Queen was one of the most poignant and eloquent to be heard. Likewise as Gideon Rachman [observes in the FT](https://www.ft.com/content/4f6aa7a9-aaca-4a3f-9c2d-6ae34cf85c96) on this very topic, Australian support for republicanism is currently at its lowest for over 40 years. The Queen’s wisdom in transcending political disputes played a crucial role in maintaining the UK’s international relationships, the value of which is still felt in countries around the world. There is a lesson here for leaders from different spheres in the benefits of humility and careful judgement exercised to preserve relationships with parties representing a range of interests.
+
+_﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
+
+This piece was written by Abigail & Jonathan.
+
+Other posts by Jonathan include:  
+
+[Leadership Shouldn’t Fit Like a Glove](https://carneliansearch.com/insights/leadership-shouldn-t-fit-like-a-glove/) 
+
+[Tides of Change: Recruiting in Transition Period](https://carneliansearch.com/insights/tides-of-change-recruiting-in-transition-periods/) 
+
+[Gentleness in Leadership: A Non-Negotiable](https://carneliansearch.com/insights/gentleness-in-leadership-a-non-negotiable/) 
+
+[Interviews: Getting Them Right (Part2)](https://carneliansearch.com/insights/interviews-getting-them-right-part-2/) 
+
+[Interviews: Getting Them Right (Part 1)](https://carneliansearch.com/insights/interviews-getting-them-right-part-1/) 
+
+Other posts by Abi include:  
+
+[How to attract the best candidates](https://carneliansearch.com/insights/how-to-attract-the-best-candidates/) 
+
+[Reflection on the year 2021/22](https://carneliansearch.com/insights/reflections-on-the-year-2021-22/) 
+
+[What I learned in my first 8 months of search](https://carneliansearch.com/insights/what-i-learned-in-my-first-8-months-of-search/) 
+
+[Productivity and Flexibility: Would period leave benefit your female employees?](https://carneliansearch.com/insights/productivity-and-flexibility-would-period-leave-benefit-your-female-employees/)
