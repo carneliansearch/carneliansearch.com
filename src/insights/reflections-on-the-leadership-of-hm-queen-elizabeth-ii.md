@@ -2,14 +2,14 @@
 title: Reflections on the Leadership of HM Queen Elizabeth II
 teaser: On Monday 19th September, the nation paid its last respects to Queen
   Elizabeth II. Here at Carnelian, it has struck us that her majesty’s life and
-  the loss we feel at its end of it, is a testament to the power and strength of
-  her leadership. Here, we offer a few thoughts on what we have lost.
+  the loss we feel at its end, are a testament to the power and strength of her
+  leadership. Here, we offer a few thoughts on what we have lost.
 lead_image: /assets/img/queen-article-2-1662649869.jpg
 date: 2022-10-05T15:23:45.113Z
 case_study:
   is_case_study: false
 ---
-On Monday 19th September, the nation paid its last respects to Queen Elizabeth II. In his sermon, the Archbishop of Canterbury observed that ‘People of loving service are rare in any walk of life. Leaders of loving service are still rarer.’ As a nation, we continue to grieve the life of a servant-leader, a monarch who used her life and authority to serve those around her. Here at Carnelian, it has struck us that her majesty’s life and the loss we feel at its end of it, is a testament to the power and strength of her leadership. Much of what made her such an excellent and remarkable monarch is peculiar to that role. But there are elements of her leadership which speak to those in authority across society and in different kinds of role. Here, we offer a few thoughts on what we have lost.
+On Monday 19th September, the nation paid its last respects to Queen Elizabeth II. In his sermon, the Archbishop of Canterbury observed that ‘People of loving service are rare in any walk of life. Leaders of loving service are still rarer.’ As a nation, we continue to grieve the life of a servant-leader, a monarch who used her life and authority to serve those around her. Here at Carnelian, it has struck us that her majesty’s life and the loss we feel at its end, are a testament to the power and strength of her leadership. Much of what made her such an excellent and remarkable monarch is peculiar to that role. But there are elements of her leadership which speak to those in authority across society and in different kinds of role. Here, we offer a few thoughts on what we have lost.
 
 ## Bestowing Dignity
 
