@@ -15,7 +15,7 @@ case_study:
 
 For faith-based organisations, inclusion holds an especially important place. Every person is made in God’s image and reflects something of his glory. We must allow space for different ways of thinking to flourish if we want to fully experience the richness of the great body of people he is building. 
 
-Although much has been done in recent years to combat stigmas and stereotypes, fear of judgement and lack of accommodation still holds individuals back, as is evidenced by employment [gaps](<https://www.neechamber.co.uk/closing-the-neurodiversity-employment-gap-2/>).[](#_ftn1)In this piece, we highlight a few qualities associated with neurodiversity and inclusive workplaces to encourage leaders to pursue practices which enable neurodiverse employees to bring their unique offering to the table.   
+Although much has been done in recent years to combat stigmas and stereotypes, fear of judgement and lack of accommodation still holds individuals back, as is evidenced by employment [gaps](https://www.neechamber.co.uk/closing-the-neurodiversity-employment-gap-2/).[](#_ftn1)In this piece, we highlight a few qualities associated with neurodiversity and inclusive workplaces to encourage leaders to pursue practices which enable neurodiverse employees to bring their unique offering to the table.   
 
 ***Cognitive Diversity***
 
@@ -28,8 +28,6 @@ The lived experience of neurodivergent people is also likely to have honed chara
 ***Humble Leadership***
 
 Leadership which truly values inclusion is often characterised by humility – a willingness to listen, learn and change. Such leaders may see unexpected blessings from their commitment to diversity. For example, the ‘Curb-Cut Effect’ is a term originally coined following the modification of pavements for wheelchair users. The benefits of having dips in pavements flowed outwards, benefitting those with suitcases and parents with prams, as well as those who it was originally intended to benefit.  Holding space in your leadership to listen, nurture, and be curious towards different modes of thinking and maintaining a willingness to change will benefit every member of your organisation, often in ways you cannot foresee. 
-
-
 
 _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
