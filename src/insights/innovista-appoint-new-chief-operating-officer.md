@@ -5,7 +5,7 @@ teaser: Innovista is a unique and rapidly growing Christian charity providing
   for their services increased, Innovista approached Carnelian to lead a search
   for a newly-created role within the structure of the ministry - Chief
   Operating Officer.
-lead_image: /assets/img/innovista.jpg
+lead_image: /assets/img/blue-innovista.jpg
 date: 2022-09-01T12:13:18.731Z
 case_study:
   is_case_study: true
