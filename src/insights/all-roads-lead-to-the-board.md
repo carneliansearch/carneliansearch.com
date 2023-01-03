@@ -4,7 +4,7 @@ teaser: >-
   “All problems a charity faces have their roots in the board.”
 
 
-  Someone wise once said this to me. Over many years working with boards and senior leadership teams, I’ve increasingly found it to be true
+  Someone wise once said this to me. Over many years working with boards and senior leadership teams, I’ve increasingly found it to be true.
 lead_image: /assets/img/boards.jpg
 date: 2022-12-20T11:32:53.058Z
 case_study:
@@ -14,8 +14,7 @@ case_study:
 
 Someone wise once said this to me. Over many years working with boards and senior leadership teams, I’ve increasingly found it to be true. This can present in a number of ways:
 
-Has the organisation lost a sharp focus on its mission? Almost certainly the board has too.
-
+* Has the organisation lost a sharp focus on its mission? Almost certainly the board has too.
 * Is there ambiguity in the strategic direction of the organisation? The ambiguity likely lurks in the minds of the board members too; or exists because of the board’s failure to address the strategic questions.
 * Is the CEO the best person to take the organisation forward? Responsibility for this appointment is one of the biggest tasks a board faces.
 * Is the organisational culture unhealthy? Perhaps the board needs to examine how it keeps the executive accountable, or the information it gathers, or its own culture.  
