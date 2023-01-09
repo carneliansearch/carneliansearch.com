@@ -20,7 +20,7 @@ In this blog you’ll find a few key points about what we do which should help y
 
 **… research led.**
 
-Executive search firms are not databases of information for which you pay to have access. When you engage us, we will of course look through those relationships and contacts we already have and consider them for your role. But this is not our primary mode of attack. For every search we do, we put days into understanding the organisation, the field, the role and then we use this to build lists of organisations and roles in which we might find candidates. We then go to [each and every](<>) one of these organisations, and meticulously comb their structure to find the most relevant person. We also build lists of people who aren’t right themselves, but who understand the field, understand the client, understand the networks and who will be able to sharpen our thinking and recommend others. We seek these people out and meet with them, learning from their expertise and their connections. We do both these things for every role – there is nothing microwaved about search, you never cover the same ground twice, and we never run out of new names. It’s fresh, original research, every time.
+Executive search firms are not databases of information for which you pay to have access. When you engage us, we will of course look through those relationships and contacts we already have and consider them for your role. But this is not our primary mode of attack. For every search we do, we put days into understanding the organisation, the field, the role and then we use this to build lists of organisations and roles in which we might find candidates. We then go to each and every one of these organisations, and meticulously comb their structure to find the most relevant person. We also build lists of people who aren’t right themselves, but who understand the field, understand the client, understand the networks and who will be able to sharpen our thinking and recommend others. We seek these people out and meet with them, learning from their expertise and their connections. We do both these things for every role – there is nothing microwaved about search, you never cover the same ground twice, and we never run out of new names. It’s fresh, original research, every time.
 
 **… a two-way street.**
 
@@ -35,8 +35,6 @@ At Carnelian, we don’t take on projects to appoint positions lower than the le
 Whilst we prize rigorous process, search is ultimately about people. People are complex: they have hopes, concerns, gifts, flaws, families and finances. Search brings all these motives together and asks often fundamental questions about what an organisation is about and how people fit in to that mission. The result is that whilst we have a clear process, search is often surprising. Clients frequently find that when an excellent candidate stands before them asking for something which was previously an impossibility, there is suddenly a new option. Candidates often find innovative suggestions for ways to shape roles which would better suit them.
 
 Search will therefore test the character of your organisation – the creativity and emotional intelligence of your leadership team, as well as those seeking to join you. We don’t provide a product, we provide a partnership, supporting you as you engage in this rewarding, but sometimes difficult, endeavour. 
-
-
 
 - - -
 
