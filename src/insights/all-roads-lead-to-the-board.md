@@ -46,7 +46,7 @@ A healthy organisation invests in the board. Ultimately the organisation’s mis
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
-*This piece was written by Allan, Founder and Director of Carnelian*
+*This piece was written by Allan, Founder and Director of Carnelian.*
 
 *Other posts by Allan include:*
 
