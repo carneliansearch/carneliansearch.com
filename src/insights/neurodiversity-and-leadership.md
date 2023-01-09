@@ -15,7 +15,7 @@ case_study:
 
 For faith-based organisations, inclusion holds an especially important place. Every person is made in God’s image and reflects something of his glory. We must allow space for different ways of thinking to flourish if we want to fully experience the richness of the great body of people he is building. 
 
-Although much has been done in recent years to combat stigmas and stereotypes, fear of judgement and lack of accommodation still holds individuals back, as is evidenced by employment gaps. [](#_ftn1)In this piece, we highlight a few qualities associated with neurodiversity and inclusive workplaces to encourage leaders to pursue practices which enable neurodiverse employees to bring their unique offering to the table.   
+Although much has been done in recent years to combat stigmas and stereotypes, fear of judgement and lack of accommodation still holds individuals back, as is evidenced by employment gaps (1). [](#_ftn1)In this piece, we highlight a few qualities associated with neurodiversity and inclusive workplaces to encourage leaders to pursue practices which enable neurodiverse employees to bring their unique offering to the table.   
 
 ***Cognitive Diversity***
 
@@ -34,6 +34,8 @@ _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 This piece was written by Deborah, a Research Associate.
 
 - - -
+
+(﻿1)
 
 <https://www.ons.gov.uk/peoplepopulationandcommunity/healthandsocialcare/disability/articles/outcomesfordisabledpeopleintheuk/2021#employment>
 
