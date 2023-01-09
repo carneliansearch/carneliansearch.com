@@ -41,3 +41,13 @@ A good start to investing in your board is to conduct a board effectiveness revi
 A good board effectiveness review will highlight the areas where the board needs to be strengthened and provide a development plan to chart the way forward.
 
 A healthy organisation invests in the board. Ultimately the organisation’s mission reaps the benefits.
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
+
+*This piece was written by Allan, our Director and Founder.*
+
+*Other posts by Allan include:*
+
+[What boards should ask search firms](https://carneliansearch.com/insights/what-boards-should-ask-search-firms/)
