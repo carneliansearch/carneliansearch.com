@@ -1,10 +1,8 @@
 ---
-title: Why be a trustee?
+title: "Why be a trustee? "
 teaser: Earlier in the year, we wrote about the marked rise in charities coming
-  to us for help in the appointment of trustees to their boards. As we’ve set
-  out on these searches in the faith-based sector, we’ve sometimes encountered a
-  reluctance from eligible candidates to consider taking on trustee roles. In
-  this introduction blog, we offer a few reasons why there might be an ebb of
+  to us for help in the appointment of trustees to their boards.  In this, the
+  first of three blogs, we offer a few reasons why there might be an ebb of
   willing trustees in some sectors.
 lead_image: /assets/img/pexels-pixabay-164336-1-.jpg
 date: 2023-01-31T14:48:24.693Z
