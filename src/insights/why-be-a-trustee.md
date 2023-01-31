@@ -1,5 +1,5 @@
 ---
-title: Why be a trustee? Part I
+title: Why be a trustee? Part 1
 teaser: Earlier in the year, we wrote about the marked rise in charities coming
   to us for help in the appointment of trustees to their boards.  In this, the
   first of three blogs, we offer a few reasons why there might be an ebb of
