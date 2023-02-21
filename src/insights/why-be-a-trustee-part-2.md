@@ -2,7 +2,7 @@
 title: Why be a trustee? Part 2
 teaser: The Charity Commission requires all charities to appoint trustees, and
   it’s sometimes easy to think of trustee appointments as routine, tick-box
-  exercises – something you *must* do.  But in the faith-based sector, there is
+  exercises – something you must do.  But in the faith-based sector, there is
   more to being a trustee than simply enabling a charity to meet regulations.
 lead_image: /assets/img/blog-series-2.jpg
 date: 2023-02-21T14:28:28.204Z
