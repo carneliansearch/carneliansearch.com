@@ -22,7 +22,7 @@ case_study:
     securing a new Chief Executive. Maddy Thomson, Chair of Trustees, described
     the process:"
   attribution: Maddy Thomson, Chair of Trustees
-  img: /assets/img/maddy.jpg
+  img: /assets/img/screenshot-2023-03-01-at-16.59.30.png
 ---
 In Spring 2022, Keychange approached Carnelian to support them in securing a new Chief Executive. Maddy Thomson, Chair of Trustees, described the process:
 
