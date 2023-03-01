@@ -17,7 +17,7 @@ case_study:
     Throughout the process, we were kept informed of progress and in due course were presented with a varied longlist including candidates with a breadth of strengths and experiences. After a competitive series of interviews, the trustees were united in our choice of a preferred candidate. Carnelian remained on hand to support us through final discussions and communication with candidates, in due course securing our new Chief Executive who is now several months into the role.
 
 
-    Carnelian were sensitive in understanding what it means for Keychange to be a Christian charity, assessing with precision both the character and skill we required in potential candidates. We would confidently work with them again.”
+    Carnelian were sensitive in understanding what it means for Keychange to be a Christian charity, assessing with precision both the character and skill we required in potential candidates. We would confidently work with them again.
   introduction: "In Spring 2022, Keychange approached Carnelian to support them in
     securing a new Chief Executive. Maddy Thomson, Chair of Trustees, described
     the process:"
