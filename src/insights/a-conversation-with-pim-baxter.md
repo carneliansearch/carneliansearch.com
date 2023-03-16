@@ -1,5 +1,5 @@
 ---
-title: A conversation with Pim Baxter
+title: A Conversation with Pim Baxter
 teaser: >-
   Allan recently met with Pim Baxter to hear her thoughts on board roles,
   leadership, faith, and her career in the arts sector.
