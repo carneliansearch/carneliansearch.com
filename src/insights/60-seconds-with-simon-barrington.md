@@ -1,5 +1,5 @@
 ---
-title: A conversation with Simon Barrington
+title: A Conversation with Simon Barrington
 teaser: Simon studied physics at Cardiff University, after which he had a
   successful business career becoming Programme Director at BT and then the
   Cabinet Office.  Simon then went on to lead Samaritan’s Purse UK as Chief
