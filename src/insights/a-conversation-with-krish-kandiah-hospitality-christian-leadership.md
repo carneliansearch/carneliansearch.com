@@ -1,5 +1,5 @@
 ---
-title: "A conversation with Krish Kandiah: Hospitality & Christian Leadership"
+title: "A Conversation with Krish Kandiah: Hospitality & Christian Leadership"
 teaser: >
   Dr Krish Kandiah is a social entrepreneur, foster parent, and Founding
   Director of the adoption and fostering charity, Home for Good. He is Chair of
