@@ -1,5 +1,5 @@
 ---
-title: A conversation with Jill Garrett
+title: A Conversation with Jill Garrett
 teaser: Jill was European Managing Director of the Gallup Organisation,
   following an earlier career as a Headteacher. She now works as an executive
   coach, mentor and team developer with CEOs and senior teams across sectors.
