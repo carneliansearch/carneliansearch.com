@@ -1,5 +1,5 @@
 ---
-title: A conversation with Robin Peake
+title: A Conversation with Robin Peake
 teaser: Carnelian led a search on behalf of Wycliffe UK earlier this year. Robin
   Peake was the successful candidate. He started the role near the beginning of
   the Covid-19 lockdown.
