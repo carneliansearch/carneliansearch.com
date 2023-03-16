@@ -1,5 +1,5 @@
 ---
-title: A conversation with Scot Bower
+title: A Conversation with Scot Bower
 teaser: "Scot Bower has been CEO of CSW since 2020. He is currently studying for
   an MA in Charity Leadership & Management at St Mary’s University. We wanted to
   ask him about the research he’s undertaking which considers an aspect of
