@@ -4,7 +4,7 @@ teaser: Keychange occupies a unique place in the care landscape as well as the
   world of Christian charities. Through eleven sites and over 300 staff, the
   charity provides quality care and accommodation across the length and breadth
   of the country to the ageing and the young.
-lead_image: /assets/img/keychange-casestudy.jpg
+lead_image: /assets/img/new-benjamin-d.jpg
 date: 2023-03-01T13:16:59.076Z
 case_study:
   is_case_study: true
