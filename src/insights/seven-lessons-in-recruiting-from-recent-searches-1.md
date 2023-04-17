@@ -4,7 +4,7 @@ teaser: "Getting the right leaders is crucial to the success of any
   organisation. But making excellent senior appointments is often hard and
   requires much wisdom. Some of our recent searches have highlighted valuable
   lessons. "
-lead_image: /assets/img/izuddin-helmi-adnan-ndxwxat0jpg-unsplash.jpg
+lead_image: /assets/img/new-seven-lesson.jpg
 date: 2023-04-13T16:01:41.945Z
 case_study:
   is_case_study: false
