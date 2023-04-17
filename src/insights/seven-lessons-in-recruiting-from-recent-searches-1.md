@@ -67,18 +67,10 @@ It is often said: ‘hire slow, fire fast’. There is wisdom in this – especi
 
 _﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
 
-This piece was written by Abi, our Senior Research Associate.  
+This piece was written by Allan, Founder and Director of Carnelian.  
 
-Other posts by Abi include:  
+Other posts by Allan include:  
 
-[How to attract the best candidates](https://carneliansearch.com/insights/how-to-attract-the-best-candidates/) 
+[What boards should ask search firms](https://carneliansearch.com/insights/what-boards-should-ask-search-firms/) 
 
-[Reflection on the year 2021/22](https://carneliansearch.com/insights/reflections-on-the-year-2021-22/) 
-
-[What I learned in my first 8 months of search](https://carneliansearch.com/insights/what-i-learned-in-my-first-8-months-of-search/) 
-
-[Productivity and Flexibility: Would period leave benefit your female employees?](https://carneliansearch.com/insights/productivity-and-flexibility-would-period-leave-benefit-your-female-employees/) 
-
-[Reflections on the Leadership of HM Queen Elizabeth II](https://carneliansearch.com/insights/reflections-on-the-leadership-of-hm-queen-elizabeth-ii/) 
-
-[What is search?](https://carneliansearch.com/insights/what-is-search/)
+[All Roads Lead to the Board](https://carneliansearch.com/insights/all-roads-lead-to-the-board/)
