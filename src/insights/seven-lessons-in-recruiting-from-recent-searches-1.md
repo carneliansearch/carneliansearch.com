@@ -29,7 +29,7 @@ The Madlug board wrote to thank every candidate who was willing to be considered
 
 3. *Don’t Take “No” for an Answer*
 
-When we initially approached the person who would become the successful candidate, he initially said “no”. This is a common feature of searches: often the very best candidates are busy doing other things and not looking for new roles. This can be one of the most rewarding aspects of search. Often the candidates we appoint end up saying, “thank you for persisting with me and showing me why I should reconsider the role.”
+When we first approached the person who would become the successful candidate, he initially said “no”. This is a common feature of searches: often the very best candidates are busy doing other things and not looking for new roles. This can be one of the most rewarding aspects of search. Often the candidates we appoint end up saying, “thank you for persisting with me and showing me why I should reconsider the role.”
 
 4. *Use Face to Face Meetings*
 
