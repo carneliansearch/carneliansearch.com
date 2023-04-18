@@ -4,15 +4,13 @@ teaser: The Charity Commission requires all charities to appoint trustees, and
   it’s sometimes easy to think of trustee appointments as routine, tick-box
   exercises – something you must do.  But in the faith-based sector, there is
   more to being a trustee than simply enabling a charity to meet regulations.
+  There is a theological reasoning behind this set up which can itself form a
+  powerful motivation for candidates to be willing to be a trustee.
 lead_image: /assets/img/blog-series-2.jpg
 date: 2023-02-21T14:28:28.204Z
 case_study:
   is_case_study: false
 ---
-The Charity Commission requires all charities to appoint trustees, and it’s sometimes easy to think of trustee appointments as routine, tick-box exercises – something you *must* do.
-
-But in the faith-based sector, there is more to being a trustee than simply enabling a charity to meet regulations. There is a theological reasoning behind this set up which can itself form a powerful motivation for candidates to be willing to be a trustee.
-
 It is possible to see one of the core themes of the Bible as being the search for the perfect leader, a search that reaches its glorious conclusion in the person of Jesus. Prior to Jesus, and after his ascension into heaven, there are many other leaders who take on a variety of roles within the life of God’s people. In their best moments, these leaders reflect a small element of Jesus’ leadership. But similarly, all these leaders fail.
 
 No human leader, aside from Jesus, is unaffected by the brokenness of the world, by sin and temptation. This brokenness can bring down a leader in a numbers of ways:
