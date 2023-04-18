@@ -2,7 +2,7 @@
 title: Why be a trustee? Part 1
 teaser: Earlier in the year, we wrote about the marked rise in charities coming
   to us for help in the appointment of trustees to their boards.  In this, the
-  first of three blogs, we offer a few reasons why there might be an ebb of
+  first of two blogs, we offer a few reasons why there might be an ebb of
   willing trustees in some sectors.
 lead_image: /assets/img/pexels-pixabay-164336-1-.jpg
 date: 2023-01-31T14:48:24.693Z
@@ -17,7 +17,7 @@ In this introduction blog, we offer a few reasons why there might be an ebb of w
 
 #### Scandals in the sector
 
-Scandals in the Christian sector have highlighted the importance of proper governance, and the consequences when it goes wrong. The primary focus of the charity board is to hold the senior leader(s) of the charity to account for the fulfilment of its mission, and to ensure that they break no laws or policies in the pursuit of the same. Candidates for trustee roles are increasingly aware of this responsibility – that it rests with the trust board if person or persons in their charity fail to act as they should.
+Scandals in the Christian sector have highlighted the importance of proper governance, and the consequences when it goes wrong. The primary focus of the charity board is to hold the senior leader(s) of the charity to account for the fulfilment of its mission, and to ensure that they break no laws or policies in the pursuit of the same. Candidates for trustee roles are increasingly aware of this responsibility – that it rests with the trust board if a person or persons in their charity fail to act as they should.
 
 This is ultimately a good thing. It is dangerous to have a board filled with trustees unaware of their legal responsibilities and the realities of good governance. We want candidates who grasp the size of the task they are taking on. But it also means that these same candidates are less likely to take on roles which they view as risky, perhaps because the charity works with children and has complex safeguarding needs, or sits in a sector which has been particularly undermined by scandals.
 
