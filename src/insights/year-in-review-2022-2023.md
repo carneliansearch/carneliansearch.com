@@ -40,7 +40,7 @@ Finance candidates seemed to be most attracted to challenging and strategic elem
 
 - - -
 
-1﻿. [More women are on boards, but few are chairs or lead directors, Fortune](file:///Users/siobhanbreslin-harwood/Desktop/More%20women%20are%20on%20boards,%20but%20few%20are%20chairs%20or%20lead%20directors)
+1﻿. https://fortune.com/2023/02/03/more-women-boards-few-chairs-lead-directors/
 
 2﻿. [40% of charities using tech to boost fundraising in response to current challenges, report shows - UK Fundraising](https://fundraising.co.uk/2023/08/25/40-of-charities-using-tech-to-boost-fundraising-in-response-to-current-challenges-report-shows/)
 
