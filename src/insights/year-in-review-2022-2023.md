@@ -45,3 +45,7 @@ Finance candidates seemed to be most attracted to challenging and strategic elem
 2﻿. [40% of charities using tech to boost fundraising in response to current challenges, report shows - UK Fundraising](https://fundraising.co.uk/2023/08/25/40-of-charities-using-tech-to-boost-fundraising-in-response-to-current-challenges-report-shows/)
 
 3﻿. [Charity finance directors sit tight as they weather Covid-19, survey shows (civilsociety.co.uk)](https://www.civilsociety.co.uk/news/charity-finance-directors-sit-tight-as-they-weather-covid-19-survey-shows.html)
+
+- - -
+
+This piece was written by Deborah, a Research Associate at Carnelian.
