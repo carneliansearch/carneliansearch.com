@@ -26,9 +26,9 @@ Wherever it’s possible, we interview candidates in person for this same reason
 
 In person and informal time together is at the heart of good relationships, and good relationships are at the heart of excellent appointments.
 
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
+- - -
 
-This piece was written by Abi, our Senior Research Associate.  
+This piece was written by Abi, one of the consultants on our team at Carnelian. 
 
 Other posts by Abi include:  
 
