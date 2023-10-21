@@ -44,7 +44,7 @@ Wherever you can, interview in pairs or a group. People notice different things,
 
 Viewed through this lens interviews are less a form of combat or interrogation than they are a dance. While nonetheless challenging, interviewers partner collaboratively with candidates and offer them different opportunities to shine. That is not to say that interviews can’t be uncomfortable – often they expose candidates who talk the talk, but simply don’t know how to dance!
 
-_﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\__
+_﻿\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 This piece was written by Jonathan, one of the consultants on our team at Carnelian.  
 
