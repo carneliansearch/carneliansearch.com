@@ -20,8 +20,6 @@ Uncompromising competency frameworks littered with jobspeak assume that potentia
 
 ![](/assets/img/david-bowie-let-s-dance-blog.jpg)
 
-
-
 Here are some principles to bear in mind:
 
 **Standardise the categories**
