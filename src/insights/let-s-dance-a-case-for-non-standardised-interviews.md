@@ -18,8 +18,6 @@ Uncompromising competency frameworks littered with jobspeak assume that potentia
 
 “But what does an effective non-standardised interview look like?” I hear you ask. “And how do I plan one?”
 
-![](/assets/img/david-bowie-let-s-dance-blog.jpg)
-
 Here are some principles to bear in mind:
 
 **Standardise the categories**
