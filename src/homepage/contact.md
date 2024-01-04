@@ -8,4 +8,4 @@ sort: 5
 Relationship is at the heart of what we do as Carnelian Search. Every search we carry out begins with an open conversation about your organisation and what it is looking for. Let’s arrange to talk today:
 
 **email:**\
-[info@carneliansearch.com](mailto:info@carneliansearch.com)
+**[information@carneliansearch.com](mailto:information@carneliansearch.com)**
